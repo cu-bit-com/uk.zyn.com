@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
-import heroBanner from "../../../images/hero-banner.jpeg";
-import global from '../../Global.module.css';
+import heroBanner from '../../images/hero-banner.jpeg';
+import global from '../../components/Global.module.css';
 
 function HeroSection() {
     return (

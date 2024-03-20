@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    justify-content: start;
+    padding: 50px 0 50px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    max-width: 200px;
+    min-width: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    max-width: 200px;
+}
+
+.p {
+    font-size: 12px;
+}
+
+.link {
+    font-size: 12px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: row;
+        gap: 50px;
+    }
+    
+    .item {
+        flex: 80%;
+    }
+}

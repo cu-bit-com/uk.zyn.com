@@ -1,10 +1,12 @@
-import React from 'react';
 import './App.css';
-import Home from "./components/pages/home/Index";
-import ReactDOM from "react-dom/client";
+import Home from "./pages/home/Index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from './components/pages/layout/Layout';
-import Shop from './components/pages/shop/Index';
+import Layout from './pages/layout/Layout';
+import Shop from './pages/shop/Index';
+import WhereToBuy from './pages/whereToBuy/Index';
+import HowToZyn from './pages/howToZyn/Index';
+import Blog from './pages/blog/Index';
+import Contact from './pages/contact/Index';
 
 function App() {
   return (
@@ -13,14 +15,14 @@ function App() {
         <Route path='/' element={<Layout/>}>
           <Route index element={<Home/>}/>
           <Route path='shop' element={<Shop/>}/>
-          
+          <Route path='where-to-buy' element={<WhereToBuy/>}/>
+          <Route path='how-to-zyn' element={<HowToZyn/>}/>
+          <Route path='blog' element={<Blog/>}/>
+          <Route path='contact' element={<Contact/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
   );
 }
-/*<Route path='where-to-buy' element={}/>
-          <Route path='how-to-zyn' element={}/>
-          <Route path='blog' element={}/>
-          <Route path='contact' element={}/> */
+
 export default App;

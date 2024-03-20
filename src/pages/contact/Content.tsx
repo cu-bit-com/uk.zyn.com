@@ -1,5 +1,5 @@
 import styles from './Content.module.css';
-import global from '../../Global.module.css';
+import global from '../../components/Global.module.css';
 
 function Content() {
     return (

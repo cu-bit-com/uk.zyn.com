@@ -1,13 +1,12 @@
-import React from "react";
 import HeroSection from "./HeroSection";
-import Header from "../../common/header/Index";
 import Content from "./Content";
 import Images from "./Images";
-import Footer from "../../common/footer/Index";
+import Title from "./Title";
 
-function Home() {
+function HowToZyn() {
     return (
         <div className="homeWrapper">
+            <Title/>
             <HeroSection/>
             <Content/>
             <Images/>
@@ -15,4 +14,4 @@ function Home() {
     );
 }
 
-export default Home;
+export default HowToZyn;

@@ -1,6 +1,7 @@
-#logo {
+.logo {
     color: #21a7d9;
     font-size: 82px;
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: none;
 }
