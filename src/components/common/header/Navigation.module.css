@@ -24,12 +24,16 @@
     margin-bottom: 50px;
 }
 
-.mobile {
-    display: hide;
+.desktop {
+    display: block;
 }
 
 @media (max-width: 800px) {
     .desktop {
         display: none;
+    }
+
+    .hr {
+        margin: 0;
     }
 }
