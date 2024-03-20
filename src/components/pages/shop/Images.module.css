@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0 50px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    flex: 25%;
+    max-width: 250px;
+    min-width: 70px;
+}
+
+@media (max-width: 800px) {
+    .container {
+        flex-direction: row;
+        gap: 20px;
+    }
+    
+    .item {
+        flex: 80%;
+    }
+}
