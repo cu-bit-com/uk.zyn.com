@@ -4,3 +4,9 @@
     font-family: 'Poppins', sans-serif;
     font-size: clamp(1rem, 1.3vw, 1.5vw);
 }
+
+@media (max-width: 800px) {
+    body {
+        padding-top: 80px;
+    }
+}

@@ -13,7 +13,8 @@
         opacity: 0;
     }
     #menuToggle:checked + .menuBtn > span {
-        transform: rotate(45deg);
+        top: 10px;
+        transform: rotate(-45deg);
     }
     #menuToggle:checked + .menuBtn > span::before {
         top: 0;
@@ -21,14 +22,14 @@
     }
     #menuToggle:checked + .menuBtn > span::after {
         top: 0;
-        transform: rotate(90deg);
+        transform: rotate(-90deg);
     }
     #menuToggle:checked ~ .menuBox {
         left: 0 !important;
     }
     .menuBtn {
         position: fixed;
-        top: 40px;
+        top: 32px;
         left: 20px;
         width: 26px;
         height: 26px;
@@ -47,11 +48,11 @@
     }
     .menuBtn > span::before {
         content: '';
-        top: -8px;
+        top: 8px;
     }
     .menuBtn > span::after {
         content: '';
-        top: 8px;
+        top: 16px;
     }
     .menuBox {
         display: block;
