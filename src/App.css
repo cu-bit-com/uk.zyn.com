@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    font-size: clamp(1rem, 1.3vw, 1.5vw);
 }
 
 @media (max-width: 800px) {

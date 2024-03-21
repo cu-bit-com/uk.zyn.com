@@ -21,6 +21,7 @@
     width: 100%;
     border: none;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .link:hover {
@@ -49,7 +50,7 @@
     }
 
     .item {
-        width: 90%;
+        width: 100%;
     }
 
     .hr {

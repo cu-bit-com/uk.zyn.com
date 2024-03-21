@@ -3,7 +3,7 @@ import styles from "./Logo.module.css";
 
 function Logo() {
     return (
-        <Link to='/' className={styles.wrapper}>
+        <Link to='/' className={styles.wrapper} onClick={() => window.scrollTo({top: 0})}>
             <h1 className={styles.logo}>ZYN</h1>
         </Link>
     );

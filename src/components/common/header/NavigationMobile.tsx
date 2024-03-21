@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import styles from './NavigationMobile.module.css';
 import { useEffect, useRef } from 'react';
 
-    const NavigationMobile: React.FC = () => {
+    function NavigationMobile() {
         const menuToggleRef = useRef<HTMLInputElement>(null);
         const menuBoxRef = useRef<HTMLUListElement>(null);
         const menuBtnRef = useRef<HTMLLabelElement>(null);

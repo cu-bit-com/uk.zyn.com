@@ -1,0 +1,38 @@
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.listItem {
+    border: 1px solid rgb(50, 50, 50);
+    box-shadow: rgba(51, 51, 51, 0.1) 0px 2px 5px 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    align-items: center;
+}
+
+.content {
+    padding: 20px 0;
+}
+
+.p {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.listTitle {
+    font-size: 18px;
+}
+
+.strong {
+    font-weight: 500;
+    font-size: 20px;
+}
