@@ -19,36 +19,37 @@ function FAQ() {
             return newSigns;
         });
     };
+    
 
     return (
         <div className={global.wrapper}>
             <ul className={styles.list}>
-               <li className={styles.listItem} onClick={() => toggleCollapse(0)}>
-                <div className={styles.title}><div className={styles.listTitle}>WHAT IS ZYN?</div><div className={styles.listTitle}>{signs[0]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(0)}><div className={styles.listTitle}>WHAT IS ZYN?</div><div className={styles.listTitle}>{signs[0]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[0] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                         ZYN® nicotine pouches are small white pouches you pop under your top lip for up to 30 minutes of nicotine. ZYN® is tobacco-free and smoke-free – so you can enjoy nicotine whenever and wherever you want. Choose between 9 refreshing flavours and 6 different strengths.
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(1)}>
-                <div className={styles.title}><div className={styles.listTitle}>WHAT'S ZYN MADE OF?</div><div className={styles.listTitle}>{signs[1]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(1)}><div className={styles.listTitle}>WHAT'S ZYN MADE OF?</div><div className={styles.listTitle}>{signs[1]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[1] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                     ZYN® is made up of high quality nicotine and food-grade ingredients. The pouch itself is made from plant fibres, specially designed to release nicotine while feeling comfortable under your lip.
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(2)}>
-                <div className={styles.title}><div className={styles.listTitle}>WHERE IS ZYN PRODUCED?</div><div className={styles.listTitle}>{signs[2]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(2)}><div className={styles.listTitle}>WHERE IS ZYN PRODUCED?</div><div className={styles.listTitle}>{signs[2]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[2] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                     ZYN® is produced in Scandinavia by Swedish Match. Since 1915, Swedish Match has pioneered the research, development and manufacturing of industry-leading snus and related products.
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(3)}>
-                <div className={styles.title}><div className={styles.listTitle}>IS THERE ANY RISK OF USING ZYN?</div><div className={styles.listTitle}>{signs[3]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(3)}><div className={styles.listTitle}>IS THERE ANY RISK OF USING ZYN?</div><div className={styles.listTitle}>{signs[3]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[3] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                     ZYN® contains nicotine which is a highly addictive substance and should only be used by people over 18 years of age.
@@ -57,32 +58,32 @@ function FAQ() {
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(4)}>
-                <div className={styles.title}><div className={styles.listTitle}>DOES ZYN DISCOLOUR TEETH?</div><div className={styles.listTitle}>{signs[4]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(4)}><div className={styles.listTitle}>DOES ZYN DISCOLOUR TEETH?</div><div className={styles.listTitle}>{signs[4]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[4] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                     Swedish Match has done laboratory tests showing that ZYN® does not discolor enamel. However, as with most things, it cannot be completely ruled out that there may be a small risk that ZYN® may cause discoloration of teeth.
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(5)}>
-                <div className={styles.title}><div className={styles.listTitle}>CAN I USE THE PRODUCT IF I HAVE GUM DISEASE?</div><div className={styles.listTitle}>{signs[5]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(5)}><div className={styles.listTitle}>CAN I USE THE PRODUCT IF I HAVE GUM DISEASE?</div><div className={styles.listTitle}>{signs[5]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[5] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                         We cannot give health related advice at an individual level, we recommend that you discuss this with your dentist.
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(6)}>
-                <div className={styles.title}><div className={styles.listTitle}>WHERE CAN I BUY ZYN?</div><div className={styles.listTitle}>{signs[6]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(6)}><div className={styles.listTitle}>WHERE CAN I BUY ZYN?</div><div className={styles.listTitle}>{signs[6]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[6] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                         Right here at uk.ZYN.com. ZYN® is also available at Sainsbury’s, Waitrose, Evapo and many independent vape and tobacconist stores.
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(7)}>
-                <div className={styles.title}><div className={styles.listTitle}>SUSTAINABILITY</div><div className={styles.listTitle}>{signs[7]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(7)}><div className={styles.listTitle}>SUSTAINABILITY</div><div className={styles.listTitle}>{signs[7]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[7] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                     <span className={styles.strong}>WHAT DOES MASS BALANCE MEAN?</span><br /><br />
@@ -109,8 +110,8 @@ function FAQ() {
                     </p>
                 </div>
                </li>
-               <li className={styles.listItem} onClick={() => toggleCollapse(8)}>
-                <div className={styles.title}><div className={styles.listTitle}>HOW CAN I SAVE MONEY WITH ZYN?</div><div className={styles.listTitle}>{signs[8]}</div></div>
+               <li className={styles.listItem}>
+                <div className={styles.title} onClick={() => toggleCollapse(8)}><div className={styles.listTitle}>HOW CAN I SAVE MONEY WITH ZYN?</div><div className={styles.listTitle}>{signs[8]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[8] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                     The average cost of a pack of cigarettes in the UK is £12.19, and a can of ZYN® tobacco-free nicotine pouches is £6.50. That’s a saving of 47% and up to £80 a month by switching to ZYN®

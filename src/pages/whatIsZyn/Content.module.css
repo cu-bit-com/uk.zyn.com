@@ -1,0 +1,23 @@
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.image {
+    width: 50%;
+    max-width: 600px;
+}
+
+
+.item:nth-child(2n) {
+    flex-direction: row-reverse;
+}

@@ -3,12 +3,13 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .listItem {
     border: 1px solid rgb(50, 50, 50);
     box-shadow: rgba(51, 51, 51, 0.1) 0px 2px 5px 0px;
-    padding: 10px 20px;
     cursor: pointer;
 }
 
@@ -17,15 +18,18 @@
     justify-content: space-between;
     font-weight: 500;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .content {
     padding: 20px 0;
+    cursor: default;
 }
 
 .p {
     font-size: 16px;
     font-weight: 300;
+    padding: 10px 20px;
 }
 
 .listTitle {
