@@ -24,10 +24,16 @@ import { useEffect, useRef } from 'react';
             document.addEventListener('click', handleClickOutside);
 
             return () => {
-            document.removeEventListener('click', handleClickOutside);
+                document.removeEventListener('click', handleClickOutside);
             };
         }, []);
         
+        const closeMenu = () => {
+            if (menuToggleRef.current != null) {
+                menuToggleRef.current.checked = false;
+            }
+        }
+
         return(
             <div className={styles.hamburgerMenu}>
             <input id={styles.menuToggle} type="checkbox" ref={menuToggleRef}/>
@@ -36,12 +42,12 @@ import { useEffect, useRef } from 'react';
             </label>
 
             <ul className={styles.menuBox} ref={menuBoxRef}>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} to='/'>Home</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} to='/shop'>Shop</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} to='/where-to-buy'>Where to Buy</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} to='/how-to-zyn'>How to ZYN</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} to='/blog'>Blog</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} to='/contact'>Contact</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/'>Home</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/shop'>Shop</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/where-to-buy'>Where to Buy</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/how-to-zyn'>How to ZYN</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/blog'>Blog</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/contact'>Contact</Link></li>
             </ul>
         </div>
         );
