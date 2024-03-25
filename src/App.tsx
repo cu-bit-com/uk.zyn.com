@@ -9,6 +9,7 @@ import Blog from './pages/blog/Index';
 import Contact from './pages/contact/Index';
 import Offers from './pages/offers/Index';
 import WhatIsZyn from './pages/whatIsZyn/Index';
+import Post from './pages/post/Index';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='contact' element={<Contact/>}/>
           <Route path='offers' element={<Offers/>}/>
           <Route path='what-is-zyn' element={<WhatIsZyn/>}/>
+          <Route path='blog/post' element={<Post/>}/>
         </Route>
       </Routes>
     </BrowserRouter>

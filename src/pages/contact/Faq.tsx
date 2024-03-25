@@ -4,7 +4,7 @@ import styles from './Faq.module.css';
 
 function FAQ() {
     
-    const [collapsedStates, setCollapsedStates] = useState<boolean[]>(Array(9).fill(true)); // Initialize collapsed state for each item
+    const [collapsedStates, setCollapsedStates] = useState<boolean[]>(Array(9).fill(true));
     const [signs, setSigns] = useState<string[]>(Array(9).fill('+'));
 
     const toggleCollapse = (index: number) => {
