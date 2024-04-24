@@ -9,23 +9,31 @@ import Blog from './pages/blog/Index';
 import Contact from './pages/contact/Index';
 import Offers from './pages/offers/Index';
 import WhatIsZyn from './pages/whatIsZyn/Index';
+import AgeRestriction from './pages/ageRestiction/Index';
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<Layout/>}>
-          <Route index element={<Home/>}/>
-          <Route path='shop' element={<Shop/>}/>
-          <Route path='where-to-buy' element={<WhereToBuy/>}/>
-          <Route path='how-to-zyn' element={<HowToZyn/>}/>
-          <Route path='blog' element={<Blog/>}/>
-          <Route path='contact' element={<Contact/>}/>
-          <Route path='offers' element={<Offers/>}/>
-          <Route path='what-is-zyn' element={<WhatIsZyn/>}/>
-        </Route>
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Layout/>}>
+            <Route index element={<Home/>}/>
+            <Route path='shop' element={<Shop/>}/>
+            <Route path='where-to-buy' element={<WhereToBuy/>}/>
+            <Route path='how-to-zyn' element={<HowToZyn/>}/>
+            <Route path='blog' element={<Blog/>}/>
+            <Route path='contact' element={<Contact/>}/>
+            <Route path='offers' element={<Offers/>}/>
+            <Route path='what-is-zyn' element={<WhatIsZyn/>}/>
+          </Route>
+        </Routes>
+      </BrowserRouter>
+      <BrowserRouter>
+        <Routes>
+          <Route path='forbidden' element={<AgeRestriction/>}/>
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 
