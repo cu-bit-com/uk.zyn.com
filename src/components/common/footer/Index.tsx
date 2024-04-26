@@ -5,28 +5,35 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <>
-            <hr className={styles.hr} />
+		<div className={`${styles.text} ${global.wrapper}` }>
+			<h4>This product is not risk-free and contains nicotine, which is addictive. Only for use by adults.</h4>
+			<p>* PMI reported global shipment volumes and in-market sales estimates of nicotine pouch units, from January to June 2023.</p>
+		</div>
+		<div className={styles.background}>
             <div className={global.wrapper}>
                 <footer id={styles.footer}>
                     <div className={`${styles.links} ${styles.item}`}>
+						<h4>Useful links</h4>
                         <ul className={styles.list}>
-                            <Link to='/contact' onClick={() => window.scrollTo({top: 0})}><li className={styles.listItem}><button className={styles.link}>FAQs</button></li></Link>
-                            <Link to='/what-is-zyn' onClick={() => window.scrollTo({top: 0})}><li className={styles.listItem}><button className={styles.link}>What is ZYN</button></li></Link>
-                            <Link to='/where-to-buy' onClick={() => window.scrollTo({top: 0})}><li className={styles.listItem}><button className={styles.link}>Find ZYN</button></li></Link>
+                            <li className={styles.listItem}><Link className={styles.link} to='/contact' onClick={() => window.scrollTo({top: 0})}>FAQs</Link></li>
+                            <li className={styles.listItem}><Link className={styles.link} to='/what-is-zyn' onClick={() => window.scrollTo({top: 0})}>What is ZYN?</Link></li>
+                            <li className={styles.listItem}><Link className={styles.link} to='/where-to-buy' onClick={() => window.scrollTo({top: 0})}>Find ZYN</Link></li>
                         </ul>
-                    </div>
-                    <div className={`${styles.social} ${styles.item}`}>
-                        <ul className={styles.list}>
-                            <Link to='https://www.facebook.com/zyneurope' target='_blank'><li className={styles.listItem}><button className={styles.link}>Facebook</button></li></Link>
-                            <Link to='https://www.instagram.com/zyn_europe/' target='_blank'><li className={styles.listItem}><button className={styles.link}>Instagram</button></li></Link>
-                            <Link to='https://www.youtube.com/channel/UCPV4gOJ1LtZbV5QBgzqG1ZQ' target='_blank'><li className={styles.listItem}><button className={styles.link}>YouTube</button></li></Link>
-                        </ul>
-                    </div>
-                    <div className={`${styles.contact} ${styles.item}`}>
-                        <Link to='/contact' onClick={() => window.scrollTo({top: 0})}><button className={styles.link}>Contact Us</button></Link>
                     </div>
                 </footer>
             </div>
+		</div>
+		<div className={styles.legal}>
+			<span>© 2023 Philip Morris Products SA</span>
+			<ul className={styles.legalList}>
+				<li><Link className={styles.legalLink} to="#">Privacy Notice</Link></li>
+				<li><Link className={styles.legalLink} to="#">Terms & Conditions</Link></li>
+				<li><Link className={styles.legalLink} to="#">Terms of Use</Link></li>
+				<li><Link className={styles.legalLink} to="#">Cookie Preferences</Link></li>
+				<li><Link className={styles.legalLink} to="#">Gender Pay Gap Report</Link></li>
+				<li><Link className={styles.legalLink} to="#">Important Information</Link></li>
+			</ul>
+		</div>
         </>
     );
 }
