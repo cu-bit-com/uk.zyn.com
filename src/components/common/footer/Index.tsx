@@ -5,7 +5,8 @@ import styles from './Footer.module.css';
 function Footer() {
     return (
         <>
-		<div className={`${styles.text} ${global.wrapper}` }>
+		<hr className={styles.hr}/>
+		<div className={`${styles.text} ${global.wrapper}`}>
 			<h4>This product is not risk-free and contains nicotine, which is addictive. Only for use by adults.</h4>
 			<p>* PMI reported global shipment volumes and in-market sales estimates of nicotine pouch units, from January to June 2023.</p>
 		</div>
