@@ -14,7 +14,7 @@ function Footer() {
             <div className={global.wrapper}>
                 <footer id={styles.footer}>
                     <div className={`${styles.links} ${styles.item}`}>
-						<h4>Useful links</h4>
+						<h2>Useful links</h2>
                         <ul className={styles.list}>
                             <li className={styles.listItem}><Link className={styles.link} to='/contact' onClick={() => window.scrollTo({top: 0})}>FAQs</Link></li>
                             <li className={styles.listItem}><Link className={styles.link} to='/what-is-zyn' onClick={() => window.scrollTo({top: 0})}>What is ZYN?</Link></li>
@@ -27,7 +27,7 @@ function Footer() {
 		<div className={styles.legal}>
 			<span>© 2023 Philip Morris Products SA</span>
 			<ul className={styles.legalList}>
-				<li><Link className={styles.legalLink} to="#">Privacy Notice</Link></li>
+				<li><Link className={styles.legalLink} to="https://www.pmiprivacy.com/global/en/consumer/">Privacy Notice</Link></li>
 				<li><Link className={styles.legalLink} to="#">Terms & Conditions</Link></li>
 				<li><Link className={styles.legalLink} to="#">Terms of Use</Link></li>
 				<li><Link className={styles.legalLink} to="#">Cookie Preferences</Link></li>
