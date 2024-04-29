@@ -43,7 +43,7 @@ import { useEffect, useRef } from 'react';
 
             <ul className={styles.menuBox} ref={menuBoxRef}>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/'>Home</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/shop'>Shop</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/discover-zyn'>Discover ZYN</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/where-to-buy'>Where to Buy</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/how-to-zyn'>How to ZYN</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/blog'>Blog</Link></li>

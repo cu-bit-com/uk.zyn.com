@@ -9,7 +9,7 @@ function Navigation() {
                 <nav className={`${styles.nav} ${global.wrapper}`}>
                     <ul className={styles.list}>
                         <li className={styles.listItem}>
-                            <Link onClick={() => window.scrollTo({top: 0})} className={styles.link} to='/shop'>Shop ZYN</Link>
+                            <Link onClick={() => window.scrollTo({top: 0})} className={styles.link} to='/discover-zyn'>Discover ZYN</Link>
                         </li>
                         <li className={styles.listItem}>
                             <Link onClick={() => window.scrollTo({top: 0})} className={styles.link} to='/where-to-buy'>Where to Buy</Link>
