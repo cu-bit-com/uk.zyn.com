@@ -5,7 +5,7 @@ import Layout from './pages/layout/Layout';
 import WhereToBuy from './pages/whereToBuy/Index';
 import HowToZyn from './pages/howToZyn/Index';
 import Blog from './pages/blog/Index';
-import Contact from './pages/contact/Index';
+import Faq from './pages/faq/Index';
 import Offers from './pages/offers/Index';
 import WhatIsZyn from './pages/whatIsZyn/Index';
 import Post from './pages/post/Index';
@@ -21,7 +21,7 @@ function App() {
           <Route path='where-to-buy' element={<WhereToBuy/>}/>
           <Route path='how-to-zyn' element={<HowToZyn/>}/>
           <Route path='blog' element={<Blog/>}/>
-          <Route path='contact' element={<Contact/>}/>
+          <Route path='faq' element={<Faq/>}/>
           <Route path='offers' element={<Offers/>}/>
           <Route path='what-is-zyn' element={<WhatIsZyn/>}/>
           <Route path='blog/post' element={<Post/>}/>

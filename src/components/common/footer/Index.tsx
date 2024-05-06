@@ -11,7 +11,6 @@ function Footer() {
 			<p>* PMI reported global shipment volumes and in-market sales estimates of nicotine pouch units, from January to June 2023.</p>
 		</div>
 		<div className={styles.background}>
-            <div className={global.wrapper}>
                 <footer id={styles.footer}>
                     <div className={`${styles.links} ${styles.item}`}>
 						<h2>Useful links</h2>
@@ -22,7 +21,6 @@ function Footer() {
                         </ul>
                     </div>
                 </footer>
-            </div>
 		</div>
 		<div className={styles.legal}>
 			<span>© 2023 Philip Morris Products SA</span>

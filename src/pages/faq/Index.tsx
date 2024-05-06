@@ -3,7 +3,7 @@ import FAQ from "./Faq";
 import Info from "./Info";
 import Title from "./Title";
 
-function Contact() {
+function Faq() {
     return (
         <>
             <Title/>
@@ -14,4 +14,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default Faq;
