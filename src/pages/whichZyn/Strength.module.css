@@ -1,0 +1,18 @@
+.imageSection {
+	width: 100%;
+	display: flex;
+}
+
+.left, .right {
+	padding: 50px;
+	width: 50%;
+	height: 200px;
+}
+
+.left {
+	background-color: #dfdfdf;
+}
+
+.right {
+	background-color: lightgreen;
+}

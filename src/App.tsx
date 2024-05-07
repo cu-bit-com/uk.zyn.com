@@ -10,6 +10,7 @@ import Offers from './pages/offers/Index';
 import WhatIsZyn from './pages/whatIsZyn/Index';
 import Post from './pages/post/Index';
 import DiscoverZyn from './pages/discoverZyn/Index';
+import WhichZyn from './pages/whichZyn/Index';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path='offers' element={<Offers/>}/>
           <Route path='what-is-zyn' element={<WhatIsZyn/>}/>
           <Route path='blog/post' element={<Post/>}/>
+		  <Route path='which-zyn-to-choose' element={<WhichZyn/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
