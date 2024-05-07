@@ -12,24 +12,24 @@ function BlogSection() {
 			<br />
 			<br />
 			<div className={styles.sectionWrapper}>
-				<div className={styles.card}>
-					<Link to="#">
-						<img className={styles.articleImg} src={placeholder} alt="" />
-						<h4>Article Title</h4>
-					</Link>
-				</div>
-				<div className={styles.card}>
-					<Link to="#">
-						<img className={styles.articleImg} src={placeholder} alt="" />
-						<h4>Article Title</h4>
-					</Link>
-				</div>
-				<div className={styles.card}>
-					<Link to="#">
-						<img className={styles.articleImg} src={placeholder} alt="" />
-						<h4>Article Title</h4>
-					</Link>
-				</div>
+				<Link className={styles.blogLink} to="#">
+					<div className={styles.card}>
+							<img className={styles.articleImg} src={placeholder} alt="" />
+							<h4>Article Title</h4>
+					</div>
+				</Link>
+				<Link className={styles.blogLink} to="#">
+					<div className={styles.card}>
+							<img className={styles.articleImg} src={placeholder} alt="" />
+							<h4>Article Title</h4>
+					</div>
+				</Link>
+				<Link className={styles.blogLink} to="#">
+					<div className={styles.card}>
+							<img className={styles.articleImg} src={placeholder} alt="" />
+							<h4>Article Title</h4>
+					</div>
+				</Link>
 			</div>
 		</div>
 	)

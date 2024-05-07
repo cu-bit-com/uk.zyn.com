@@ -15,6 +15,11 @@
 	align-items: center;
 }
 
+.blogLink {
+	text-decoration: none;
+	color: #000;
+}
+
 @media (max-width: 960px) {
 	.sectionWrapper {
 		flex-direction: column;
