@@ -1,6 +1,7 @@
 import global from "../../components/Global.module.css"
 import styles from "./BlogSection.module.css"
 import placeholder from "../../images/zyn-item.jpeg"
+import { Link } from "react-router-dom";
 
 function BlogSection() {
 	return (
@@ -12,16 +13,22 @@ function BlogSection() {
 			<br />
 			<div className={styles.sectionWrapper}>
 				<div className={styles.card}>
-					<img className={styles.articleImg} src={placeholder} alt="" />
-					<h4>Article Title</h4>
+					<Link to="#">
+						<img className={styles.articleImg} src={placeholder} alt="" />
+						<h4>Article Title</h4>
+					</Link>
 				</div>
 				<div className={styles.card}>
-					<img className={styles.articleImg} src={placeholder} alt="" />
-					<h4>Article Title</h4>
+					<Link to="#">
+						<img className={styles.articleImg} src={placeholder} alt="" />
+						<h4>Article Title</h4>
+					</Link>
 				</div>
 				<div className={styles.card}>
-					<img className={styles.articleImg} src={placeholder} alt="" />
-					<h4>Article Title</h4>
+					<Link to="#">
+						<img className={styles.articleImg} src={placeholder} alt="" />
+						<h4>Article Title</h4>
+					</Link>
 				</div>
 			</div>
 		</div>
