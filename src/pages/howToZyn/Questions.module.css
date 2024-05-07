@@ -25,3 +25,8 @@
     font-weight: 300;
     padding: 10px 20px;
 }
+
+.link {
+	color: #00b6ed;
+	text-decoration: none;
+}

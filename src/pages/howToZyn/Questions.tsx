@@ -31,7 +31,7 @@ function Questions() {
                 <div className={styles.title} onClick={() => toggleCollapse(0)}><div className={styles.listTitle}>What are ZYN nicotine pouches?</div><div className={styles.listTitle}>{signs[0]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[0] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-					Nicotine pouches are a modern tobacco-free & smoke-free alternative for nicotine users. <Link to="/discover-zyn">Click here to learn more.</Link>
+					Nicotine pouches are a modern tobacco-free & smoke-free alternative for nicotine users. <Link className={styles.link} to="/discover-zyn">Click here to learn more.</Link>
                     </p>
                 </div>
                </li>
@@ -39,7 +39,7 @@ function Questions() {
                 <div className={styles.title} onClick={() => toggleCollapse(1)}><div className={styles.listTitle}>Which ZYN nicotine pouch is right for me?</div><div className={styles.listTitle}>{signs[1]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[1] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-                    ZYN nicotine pouches are available in a variety of nicotine strengths and pouch sizes so you can choose the intensity of your nicotine experience. If you are a nicotine user looking for a new alternative: We suggest starting with a lower nicotine strength: try Mini (6mg) pouches from the ZYN range. If you are a nicotine pouch user:Discover our Slim range: 9.5mg, 11mg and 12.5mg. <Link to="#">Read more here.</Link>
+                    ZYN nicotine pouches are available in a variety of nicotine strengths and pouch sizes so you can choose the intensity of your nicotine experience. If you are a nicotine user looking for a new alternative: We suggest starting with a lower nicotine strength: try Mini (6mg) pouches from the ZYN range. If you are a nicotine pouch user:Discover our Slim range: 9.5mg, 11mg and 12.5mg. <Link className={styles.link} to="#">Read more here.</Link>
                     </p>
                 </div>
                </li>
