@@ -1,0 +1,8 @@
+.list {
+	list-style-type: decimal;
+	padding-left: 40px;
+}
+
+.p {
+	font-size: 16px;
+}

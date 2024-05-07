@@ -1,13 +1,13 @@
+import React from "react";
 import styles from "./HeroSection.module.css";
+import heroBanner from '../../images/hero-banner.jpeg';
 import global from '../../components/Global.module.css';
 
 function HeroSection() {
     return (
-        <div className={global.wrapper}>
-            <section className={styles.banner}>
-                VIDEO
-            </section>
-        </div>
+        <section className={`${styles.banner} ${global.wrapper}`}>
+            <img className={styles.image} src={heroBanner} alt="banner"/>
+        </section>
     );
 }
 

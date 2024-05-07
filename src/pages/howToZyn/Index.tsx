@@ -1,15 +1,21 @@
 import HeroSection from "./HeroSection";
 import Content from "./Content";
-import Images from "./Images";
+import Image from "./Image";
 import Title from "./Title";
+import HowToUse from "./HowToUse";
+import Questions from "./Questions";
+import BlogSection from "./BlogSection";
 
 function HowToZyn() {
     return (
         <div className="homeWrapper">
-            <Title/>
             <HeroSection/>
+            <Title/>
             <Content/>
-            <Images/>
+            <Image/>
+			<HowToUse/>
+			<Questions/>
+			<BlogSection/>
         </div>
     );
 }

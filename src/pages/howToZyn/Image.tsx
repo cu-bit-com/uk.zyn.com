@@ -1,7 +1,7 @@
-import styles from './Images.module.css';
+import styles from './Image.module.css';
 import global from '../../components/Global.module.css';
 
-function Images() {
+function Image() {
     return (
         <div className={`${global.wrapper} ${styles.container}`}>
             IMAGE
@@ -9,4 +9,4 @@ function Images() {
     );
 }
 
-export default Images;
+export default Image;
