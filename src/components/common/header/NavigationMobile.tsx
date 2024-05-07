@@ -46,6 +46,7 @@ import { useEffect, useRef } from 'react';
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/discover-zyn'>Discover ZYN</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/where-to-buy'>Where to Buy</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/how-to-zyn'>How to ZYN</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/which-zyn-to-choose'>Which ZYN to choose</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/blog'>Blog</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={closeMenu} to='/faq'>FAQ</Link></li>
             </ul>

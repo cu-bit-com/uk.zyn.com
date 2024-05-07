@@ -18,6 +18,9 @@ function Navigation() {
                             <Link onClick={() => window.scrollTo({top: 0})} className={styles.link} to='/how-to-zyn'>How to ZYN</Link>
                         </li>
                         <li className={styles.listItem}>
+                            <Link onClick={() => window.scrollTo({top: 0})} className={styles.link} to='/which-zyn-to-choose'>Which ZYN to choose</Link>
+                        </li>
+                        <li className={styles.listItem}>
                             <Link onClick={() => window.scrollTo({top: 0})} className={styles.link} to='/blog'>Blog</Link>
                         </li>
                         <li className={styles.listItem}>
