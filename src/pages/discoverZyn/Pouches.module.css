@@ -15,3 +15,10 @@
 .hidden {
 	margin: 20px 0;
 }
+
+@media (max-width: 960px) {
+	.hidden {
+		font-size: 10px;
+		padding: 0 15px;
+	}
+}

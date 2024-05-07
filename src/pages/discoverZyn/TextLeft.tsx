@@ -10,7 +10,7 @@ function TextLeft() {
 				<p>Because we understand that your nicotine needs might change throughout the day, we’ve crafted a range of products with varying nicotine levels to satisfy your different nicotine moments and preferences</p>
 			</div>
 			<div className={styles.right}>
-				<img src={placeholder} width="300px" alt="" />
+				<img src={placeholder} className={styles.image} alt="" />
 			</div>
 		</div>
 	)

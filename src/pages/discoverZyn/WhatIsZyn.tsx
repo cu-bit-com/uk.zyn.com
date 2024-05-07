@@ -7,7 +7,7 @@ function WhatIsZyn() {
 		<div className={`${global.wrapper} ${styles.wrapper}`}>
 			<h3>Why ZYN?</h3>
 			<div className={styles.whyZyn}>
-				<img src={whyZyn} alt="" />
+				<img className={styles.image} src={whyZyn} alt="" />
 			</div>
 		</div>
 	)

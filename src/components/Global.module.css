@@ -3,3 +3,14 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+
+@media (max-width: 960px) {
+	.wrapper {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.wrapper > h3, .wrapper > h2, .wrapper > p {
+		padding: 0 15px;
+	}
+}

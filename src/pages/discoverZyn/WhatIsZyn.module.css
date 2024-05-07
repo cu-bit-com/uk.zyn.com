@@ -6,3 +6,9 @@
 	display: flex;
 	justify-content: center;
 }
+
+@media (max-width: 960px) {
+	.image {
+		width: 100%;
+	}
+}
