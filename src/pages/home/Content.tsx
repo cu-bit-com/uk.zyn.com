@@ -1,6 +1,7 @@
 import styles from "./Content.module.css";
 import global from "../../components/Global.module.css";
 import image from "../../images/zyn-item.jpeg";
+import { Link } from "react-router-dom";
 
 function Content() {
   return (
@@ -14,7 +15,7 @@ function Content() {
           </p>
           <button className={styles.learn_more}>
             {" "}
-            <a href="#">Learn More About ZYN</a>
+            <Link to="#">Learn More About ZYN</Link>
           </button>
         </div>
         <div className={styles.discover_zyn_img}>

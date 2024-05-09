@@ -3,26 +3,27 @@ import Content from "./Content";
 import Images from "./Images";
 import AgeGateModal from "./AgeGateModal";
 import { useState } from "react";
+import BlogSection from "./Blog";
 
 function Home() {
+  const [showModal, setShowModal] = useState(true);
 
-    const [showModal, setShowModal] = useState(true);
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
-    const handleCloseModal = () => {
-        setShowModal(false);
-    }
+  const handleConfirmAge = () => {
+    setShowModal(false);
+  };
 
-    const handleConfirmAge = () => {
-        setShowModal(false);
-    }
-
-    return (
-        <div className="homeWrapper">
-            <HeroSection/>
-            <Content/>
-            <Images/>
-        </div>
-    );
+  return (
+    <div className="homeWrapper">
+      <HeroSection />
+      <Content />
+      <Images />
+      <BlogSection />
+    </div>
+  );
 }
 
 /* <AgeGateModal 
