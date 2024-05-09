@@ -4,21 +4,74 @@
   padding: 50px 0 50px 0;
   flex-wrap: wrap;
   align-items: center;
-  gap: 40px;
+  gap: 20px;
 }
 
 .item {
   flex: 30%;
+  max-width: 260px;
+  min-width: 70px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .imgContainer img {
   width: 100%;
   height: 100%;
+}
+
+.itemLink {
+  color: #7f7f7f;
+  text-decoration: none;
+  font-weight: bold;
+  padding-bottom: 2px;
+  border-bottom: 2px solid #7f7f7f;
+  transition: 0.3s;
+}
+.itemLink:hover {
+  color: #009dd1;
+  border-bottom: 2px solid #009dd1;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
+.discover_zyn {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0px 20px 0px;
+}
+
+.learn_more {
+  padding: 20px 30px 20px 30px;
+  border-radius: 6px;
+  background-color: rgb(2, 56, 99);
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.learn_more:hover {
+  background-color: #009dd1;
 }
 
 @media (max-width: 800px) {

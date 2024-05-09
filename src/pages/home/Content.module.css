@@ -21,8 +21,8 @@
   border-radius: 6px;
   background-color: rgb(2, 56, 99);
   border: none;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;
   text-decoration: none;
