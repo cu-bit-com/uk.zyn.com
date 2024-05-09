@@ -3,7 +3,9 @@ import styles from './Title.module.css';
 function Title() {
     return (
         <div className={styles.wrapper}>
-            <h1 className={styles.h1}>Where to Buy</h1>
+			<br />
+			<br />
+            <h1 className={styles.h1}>Where to Buy ZYN?</h1>
         </div>
     );
 }
