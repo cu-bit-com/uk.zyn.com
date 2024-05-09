@@ -18,15 +18,16 @@ function Home() {
 
     return (
         <div className="homeWrapper">
-            <AgeGateModal 
-            isOpen={showModal} 
-            onClose={handleCloseModal} 
-            onConfirm={handleConfirmAge} />
             <HeroSection/>
             <Content/>
             <Images/>
         </div>
     );
 }
+
+/* <AgeGateModal 
+            isOpen={showModal} 
+            onClose={handleCloseModal} 
+            onConfirm={handleConfirmAge} /> */
 
 export default Home;
