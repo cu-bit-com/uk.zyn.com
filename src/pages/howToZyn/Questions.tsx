@@ -21,6 +21,12 @@ function Questions() {
         });
     };
 
+	const scrollToTop = () => {
+		window.scrollTo({
+		  top: 0
+		});
+	  };
+
 	return (
 		<div className={global.wrapper}>
 			<h3>Have more questions?</h3>
@@ -39,7 +45,7 @@ function Questions() {
                 <div className={styles.title} onClick={() => toggleCollapse(1)}><div className={styles.listTitle}>Which ZYN nicotine pouch is right for me?</div><div className={styles.listTitle}>{signs[1]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[1] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-                    ZYN nicotine pouches are available in a variety of nicotine strengths and pouch sizes so you can choose the intensity of your nicotine experience. If you are a nicotine user looking for a new alternative: We suggest starting with a lower nicotine strength: try Mini (6mg) pouches from the ZYN range. If you are a nicotine pouch user:Discover our Slim range: 9.5mg, 11mg and 12.5mg. <Link className={styles.link} to="#">Read more here.</Link>
+                    ZYN nicotine pouches are available in a variety of nicotine strengths and pouch sizes so you can choose the intensity of your nicotine experience.<br/><br/><strong>If you are a nicotine user looking for a new alternative:</strong> We suggest starting with a lower nicotine strength: try Mini (6mg) pouches from the ZYN range.<br/><br/><strong>If you are a nicotine pouch user:</strong> Discover our Slim range: 9.5mg, 11mg and 12.5mg.<br/><Link className={styles.link} to="/which-zyn-to-choose" onClick={scrollToTop}>Read more here.</Link>
                     </p>
                 </div>
                </li>
