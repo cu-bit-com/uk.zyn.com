@@ -26,10 +26,8 @@ function Footer() {
 			<span>© 2023 Philip Morris Products SA</span>
 			<ul className={styles.legalList}>
 				<li><Link className={styles.legalLink} to="https://www.pmiprivacy.com/global/en/consumer/">Privacy Notice</Link></li>
-				<li><Link className={styles.legalLink} to="#">Terms & Conditions</Link></li>
-				<li><Link className={styles.legalLink} to="#">Terms of Use</Link></li>
+				<li><Link className={styles.legalLink} onClick={() => window.scrollTo({top: 0})} to="/terms-of-use">Terms of Use</Link></li>
 				<li><Link className={styles.legalLink} to="#">Cookie Preferences</Link></li>
-				<li><Link className={styles.legalLink} to="#">Gender Pay Gap Report</Link></li>
 				<li><Link className={styles.legalLink} to="#">Important Information</Link></li>
 			</ul>
 		</div>
