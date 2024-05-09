@@ -37,7 +37,7 @@ function Questions() {
                 <div className={styles.title} onClick={() => toggleCollapse(0)}><div className={styles.listTitle}>What are ZYN nicotine pouches?</div><div className={styles.listTitle}>{signs[0]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[0] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-					Nicotine pouches are a modern tobacco-free & smoke-free alternative for nicotine users. <Link className={styles.link} to="/discover-zyn">Click here to learn more.</Link>
+					Nicotine pouches are a modern tobacco-free & smoke-free alternative for nicotine users.<br/><Link className={styles.link} to="/discover-zyn" onClick={scrollToTop}>Click here to learn more.</Link>
                     </p>
                 </div>
                </li>
