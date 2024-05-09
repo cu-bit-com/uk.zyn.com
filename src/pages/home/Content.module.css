@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.discover_zyn_img img {
+  width: 100%;
+}
+
 .learn_more {
   display: flex;
   justify-content: center;
