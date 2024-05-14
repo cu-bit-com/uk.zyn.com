@@ -70,6 +70,14 @@
   }
 }
 
+h3 {
+	min-height: 50px;
+}
+
+p {
+	min-height: 75px;
+}
+
 .learn_more:hover {
   background-color: #009dd1;
 }
