@@ -12,6 +12,7 @@ import Post from './pages/post/Index';
 import DiscoverZyn from './pages/discoverZyn/Index';
 import WhichZyn from './pages/whichZyn/Index';
 import TermsOfUse from './pages/termsOfUse/Index';
+import ImportantInformation from './pages/importantInformation/Index';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path='blog/post' element={<Post/>}/>
 		  <Route path='which-zyn-to-choose' element={<WhichZyn/>}/>
 		  <Route path='terms-of-use' element={<TermsOfUse/>} />
+		  <Route path='important-information' element={<ImportantInformation/>} />
         </Route>
       </Routes>
     </BrowserRouter>

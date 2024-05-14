@@ -22,7 +22,7 @@ function FAQ() {
     
 
     return (
-        <div className={global.wrapper}>
+        <div className={`${global.wrapper} ${styles.wrapper}`}>
             <ul className={styles.list}>
                <li className={styles.listItem}>
                 <div className={styles.title} onClick={() => toggleCollapse(0)}><div className={styles.listTitle}>WHAT IS ZYN?</div><div className={styles.listTitle}>{signs[0]}</div></div>

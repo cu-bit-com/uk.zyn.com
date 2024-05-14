@@ -1,6 +1,4 @@
-import Content from "./Content";
 import FAQ from "./Faq";
-import Info from "./Info";
 import Title from "./Title";
 
 function Faq() {
@@ -8,8 +6,6 @@ function Faq() {
         <>
             <Title/>
             <FAQ/>
-            <Content/>
-            <Info/>
         </>    
     );
 }

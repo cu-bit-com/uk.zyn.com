@@ -1,0 +1,8 @@
+.card {
+	display: flex;
+	justify-content: center;
+}
+
+.cardTitle, .cardParagraph {
+	padding: 0 20px;
+}

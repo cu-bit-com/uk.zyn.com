@@ -1,6 +1,6 @@
 import global from "../../components/Global.module.css"
 import styles from "./TextLeft.module.css"
-import placeholder from "../../images/discover/Game.jpg"
+import placeholder from "../../images/discover/Game.png"
 
 function TextLeft() {
 	return (

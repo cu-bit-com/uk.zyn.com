@@ -3,9 +3,9 @@ import styles from "./Blog.module.css";
 import heroBanner from "../../images/Temp_banner.jpg";
 import global from "../../components/Global.module.css";
 import { Link } from "react-router-dom";
-import image_one from "../../images/discover/Commute.jpg";
-import image_two from "../../images/discover/Office.jpg";
-import image_three from "../../images/discover/Game.jpg";
+import image_one from "../../images/discover/Commute.png";
+import image_two from "../../images/discover/Office.png";
+import image_three from "../../images/discover/Game.png";
 
 function BlogSection() {
   return (

@@ -27,8 +27,8 @@ function Footer() {
 			<ul className={styles.legalList}>
 				<li><Link className={styles.legalLink} to="https://www.pmiprivacy.com/global/en/consumer/">Privacy Notice</Link></li>
 				<li><Link className={styles.legalLink} onClick={() => window.scrollTo({top: 0})} to="/terms-of-use">Terms of Use</Link></li>
-				<li><Link className={styles.legalLink} to="#">Cookie Preferences</Link></li>
-				<li><Link className={styles.legalLink} to="#">Important Information</Link></li>
+				<li><Link className={styles.legalLink} onClick={() => window.scrollTo({top: 0})} to="#">Cookie Preferences</Link></li>
+				<li><Link className={styles.legalLink} onClick={() => window.scrollTo({top: 0})} to="/important-information">Important Information</Link></li>
 			</ul>
 		</div>
         </>
