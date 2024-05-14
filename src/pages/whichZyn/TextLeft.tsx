@@ -1,6 +1,6 @@
 import global from "../../components/Global.module.css"
 import styles from "./TextLeft.module.css"
-import placeholder from "../../images/discover/Game.png"
+import game from "../../images/discover/Game.png"
 
 function TextLeft() {
 	return (
@@ -14,7 +14,7 @@ function TextLeft() {
 					<p>ZYN Slim features moist nicotine pouches that are slightly larger and full-bodied than ZYN Mini. The Slim pouch provides a rich and intense nicotine and flavor experience.</p>
 				</div>
 				<div className={styles.right}>
-					<img src={placeholder} className={styles.image} alt="" />
+					<img src={game} className={styles.image} alt="" />
 				</div>
 			</div>
 		</div>
