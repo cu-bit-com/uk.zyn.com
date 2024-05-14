@@ -46,3 +46,18 @@
   color: #009dd1;
   border-bottom: 2px solid #009dd1;
 }
+
+
+@media (max-width: 960px) {
+	.blog_wrapper {
+		padding: 0 15px 0 15px;
+	}
+
+	h3 {
+		font-size: 1rem;
+	}
+
+	.blog_container {
+		flex-direction: column;
+	}
+}

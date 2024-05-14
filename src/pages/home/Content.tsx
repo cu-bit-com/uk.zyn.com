@@ -10,10 +10,10 @@ function Content() {
         <div className={styles.discover_zyn_info}>
           <h3>Discover ZYN Nicotine Pouches</h3>
           <p className={styles.p}>
-            Discover a tobacco-free alternative to smiking filled with flavours
+            Discover a tobacco-free alternative to smoking filled with flavours
             and nicotine strenghts designed to satisfy your taste.
           </p>
-          <button className={styles.learn_more}>
+          <button className={styles.learn_more} id={styles.moreBtn}>
             {" "}
             <Link to="#">Learn More About ZYN</Link>
           </button>

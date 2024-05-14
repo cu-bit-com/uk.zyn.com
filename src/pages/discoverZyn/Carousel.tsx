@@ -31,7 +31,7 @@ const Carousel = () => {
 						</div>
 						<br />
 						<h3 className="cardTitle">Discreet & Considerate</h3><br />
-						<p className="cardParagraph">With no ash, no smoke & no smoke smell, nicotine pouches are a cleaner way to enjoy nicotine. They also don’t require any device & are simple to use – you just place the small, white pouches between your upper lip and gum & enjoy the flavor & nicotine as they are released.</p>
+						<p className="cardParagraph">With no ash, no smoke & no smoke smell, nicotine pouches are a cleaner way to enjoy nicotine. They also don’t require any device & are simple to use – you just place the small, white pouches between your upper lip and gum & enjoy the flavour & nicotine as they are released.</p>
 					</div>
 				</div>
 				<div className="cardWrapper">

@@ -13,21 +13,47 @@
 }
 
 .learn_more {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  padding: 16px 20px 16px 20px;
-  border-radius: 6px;
-  background-color: rgb(2, 56, 99);
-  border: none;
-  font-size: 1rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  a {
-    text-decoration: none;
-    color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	padding: 16px 20px 16px 20px;
+	border-radius: 6px;
+	background-color: rgb(0,59,94);
+	border: none;
+	font-size: 1rem;
+	font-weight: bold;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	a {
+		text-decoration: none;
+		color: #fff;
+		font-family: "Gotham Bold";
   }
+}
+
+
+@media (max-width: 960px) {
+	.discover_zyn {
+		flex-direction: column-reverse;
+		margin-bottom: 50px;
+	}
+
+	p {
+		padding: 0 15px 0 15px;
+	}
+
+	h3 {
+		padding: 0 15px 0 15px;
+	}
+
+	.discover_zyn_info {
+		display: flex;
+		flex-direction: column;
+	}
+
+	#moreBtn {
+		margin: 15px 15px 0 15px;
+	}
 }
