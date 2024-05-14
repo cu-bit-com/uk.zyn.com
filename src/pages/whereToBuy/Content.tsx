@@ -5,6 +5,7 @@ function Content() {
     return (
         <div className={global.wrapper}>
 			<h3>Find ZYN Nicotine Pouches in Store</h3>
+			<br />
             <p className={styles.p}>Find ZYN at Saintsbury’s, Morrisons BP, Waitrose & WHSmith’s Travel</p>
         </div>
     );
