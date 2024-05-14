@@ -60,6 +60,10 @@
 	gap: 15px;
 }
 
+.hr {
+	margin: 50px 0 20px 0;
+}
+
 @media (max-width: 800px) {
     #footer {
         flex-direction: column;
