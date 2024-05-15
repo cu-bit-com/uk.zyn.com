@@ -41,6 +41,10 @@
     }
     
     .item {
-        flex: 80%;
+        flex: 40%;
     }
+
+	.img {
+		width: 150px;
+	}
 }

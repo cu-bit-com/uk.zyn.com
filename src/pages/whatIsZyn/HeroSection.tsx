@@ -4,7 +4,7 @@ import global from '../../components/Global.module.css';
 
 function HeroSection() {
     return (
-        <section className={`${styles.banner} ${global.wrapper}`}>
+        <section className={`${styles.banner}`}>
             <img className={styles.image} src={heroBanner} alt="banner"/>
         </section>
     );
