@@ -7,7 +7,7 @@ function HowToUse() {
 			<h3>How to use nicotine pouches?</h3>
 			<br/><br/>
 			<p className={styles.p}>Using ZYN nicotine pouches is really straightforward - here's how to use them in 4 simple steps:</p>
-			<br/><br/>
+			<br />
 			<ul className={styles.list}>
 				<li>Break the perforated label on the can.</li>
 				<li>Open it up and take out a nicotine pouch - popping it under your lip.</li>
