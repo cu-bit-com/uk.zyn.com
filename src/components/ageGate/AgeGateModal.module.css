@@ -71,6 +71,11 @@
   padding: 35px 20px;
 }
 
+.error {
+	color: red;
+	margin: 20px 0;
+}
+
 @media (max-width: 600px) {
   .modal {
     height: fit-content;
