@@ -5,7 +5,6 @@ function HowToUse() {
 	return (
 		<div className={global.wrapper}>
 			<h3>How to use nicotine pouches?</h3>
-			<br/><br/>
 			<p className={styles.p}>Using ZYN nicotine pouches is really straightforward - here's how to use them in 4 simple steps:</p>
 			<br />
 			<ul className={styles.list}>

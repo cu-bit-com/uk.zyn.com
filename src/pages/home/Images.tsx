@@ -14,6 +14,8 @@ import { Link } from "react-router-dom";
 function Images() {
   return (
     <div className={`${global.wrapper} ${styles.container}`}>
+
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_one}></img>
@@ -21,12 +23,12 @@ function Images() {
         <div className={styles.itemInfo}>
           <h3>ZYN Cool Mint Mini - 6mg</h3>
           <p className={styles.itemP}>A cooling taste of menthol with hints of peppermint</p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_two}></img>
@@ -34,12 +36,12 @@ function Images() {
         <div className={styles.itemInfo}>
           <h3>ZYN Citrus Mini - 6mg</h3>
           <p className={styles.itemP}>A taste of citrus fruits with hints of lemongrass</p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_three}></img>
@@ -49,12 +51,12 @@ function Images() {
           <p className={styles.itemP}>
             A taste of freshly roasted coffee with hints of cocoa and caramel
           </p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_four}></img>
@@ -62,12 +64,12 @@ function Images() {
         <div className={styles.itemInfo}>
           <h3>ZYN Cool Mint 9.5mg - Slim</h3>
           <p className={styles.itemP}>An intense cooling taste of fresh peppermint</p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_five}></img>
@@ -75,12 +77,12 @@ function Images() {
         <div className={styles.itemInfo}>
           <h3>ZYN Icy Mint 9.5mg - Slim</h3>
           <p className={styles.itemP}>A cooling taste of eucalyptus and menthol</p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_six}></img>
@@ -88,12 +90,12 @@ function Images() {
         <div className={styles.itemInfo}>
           <h3>ZYN Cool Mint 11mg - Slim</h3>
           <p className={styles.itemP}>An intense cooling taste of fresh peppermint</p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_seven}></img>
@@ -101,12 +103,12 @@ function Images() {
         <div className={styles.itemInfo}>
           <h3>ZYN Chili Guava 11mg - Slim</h3>
           <p className={styles.itemP}>A fruity taste of guava and chili</p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_eight}></img>
@@ -114,12 +116,12 @@ function Images() {
         <div className={styles.itemInfo}>
           <h3>ZYN Icy Mint 12.5mg - Slim</h3>
           <p className={styles.itemP}>A cooling taste of eucalyptus and menthol</p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
 
+          <Link className={styles.itemLink} to="/where-to-buy">
       <div className={styles.item}>
         <div className={styles.imgContainer}>
           <img src={image_nine}></img>
@@ -129,11 +131,10 @@ function Images() {
           <p className={styles.itemP}>
             A cooling taste of menthol topped with the flavour of dark berries
           </p>
-          <Link className={styles.itemLink} to="/where-to-buy">
-            Find Zyn
-          </Link>
+            <span className={styles.linkSpan}>Find Zyn</span>
         </div>
       </div>
+          </Link>
       <div className={styles.discover_zyn}>
         <button className={styles.learn_more}>
           {" "}
