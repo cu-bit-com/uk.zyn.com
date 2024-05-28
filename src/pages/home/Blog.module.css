@@ -47,6 +47,10 @@
   border-bottom: 2px solid #009dd1;
 }
 
+.blogTitle {
+	min-height: 55px;
+}
+
 
 @media (max-width: 960px) {
 	.blog_wrapper {
