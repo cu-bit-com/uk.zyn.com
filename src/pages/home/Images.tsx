@@ -21,7 +21,7 @@ function Images() {
           <img src={image_one}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Cool Mint Mini - 6mg</h3>
+          <h3 className={styles.itemTitle}>ZYN Cool Mint Mini - 6mg</h3>
           <p className={styles.itemP}>A cooling taste of menthol with hints of peppermint</p>
             <span className={styles.linkSpan}>Find Zyn</span>
         </div>
@@ -34,7 +34,7 @@ function Images() {
           <img src={image_two}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Citrus Mini - 6mg</h3>
+          <h3 className={styles.itemTitle}>ZYN Citrus Mini - 6mg</h3>
           <p className={styles.itemP}>A taste of citrus fruits with hints of lemongrass</p>
             <span className={styles.linkSpan}>Find Zyn</span>
         </div>
@@ -47,7 +47,7 @@ function Images() {
           <img src={image_three}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Espressino Mini - 6mg</h3>
+          <h3 className={styles.itemTitle}>ZYN Espressino Mini - 6mg</h3>
           <p className={styles.itemP}>
             A taste of freshly roasted coffee with hints of cocoa and caramel
           </p>
@@ -62,7 +62,7 @@ function Images() {
           <img src={image_four}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Cool Mint 9.5mg - Slim</h3>
+          <h3 className={styles.itemTitle}>ZYN Cool Mint 9.5mg - Slim</h3>
           <p className={styles.itemP}>An intense cooling taste of fresh peppermint</p>
             <span className={styles.linkSpan}>Find Zyn</span>
         </div>
@@ -75,7 +75,7 @@ function Images() {
           <img src={image_five}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Icy Mint 9.5mg - Slim</h3>
+          <h3 className={styles.itemTitle}>ZYN Icy Mint 9.5mg - Slim</h3>
           <p className={styles.itemP}>A cooling taste of eucalyptus and menthol</p>
             <span className={styles.linkSpan}>Find Zyn</span>
         </div>
@@ -88,7 +88,7 @@ function Images() {
           <img src={image_six}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Cool Mint 11mg - Slim</h3>
+          <h3 className={styles.itemTitle}>ZYN Cool Mint 11mg - Slim</h3>
           <p className={styles.itemP}>An intense cooling taste of fresh peppermint</p>
             <span className={styles.linkSpan}>Find Zyn</span>
         </div>
@@ -101,7 +101,7 @@ function Images() {
           <img src={image_seven}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Chili Guava 11mg - Slim</h3>
+          <h3 className={styles.itemTitle}>ZYN Chili Guava 11mg - Slim</h3>
           <p className={styles.itemP}>A fruity taste of guava and chili</p>
             <span className={styles.linkSpan}>Find Zyn</span>
         </div>
@@ -114,7 +114,7 @@ function Images() {
           <img src={image_eight}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Icy Mint 12.5mg - Slim</h3>
+          <h3 className={styles.itemTitle}>ZYN Icy Mint 12.5mg - Slim</h3>
           <p className={styles.itemP}>A cooling taste of eucalyptus and menthol</p>
             <span className={styles.linkSpan}>Find Zyn</span>
         </div>
@@ -127,7 +127,7 @@ function Images() {
           <img src={image_nine}></img>
         </div>
         <div className={styles.itemInfo}>
-          <h3>ZYN Icy Blackcurrant 12.5mg - Slim</h3>
+          <h3 className={styles.itemTitle}>ZYN Icy Blackcurrant 12.5mg - Slim</h3>
           <p className={styles.itemP}>
             A cooling taste of menthol topped with the flavour of dark berries
           </p>

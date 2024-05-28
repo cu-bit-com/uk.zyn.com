@@ -5,7 +5,7 @@ function Faq() {
     return (
         <>
             <Title/>
-            <FAQ/>
+			<FAQ/>
         </>    
     );
 }
