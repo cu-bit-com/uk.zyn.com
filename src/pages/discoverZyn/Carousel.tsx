@@ -18,7 +18,7 @@ const Carousel = () => {
         slidesToShow: 1,
         slidesToScroll: 1,
         autoplay: true,
-		autoplaySpeed: 5000
+		autoplaySpeed: 3000
     };
 
     return (
@@ -30,7 +30,7 @@ const Carousel = () => {
 							<img className="image" width="100%" src={office} alt="" />
 						</div>
 						<br />
-						<h3 className="cardTitle">Discreet & Considerate</h3><br />
+						<h3 className="cardTitle">Discreet & Considerate</h3>
 						<p className="cardParagraph">With no ash, no smoke & no smoke smell, nicotine pouches are a cleaner way to enjoy nicotine. They also don’t require any device & are simple to use – you just place the small, white pouches between your upper lip and gum & enjoy the flavour & nicotine as they are released.</p>
 					</div>
 				</div>
@@ -40,7 +40,7 @@ const Carousel = () => {
 							<img className="image" width="100%" src={commute} alt="" />
 						</div>
 						<br />
-						<h3 className="cardTitle">Clean & Convenient</h3><br />
+						<h3 className="cardTitle">Clean & Convenient</h3>
 						<p className="cardParagraph">Nicotine pouches are small, convenient and simple to use.</p>
 					</div>
 				</div>
@@ -50,7 +50,7 @@ const Carousel = () => {
 							<img className="image" width="100%" src={game} alt="" />
 						</div>
 						<br />
-						<h3 className="cardTitle">High Quality</h3><br />
+						<h3 className="cardTitle">High Quality</h3>
 						<p className="cardParagraph">ZYN® is made up of high quality nicotine and food-grade ingredients. The pouch itself is made from plant fibers, specially designed to release nicotine while feeling comfortable under your lip.</p>
 					</div>
 				</div>
@@ -60,7 +60,7 @@ const Carousel = () => {
 							<img className="image" width="100%" src={commute} alt="" />
 						</div>
 						<br />
-						<h3 className="cardTitle">Trustworthy</h3><br />
+						<h3 className="cardTitle">Trustworthy</h3>
 						<p className="cardParagraph">ZYN is world’s No.1 nicotine pouch brand.*“ “* PMI reported global shipment volumes and in market sales estimates of nicotine pouch units, from January to June 2023.</p>
 					</div>
 				</div>

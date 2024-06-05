@@ -18,7 +18,7 @@ function BlogSection() {
               <img src={image_one} alt="banner" />
             </div>
             <div className={styles.blog_info}>
-              <h3>How Do Nicotine Pouches Work?</h3>
+              <h3 className={styles.blogTitle}>How Do Nicotine Pouches Work?</h3>
               <Link className={styles.itemLink} to="/blog">
                 Read more
               </Link>
@@ -29,7 +29,7 @@ function BlogSection() {
               <img src={image_two} alt="banner" />
             </div>
             <div className={styles.blog_info}>
-              <h3>What Happens If You Swallow a ZYN Spit</h3>
+              <h3 className={styles.blogTitle}>What Happens If You Swallow a ZYN Spit</h3>
               <Link className={styles.itemLink} to="/blog">
                 Read more
               </Link>
@@ -40,7 +40,7 @@ function BlogSection() {
               <img src={image_three} alt="banner" />
             </div>
             <div className={styles.blog_info}>
-              <h3>ZYN Nicotine Pouches Dietary Information</h3>
+              <h3 className={styles.blogTitle}>ZYN Nicotine Pouches Dietary Information</h3>
               <Link className={styles.itemLink} to="/blog">
                 Read more
               </Link>
