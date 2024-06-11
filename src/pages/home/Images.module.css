@@ -29,13 +29,22 @@
   text-decoration: none;
   font-weight: bold;
   padding-bottom: 2px;
-  border-bottom: 2px solid #7f7f7f;
   transition: 0.3s;
 }
+
 .itemLink:hover {
   color: #009dd1;
-  border-bottom: 2px solid #009dd1;
+
+  .linkSpan {
+	border-color: #009dd1;
+	}
 }
+
+.linkSpan {
+	border-bottom: 2px solid #7f7f7f;
+}
+
+
 
 .itemInfo {
   display: flex;
@@ -68,6 +77,14 @@
     text-decoration: none;
     color: #fff;
   }
+}
+
+.itemTitle {
+	min-height: 50px;
+}
+
+.itemP {
+	min-height: 75px;
 }
 
 .learn_more:hover {

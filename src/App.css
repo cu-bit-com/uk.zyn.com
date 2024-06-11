@@ -61,77 +61,14 @@
 	font-style: italic;
   }
   
-  @font-face {
-	font-family: 'Gotham Bold';
-	src: url('../public/fonts/GothamBold.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Bold Italic';
-	src: url('../public/fonts/GothamBoldItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Book';
-	src: url('../public/fonts/GothamBook.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Book Italic';
-	src: url('../public/fonts/GothamBookItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Light';
-	src: url('../public/fonts/GothamLight.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Light Italic';
-	src: url('../public/fonts/GothamLightItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Medium';
-	src: url('../public/fonts/GothamMedium.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Medium Italic';
-	src: url('../public/fonts/GothamMediumItalic.ttf') format('truetype');
-	font-weight: normal;
-	font-style: italic;
-  }
-  
-  @font-face {
-	font-family: 'Gotham Medium 1';
-	src: url('../public/fonts/GothamMedium_1.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
-  }
-  
-
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Gotham Book', sans-serif;
+    font-family: 'Gotham Black', sans-serif;
+	box-sizing: border-box;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) {
     body {
         padding-top: 80px;
     }

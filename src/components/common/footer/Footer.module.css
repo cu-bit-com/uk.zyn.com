@@ -6,7 +6,7 @@
 }
 
 .text {
-	padding: 20px 0;
+	padding: 0 0 20px 0;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -60,6 +60,18 @@
 	gap: 15px;
 }
 
+.hr {
+	margin: 50px 0 20px 0;
+}
+
+.cookieBtn {
+	border: none!important;
+	padding: 0!important;
+	color: #fff!important;
+	background-color: transparent!important;
+	font-size: 14px!important;
+}
+
 @media (max-width: 800px) {
     #footer {
         flex-direction: column;
@@ -86,7 +98,7 @@
         height: 0;
         border-top: 1px solid rgba(0, 0, 0, 0.1);
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        margin: 50px 0;
+        margin: 50px 0 0 0;
     }
 
 	.legalList {

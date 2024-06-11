@@ -30,8 +30,6 @@ function Questions() {
 	return (
 		<div className={global.wrapper}>
 			<h3>Have more questions?</h3>
-			<br />
-			<br />
 			<ul className={styles.list}>
                <li className={styles.listItem}>
                 <div className={styles.title} onClick={() => toggleCollapse(0)}><div className={styles.listTitle}>What are ZYN nicotine pouches?</div><div className={styles.listTitle}>{signs[0]}</div></div>
