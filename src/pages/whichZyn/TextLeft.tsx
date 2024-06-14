@@ -1,6 +1,6 @@
 import global from "../../components/Global.module.css";
 import styles from "./TextLeft.module.css";
-import game from "../../images/discover/Game.png";
+import game from "../../images/whichZyn/brown_bag.jpg";
 
 function TextLeft() {
   return (
