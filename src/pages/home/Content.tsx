@@ -1,6 +1,6 @@
 import styles from "./Content.module.css";
 import global from "../../components/Global.module.css";
-import image from "../../images/zyn-item.jpeg";
+import image from "../../images/home/citrus_bag.jpg";
 import { Link } from "react-router-dom";
 
 function Content() {
@@ -10,7 +10,8 @@ function Content() {
         <div className={styles.discover_zyn_info}>
           <h3>Where to Buy ZYN?</h3>
           <p className={styles.p}>
-		  Discover a tobacco-free alternative to smoking filled with flavours and nicotine strengths designed to satisfy your taste
+            Discover a tobacco-free alternative to smoking filled with flavours
+            and nicotine strengths designed to satisfy your taste
           </p>
           <button className={styles.learn_more} id={styles.moreBtn}>
             {" "}

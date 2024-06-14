@@ -1,116 +1,116 @@
 #footer {
-    display: flex;
-	flex-direction: column;
-    margin: 10px 0;
-	padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+  padding-left: 50px;
 }
 
 .text {
-	padding: 0 0 20px 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  padding: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-	margin-top: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .background {
-	background-color: #e6e6e6;
-	padding: 15px 15px 80px 15px;
+  background-color: #e6e6e6;
+  padding: 15px 15px 80px 15px;
 }
 
 .link {
-    text-decoration: none;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-	background-color: transparent;
-	font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: transparent;
+  font-weight: 600;
 }
 
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .legal {
-	background-color: #34303d;
-	color: #fff;
-	font-size: 14px;
-	padding: 20px;
+  background-color: #34303d;
+  color: #fff;
+  font-size: 14px;
+  padding: 30px;
 }
 
 .legalLink {
-	color: #fff;
-	text-decoration: none;
-	font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .legalList {
-	display: flex;
-	list-style: none;
-	float: right;
-	gap: 15px;
+  display: flex;
+  list-style: none;
+  float: right;
+  gap: 15px;
 }
 
 .hr {
-	margin: 50px 0 20px 0;
+  margin: 50px 0 20px 0;
 }
 
 .cookieBtn {
-	border: none!important;
-	padding: 0!important;
-	color: #fff!important;
-	background-color: transparent!important;
-	font-size: 14px!important;
+  border: none !important;
+  padding: 0 !important;
+  color: #fff !important;
+  background-color: transparent !important;
+  font-size: 14px !important;
 }
 
 @media (max-width: 800px) {
-    #footer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        gap: 30px;
-		padding-left: 5px;
-    }
+  #footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 30px;
+    padding-left: 5px;
+  }
 
-    .list {
-        flex-direction: column;
-        justify-content: start;
-        gap: 10px;
-        height: auto;
-    }
+  .list {
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    height: auto;
+  }
 
-    .item {
-        width: 100%;
-        max-width: 100%;
-    }
+  .item {
+    width: 100%;
+    max-width: 100%;
+  }
 
-    .hr {
-        border: 0;
-        height: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        margin: 50px 0 0 0;
-    }
+  .hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 50px 0 0 0;
+  }
 
-	.legalList {
-		flex-direction: column;
-	}
+  .legalList {
+    flex-direction: column;
+  }
 
-	.legal {
-		display: flex;
-	}
+  .legal {
+    display: flex;
+  }
 
-	h4 {
-		padding: 0 15px;
-		margin-bottom: 10px;
-	}
+  h4 {
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
 }

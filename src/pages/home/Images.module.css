@@ -7,6 +7,10 @@
   gap: 20px;
 }
 
+.mini_range {
+  padding: 40px 0px 40px 0px;
+}
+
 .item {
   flex: 30%;
   max-width: 260px;
@@ -36,15 +40,13 @@
   color: #009dd1;
 
   .linkSpan {
-	border-color: #009dd1;
-	}
+    border-color: #009dd1;
+  }
 }
 
 .linkSpan {
-	border-bottom: 2px solid #7f7f7f;
+  border-bottom: 2px solid #7f7f7f;
 }
-
-
 
 .itemInfo {
   display: flex;
@@ -80,11 +82,11 @@
 }
 
 .itemTitle {
-	min-height: 50px;
+  min-height: 50px;
 }
 
 .itemP {
-	min-height: 75px;
+  min-height: 75px;
 }
 
 .learn_more:hover {
