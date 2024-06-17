@@ -1,14 +1,16 @@
 import styles from "./Navigation.module.css";
 import global from "../../Global.module.css";
 import { Link } from "react-router-dom";
+import logo from "../../../images/ZYN logo_RGB.jpg"
 
 function Navigation() {
   return (
     <>
       <div className={styles.desktop}>
-        <nav className={`${styles.nav} ${global.wrapper}`}>
+        <nav className={`${styles.nav} `}>
           <ul className={styles.list}>
-            <li className={styles.listItem}>
+			<div className={`${styles.left} ${styles.navItem}`}>
+			<li className={styles.listItem}>
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
@@ -35,7 +37,19 @@ function Navigation() {
                 How to ZYN
               </Link>
             </li>
-            <li className={styles.listItem}>
+			</div>
+            
+			<div className={`${styles.middle}`}>
+			<Link
+				to="/"
+				onClick={() => window.scrollTo({ top: 0 })}
+				>
+					<img src={logo} alt="zyn logo" width="200px" />
+			</Link>
+			</div>
+
+			<div className={`${styles.right} ${styles.navItem}`}>
+			<li className={styles.listItem}>
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
@@ -62,6 +76,16 @@ function Navigation() {
                 FAQ
               </Link>
             </li>
+			<li className={styles.listItem}>
+              <Link
+                onClick={() => window.scrollTo({ top: 0 })}
+                className={styles.link}
+                to="/important-infortmation"
+              >
+                Important information
+              </Link>
+            </li>
+			</div>
           </ul>
         </nav>
       </div>
