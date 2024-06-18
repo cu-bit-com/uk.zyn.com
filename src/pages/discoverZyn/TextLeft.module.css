@@ -1,5 +1,5 @@
 .wrapper {
-	margin-top: 80px;
+	margin-top: 50px;
 	display: flex;
 	color: #fff;
 	height: fit-content;
@@ -14,7 +14,7 @@
 }
 
 .left {
-	padding: 20px;
+	padding: 20px 50px;
 	background-color: #002c48;
 	flex-direction: column;
 	align-items: start;
@@ -23,6 +23,27 @@
 
 .image {
 	max-width: 100%;
+}
+
+.colorWhite {
+	color: #fff;
+}
+
+@media (max-width: 1230px) {
+	.wrapper {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.left, .right {
+		width: 100%;
+	}
+
+	.left {
+		box-sizing: border-box;
+		padding: 30px;
+	}
 }
 
 @media (max-width: 960px) {

@@ -1,0 +1,22 @@
+.discoverWrapper {
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+.left, .right {
+	background-color: #00a9e0;
+	display: flex;
+	flex-direction: column;
+}
+
+.discoverBtn {
+	margin-bottom: 20px;
+	padding: 10px 15px;
+	border: none;
+	cursor: pointer;
+}
+
+.discoverImg {
+	width: 100%;
+}

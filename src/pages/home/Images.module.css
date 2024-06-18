@@ -1,106 +1,85 @@
 .container {
-  display: flex;
-  justify-content: space-between;
-  padding: 50px 0 50px 0;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 20px;
-}
-
-.mini_range {
-  padding: 40px 0px 40px 0px;
-}
-
-.item {
-  flex: 30%;
-  max-width: 260px;
-  min-width: 70px;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.imgContainer img {
-  width: 100%;
-  height: 100%;
-}
-
-.itemLink {
-  color: #7f7f7f;
-  text-decoration: none;
-  font-weight: bold;
-  padding-bottom: 2px;
-  transition: 0.3s;
-}
-
-.itemLink:hover {
-  color: #009dd1;
-
-  .linkSpan {
-    border-color: #009dd1;
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
   }
-}
-
-.linkSpan {
-  border-bottom: 2px solid #7f7f7f;
-}
-
-.itemInfo {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding-top: 20px;
-}
-
-.discover_zyn {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-  padding: 40px 0px 20px 0px;
-}
-
-.learn_more {
-  padding: 20px 30px 20px 30px;
-  border-radius: 6px;
-  background-color: rgb(2, 56, 99);
-  border: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  a {
-    text-decoration: none;
-    color: #fff;
+  
+  .carousel {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	overflow: hidden;
   }
-}
-
-.itemTitle {
-  min-height: 50px;
-}
-
-.itemP {
-  min-height: 75px;
-}
-
-.learn_more:hover {
-  background-color: #009dd1;
-}
-
-@media (max-width: 800px) {
-  .container {
-    flex-direction: row;
-    justify-content: center;
-    gap: 20px;
-  }
-
+  
   .item {
-    flex: 80%;
+	flex: 0 0 auto;
+	margin: 0 10px;
+	opacity: 0.5;
+	transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+	transform: scale(0.8);
   }
-}
+  
+  .itemSelected {
+	opacity: 1;
+	transform: scale(1);
+  }
+  
+  .imgContainer {
+	width: 200px; /* Adjust size as needed */
+	height: 200px; /* Adjust size as needed */
+	text-align: center;
+  }
+  
+  .imgContainer img {
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
+  }
+  
+  .itemInfo {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .linkSpan {
+	color: blue;
+	text-decoration: underline;
+	cursor: pointer;
+  }
+  
+  .discoverZyn {
+	text-align: center;
+	margin-top: 20px;
+  }
+  
+  .learnMore {
+	background-color: #007bff;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	cursor: pointer;
+	font-size: 16px;
+  }
+  
+  .carouselButtons {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	transform: translateY(-50%);
+  }
+  
+  .carouselButton {
+	background: none;
+	border: none;
+	font-size: 2rem;
+	cursor: pointer;
+	color: #007bff;
+  }
+  

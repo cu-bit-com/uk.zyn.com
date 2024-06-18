@@ -85,11 +85,7 @@
   .subtitle {
     font-size: 12px;
   }
-
-  p {
-    font-size: 10px;
-  }
-
+  
   .selectWrapper {
     width: 100%;
     justify-content: space-between;
