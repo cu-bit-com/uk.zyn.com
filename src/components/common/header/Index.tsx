@@ -1,4 +1,3 @@
-import Logo from "./Logo";
 import Navigation from "./Navigation";
 import NavigationMobile from "./NavigationMobile";
 import styles from './Header.module.css';
@@ -6,7 +5,6 @@ import styles from './Header.module.css';
 function Header() {
     return (
         <div className={styles.headerWrapper}>
-            <Logo/>
             <Navigation/>
             <NavigationMobile/>
         </div>
