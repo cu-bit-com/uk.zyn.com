@@ -1,8 +1,22 @@
 .list {
 	list-style-type: decimal;
 	padding-left: 40px;
+	text-align: left;
 }
 
-.p {
-	font-size: 16px;
+.listWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.listItem {
+	font-size: 24px;
+	color: #003b5e;
+}
+
+@media (max-width: 960px) {
+	.listItem {
+		font-size: 16px;
+	}
 }

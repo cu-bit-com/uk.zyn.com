@@ -25,10 +25,7 @@ function Content() {
       <div className={styles.explore_zyn}>
         <h3>Explore ZYN Products</h3>
         <p className={styles.p}>
-          If you are nicotine user looking for a new alternative, we suggest
-          starting with a lower nicotine strength, try our Mini (6mg) pouches.
-          For nicotine pouch users, discover our Slim range!
-        </p>
+		Choose from a wide range of unique flavours in different nicotine strengths and pouch sizes.</p>
       </div>
     </div>
   );

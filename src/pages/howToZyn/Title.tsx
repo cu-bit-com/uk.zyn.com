@@ -4,7 +4,7 @@ function Title() {
     return (
         <div className={styles.wrapper}>
 			<br />
-            <h1 className={styles.h1}>How to use ZYN Nicotine Pouches?</h1>
+            <h2 className={styles.h2}>ZYN is...<br/><i>Simple to use.</i></h2>
         </div>
     );
 }

@@ -13,14 +13,14 @@ function Footer() {
 		<div className={styles.background}>
                 <footer id={styles.footer}>
                     <div className={`${styles.links} ${styles.item}`}>
-						<h2>Helpful Links</h2>
+						<h2 className={styles.footerTitle}>Helpful Links</h2>
                         <ul className={styles.list}>
                             <li className={styles.listItem}><Link className={styles.link} to='/what-is-zyn' onClick={() => window.scrollTo({top: 0})}>What is ZYN?</Link></li>
                             <li className={styles.listItem}><Link className={styles.link} to='/where-to-buy' onClick={() => window.scrollTo({top: 0})}>Find ZYN</Link></li>
                         </ul>
                     </div>
 					<div className={`${styles.links} ${styles.item}`}>
-						<h2>Customer Care</h2>
+						<h2 className={styles.footerTitle}>Customer Care</h2>
                         <ul className={styles.list}>
                             <li className={styles.listItem}><Link className={styles.link} to='/faq' onClick={() => window.scrollTo({top: 0})}>FAQs</Link></li>
                         </ul>

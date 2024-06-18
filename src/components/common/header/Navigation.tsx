@@ -80,7 +80,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/important-infortmation"
+                to="/important-information"
               >
                 Important information
               </Link>
