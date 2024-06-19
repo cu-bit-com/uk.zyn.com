@@ -1,27 +1,51 @@
 .title {
 	text-align: center;
-	font-size: 3rem;
-	margin: 50px;
+	background-color: #00a9e0;
+	color: #fff;
+	margin: 0;
+	padding: 100px 15px;
+}
+
+.listTitle {
+	font-size: 64px;
+	text-align: left;
+	margin-bottom: 10px;
+	color: #003b5e;
 }
 
 .list {
-	padding-left: 30px;
 	font-size: 2rem;
+	color: #003b5e;
+}
+
+.listItem {
+	text-align: left;
+	padding-left: 15px;
 }
 
 .wrapper {
 	min-height: 60vh;
 }
 
+.faqLink {
+	color: #003b5e;
+}
+
 @media (max-width: 960px) {
 	.title {
-		font-size: 2.3rem;
-
+		font-size: 38px;
+		padding: 50px 15px;
 	}
 
 	.list {
 		font-size: 1.4rem;
 		padding: 40px;
 		box-sizing: border-box;
+		margin-top: 0;
+	}
+
+	.listTitle {
+		font-size: 32px;
+		margin-bottom: 10px;
 	}
 }

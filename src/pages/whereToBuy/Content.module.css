@@ -1,9 +1,16 @@
-.p {
-    padding: 50px 0;
-}
+
 
 .logos {
 	margin-top: 30px;
 	display: flex;
 	justify-content: center;
+}
+
+.wrapper {
+	background-color: #dde6eb;
+	padding: 20px;
+}
+
+.title {
+	font-size: 42px;
 }

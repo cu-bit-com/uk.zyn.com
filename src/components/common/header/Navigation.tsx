@@ -23,18 +23,18 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/where-to-buy"
-              >
-                Where to Buy
-              </Link>
-            </li>
-            <li className={styles.listItem}>
-              <Link
-                onClick={() => window.scrollTo({ top: 0 })}
-                className={styles.link}
                 to="/how-to-zyn"
               >
                 How to ZYN
+              </Link>
+            </li>
+			<li className={styles.listItem}>
+              <Link
+                onClick={() => window.scrollTo({ top: 0 })}
+                className={styles.link}
+                to="/which-zyn-to-choose"
+              >
+                Which ZYN to choose
               </Link>
             </li>
 			</div>
@@ -53,9 +53,9 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/which-zyn-to-choose"
+                to="/where-to-buy"
               >
-                Which ZYN to choose
+                Where to Buy
               </Link>
             </li>
             <li className={styles.listItem}>

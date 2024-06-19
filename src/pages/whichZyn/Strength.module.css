@@ -1,8 +1,15 @@
 .imageSection {
 	width: 100%;
 	display: flex;
+	justify-content: center;
 }
 
 .img {
-	width: 100%;
+	max-width: 65%;
+}
+
+@media (max-width: 960px) {
+	.img {
+		max-width: 80%;
+	}
 }

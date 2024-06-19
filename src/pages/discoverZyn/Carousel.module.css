@@ -1,0 +1,31 @@
+.cardWrapper {
+	max-width: 800px;
+}
+
+.cardTitle {
+	font-size: 32px;
+}
+
+.cardParagraph {
+	font-size: 24px;
+}
+
+.wrapper {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+@media (max-width: 960px) {
+	.cardWrapper {
+		padding: 15px;
+	}
+
+	.cardTitle {
+		font-size: 24px;
+	}
+	
+	.cardParagraph {
+		font-size: 16px;
+	}
+}

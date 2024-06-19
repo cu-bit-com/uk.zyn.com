@@ -1,46 +1,23 @@
 import React from "react";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 import office from "../../images/discover/Office.png";
-import game from "../../images/discover/Game.png";
+import bag_zyn from "../../images/discover/bag_zyn.jpg";
 import commute from "../../images/discover/Commute.png";
+import zyn_cleaner from "../../images/discover/zyn_cleaner.jpg";
 import global from "../../components/Global.module.css";
-import "./Carousel.css";
+import styles from "./Carousel.module.css";
 
-// Define your component
-const Carousel = () => {
-  // Slick settings
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 2,
-    slidesToScroll: 1,
-    autoplay: true,
-    autoplaySpeed: 3000,
-    responsive: [
-      {
-        breakpoint: 800, // Mobile breakpoint (you can adjust this value)
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+function Carousel() {
 
-  return (
-    <div className={global.wrapper}>
-      <Slider {...settings}>
-        <div className={`cardWrapper`}>
-          <div className="inside">
-            <div className="card">
-              <img className="image" width="100%" src={office} alt="" />
+	return (
+		<div className={`${global.wrapper} ${styles.wrapper}`}>
+        <div className={styles.cardWrapper}>
+          <div className={styles.inside}>
+            <div className={styles.card}>
+              <img className={styles.image} width="100%" src={office} alt="" />
             </div>
             <br />
-            <h3 className="cardTitle">Discreet & Considerate</h3>
-            <p className="cardParagraph">
+            <h3 className={styles.cardTitle}>Discreet & Considerate</h3>
+            <p className={styles.cardParagraph}>
               With no ash, no smoke & no smoke smell, nicotine pouches are a
               cleaner way to enjoy nicotine. They also don’t require any device
               & are simple to use – you just place the small, white pouches
@@ -49,26 +26,26 @@ const Carousel = () => {
             </p>
           </div>
         </div>
-        <div className="cardWrapper">
-          <div className="inside">
-            <div className="card">
-              <img className="image" width="100%" src={commute} alt="" />
+        <div className={styles.cardWrapper}>
+          <div className={styles.inside}>
+            <div className={styles.card}>
+              <img className={styles.image} width="100%" src={commute} alt="" />
             </div>
             <br />
-            <h3 className="cardTitle">Clean & Convenient</h3>
-            <p className="cardParagraph">
+            <h3 className={styles.cardTitle}>Clean & Convenient</h3>
+            <p className={styles.cardParagraph}>
               Nicotine pouches are small, convenient and simple to use.
             </p>
           </div>
         </div>
-        <div className="cardWrapper">
-          <div className="inside">
-            <div className="card">
-              <img className="image" width="100%" src={game} alt="" />
+        <div className={styles.cardWrapper}>
+          <div className={styles.inside}>
+            <div className={styles.card}>
+              <img className={styles.image} width="100%" src={bag_zyn} alt="" />
             </div>
             <br />
-            <h3 className="cardTitle">High Quality</h3>
-            <p className="cardParagraph">
+            <h3 className={styles.cardTitle}>High Quality</h3>
+            <p className={styles.cardParagraph}>
               ZYN® is made up of high quality nicotine and food-grade
               ingredients. The pouch itself is made from plant fibers, specially
               designed to release nicotine while feeling comfortable under your
@@ -76,21 +53,20 @@ const Carousel = () => {
             </p>
           </div>
         </div>
-        <div className="cardWrapper">
-          <div className="inside">
-            <div className="card">
-              <img className="image" width="100%" src={commute} alt="" />
+        <div className={styles.cardWrapper}>
+          <div className={styles.inside}>
+            <div className={styles.card}>
+              <img className={styles.image} width="100%" src={zyn_cleaner} alt="" />
             </div>
             <br />
-            <h3 className="cardTitle">Trustworthy</h3>
-            <p className="cardParagraph">
+            <h3 className={styles.cardTitle}>Trustworthy</h3>
+            <p className={styles.cardParagraph}>
               ZYN is world’s No.1 nicotine pouch brand.*“ “* PMI reported global
               shipment volumes and in market sales estimates of nicotine pouch
               units, from January to June 2023.
             </p>
           </div>
         </div>
-      </Slider>
     </div>
   );
 };

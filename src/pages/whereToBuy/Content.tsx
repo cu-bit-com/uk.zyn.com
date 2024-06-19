@@ -5,14 +5,10 @@ import { Link } from 'react-router-dom';
 
 function Content() {
     return (
-        <div className={global.wrapper}>
-			<h3>Find ZYN Nicotine Pouches in Store</h3>
+        <div className={`${global.wrapper} ${styles.wrapper}`}>
+			<h3 className={styles.title}>Partner Stores Selling ZYN</h3>
 			<br />
-            <p className={styles.p}>Find ZYN at Saintsbury’s, Morrisons BP, Waitrose & WHSmith’s Travel</p>
-
-			<div className={styles.logos}>
-				<Link to="https://www.whsmith.co.uk/"><img src={image_one} width="200px" alt="" /></Link>
-			</div>
+            <p className={styles.p}>You can also purchase ZYN nicotine pouches at Sainsbury’s, Morrisons BP, Waitrose & WHSmith’s Travel</p>
         </div>
     );
 }

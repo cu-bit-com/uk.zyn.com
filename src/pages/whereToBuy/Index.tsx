@@ -1,13 +1,13 @@
 import Content from "./Content";
 import HeroSection from "./HeroSection";
 import PartnerLogos from "./PartnerLogos";
-import Title from "./Title";
+import Where from "./Where";
 
 function WhereToBuy() {
     return (
         <>
             <HeroSection/>
-            <Title/>
+			<Where/>
             <PartnerLogos/>
             <Content/>
         </>

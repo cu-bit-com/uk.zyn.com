@@ -33,7 +33,7 @@ function Image() {
 						<img src={three} alt="" />
 					</div>
 					<div className={styles.cardInfo}>
-						<p className={styles.biggerP}>Enjoy for around <strong>30 minutes.</strong></p>
+						<p className={styles.biggerP}>Use for around <strong>30 minutes.</strong></p>
 					</div>
 					</div>
 				<div className={styles.card}>
