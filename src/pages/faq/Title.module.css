@@ -1,7 +1,5 @@
-.h1 {
-    text-align: center;
-    font-size: 40px;
-	margin-top: 50px;
+.title {
+	text-align: center;
 }
 
 .wrapper {
@@ -9,7 +7,5 @@
 }
 
 @media (max-width: 960px) {
-	.h1 {
-		margin-top: 80px;
-	}
+	
 }

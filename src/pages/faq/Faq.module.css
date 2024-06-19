@@ -1,5 +1,8 @@
 .wrapper {
 	padding: 0px 15px;
+	max-width: 60%;
+	margin: 0 auto;
+	margin-bottom: 50px;
 }
 
 .list {
@@ -7,13 +10,12 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    max-width: 800px;
     margin: 0 auto;
+	box-sizing: border-box;
 }
 
 .listItem {
-    border: 1px solid rgb(50, 50, 50);
-    box-shadow: rgba(51, 51, 51, 0.1) 0px 2px 5px 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
     cursor: pointer;
 }
 
@@ -22,7 +24,7 @@
     justify-content: space-between;
     font-weight: 500;
     align-items: center;
-    padding: 10px 20px;
+	padding: 20px 0;
 }
 
 .content {
@@ -31,17 +33,35 @@
 }
 
 .p {
-    font-size: 16px;
-    font-weight: 300;
-    padding: 10px 20px;
+    font-size: 18px;
+    padding: 10px 0;
+	text-align: left;
+	color: #003b5e;
 }
 
 .listTitle {
-    font-size: 18px;
+    font-size: 24px;
 	margin-right: 10px;
+	color: #003b5e;
+	font-weight: bold;
 }
 
 .strong {
     font-weight: 500;
     font-size: 16px;
+}
+
+.last {
+	border: none;
+}
+
+@media (max-width: 960px) {
+	.list {
+		padding: 0;
+	}
+
+	.listTitle {
+		font-size: 18px;
+		text-align: left;
+	}
 }
