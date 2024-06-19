@@ -1,6 +1,6 @@
 import styles from "./Content.module.css";
 import global from "../../components/Global.module.css";
-import image from "../../images/zyn-item.jpeg";
+import image from "../../images/home/citrus_bag.jpg";
 import { Link } from "react-router-dom";
 
 function Content() {
@@ -8,14 +8,14 @@ function Content() {
     <div className={global.wrapper}>
       <div className={styles.discover_zyn}>
         <div className={styles.discover_zyn_info}>
-          <h3>Discover ZYN Nicotine Pouches</h3>
+          <h3>Where to Buy ZYN?</h3>
           <p className={styles.p}>
             Discover a tobacco-free alternative to smoking filled with flavours
-            and nicotine strenghts designed to satisfy your taste.
+            and nicotine strengths designed to satisfy your taste
           </p>
           <button className={styles.learn_more} id={styles.moreBtn}>
             {" "}
-            <Link to="#">Learn More About ZYN</Link>
+            <Link to="/where-to-buy">Find ZYN</Link>
           </button>
         </div>
         <div className={styles.discover_zyn_img}>
@@ -25,10 +25,7 @@ function Content() {
       <div className={styles.explore_zyn}>
         <h3>Explore ZYN Products</h3>
         <p className={styles.p}>
-          If you are nicotine user looking for a new alternative, we suggest
-          starting with a lower nicotine strenght, try our Mini (6mg) pouches.
-          For nicotine pouch users, discover our Slim range!
-        </p>
+		Choose from a wide range of unique flavours in different nicotine strengths and pouch sizes.</p>
       </div>
     </div>
   );

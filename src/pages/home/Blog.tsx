@@ -11,39 +11,44 @@ function BlogSection() {
   return (
     <div className={global.wrapper}>
       <div className={styles.blog_wrapper}>
-        <h3>Blog Articles</h3>
+		<div className={styles.titleContainer}>
+        	<h3>News and blog.</h3>
+		</div>
         <div className={styles.blog_container}>
           <div className={styles.blog_item}>
-            <div className={styles.blog_img}>
-              <img src={image_one} alt="banner" />
-            </div>
             <div className={styles.blog_info}>
-              <h3>How Do Nicotine Pouches Work?</h3>
-              <Link className={styles.itemLink} to="/blog">
-                Read more
-              </Link>
+              <span><strong>Blog</strong></span>
+			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
+			  <p className={styles.blogDescription}>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.
+			  </p>
             </div>
           </div>
           <div className={styles.blog_item}>
-            <div className={styles.blog_img}>
-              <img src={image_two} alt="banner" />
-            </div>
             <div className={styles.blog_info}>
-              <h3>What Happens If You Swallow a ZYN Spit</h3>
-              <Link className={styles.itemLink} to="/blog">
-                Read more
-              </Link>
+              <span><strong>Blog</strong></span>
+			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
+			  <p className={styles.blogDescription}>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.
+			  </p>
             </div>
           </div>
           <div className={styles.blog_item}>
-            <div className={styles.blog_img}>
-              <img src={image_three} alt="banner" />
-            </div>
             <div className={styles.blog_info}>
-              <h3>ZYN Nicotine Pouches Dietary Information</h3>
-              <Link className={styles.itemLink} to="/blog">
-                Read more
-              </Link>
+              <span><strong>Blog</strong></span>
+			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
+			  <p className={styles.blogDescription}>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.
+			  </p>
+            </div>
+          </div>
+		  <div className={styles.blog_item}>
+            <div className={styles.blog_info}>
+              <span><strong>Blog</strong></span>
+			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
+			  <p className={styles.blogDescription}>
+				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.
+			  </p>
             </div>
           </div>
         </div>

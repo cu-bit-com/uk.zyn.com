@@ -1,7 +1,12 @@
 .list {
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+	padding: 0;
+}
+
+.navItem {
+	width: 600px;
 }
 
 .link {
@@ -21,10 +26,32 @@
     height: 0;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     margin-top: 20px;
+	margin-bottom: 0;
 }
 
 .desktop {
     display: block;
+}
+
+.left {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.right {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+}
+
+.middle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 250px;
 }
 
 @media (max-width: 800px) {

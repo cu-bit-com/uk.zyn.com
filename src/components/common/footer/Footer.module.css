@@ -1,108 +1,146 @@
 #footer {
-    display: flex;
-	flex-direction: column;
-    margin: 10px 0;
-	padding-left: 50px;
+  display: flex;
+  margin: 10px 0;
+  padding-left: 50px;
+  gap: 100px;
 }
 
 .text {
-	padding: 0 0 20px 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+  padding: 0 0 20px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .list {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-	margin-top: 15px;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 .background {
-	background-color: #e6e6e6;
-	padding: 15px 15px 80px 15px;
+  background-color: #003049;
+  padding: 15px 15px 80px 15px;
+  color: #fff;
+}
+
+.footerTitle {
+	font-weight: normal;
+	color: #fff;
+	font-size: 18px;
 }
 
 .link {
-    text-decoration: none;
-    color: #000;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-	background-color: transparent;
-	font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  background-color: transparent;
+  font-weight: 600;
 }
 
 .link:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .legal {
-	background-color: #34303d;
-	color: #fff;
-	font-size: 14px;
-	padding: 20px;
+  background-color: #003049;
+  color: #fff;
+  font-size: 14px;
+  padding: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .legalLink {
-	color: #fff;
-	text-decoration: none;
-	font-size: 14px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
 }
 
 .legalList {
-	display: flex;
-	list-style: none;
-	float: right;
-	gap: 15px;
+  display: flex;
+  list-style: none;
+  float: right;
+  gap: 15px;
 }
 
 .hr {
-	margin: 50px 0 20px 0;
+  margin: 50px 0 20px 0;
+}
+
+.cookieBtn {
+  border: none !important;
+  padding: 0 !important;
+  color: #fff !important;
+  background-color: transparent !important;
+  font-size: 14px !important;
+}
+
+.warningText {
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	color: #003049;
 }
 
 @media (max-width: 800px) {
-    #footer {
-        flex-direction: column;
-        align-items: center;
-        justify-content: start;
-        gap: 30px;
-		padding-left: 5px;
-    }
+  #footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-left: 5px;
+  }
 
-    .list {
-        flex-direction: column;
-        justify-content: start;
-        gap: 10px;
-        height: auto;
-    }
+  .background {
+	display: flex;
+	justify-content: center;
+  }
 
-    .item {
-        width: 100%;
-        max-width: 100%;
-    }
+  .list {
+    flex-direction: column;
+    justify-content: start;
+    gap: 10px;
+    height: auto;
+	padding: 0;
+	text-align: center;
+  }
 
-    .hr {
-        border: 0;
-        height: 0;
-        border-top: 1px solid rgba(0, 0, 0, 0.1);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        margin: 50px 0 0 0;
-    }
+  .item {
+    width: 100%;
+    max-width: 100%;
+  }
 
-	.legalList {
-		flex-direction: column;
-	}
+  .hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 50px 0 0 0;
+  }
 
-	.legal {
-		display: flex;
-	}
+  .legalList {
+    flex-direction: column;
+  }
 
-	h4 {
-		padding: 0 15px;
-		margin-bottom: 10px;
-	}
+  .legal {
+    display: flex;
+  }
+
+  h4 {
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+
+  .footerTitle {
+	font-size: 14px;
+	text-align: center;
+  }
 }

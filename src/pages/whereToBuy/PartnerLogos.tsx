@@ -25,91 +25,104 @@ function PartnerLogos() {
 			<br />
 			<h3>Find ZYN Nicotine Pouches Online</h3>
             <div className={`${styles.container}`}>
-			<Link className={styles.itemLink} to="https://www.haypp.com/uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_one} alt="Haypp logo" />
-					</div>Haypp</div>
+				<Link className={styles.itemLink} to="https://www.haypp.com/uk/nicotine-pouches/?f=Brand%3Azyn&s=rel">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_one} alt="Haypp logo" />
+						</div>Haypp
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.electrictobacconist.co.uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_two} alt="Electric Tobacconist logo" />
-					</div>Electric Tobacconist</div>
+				<Link className={styles.itemLink} to="https://www.electrictobacconist.co.uk/nicotine-pouches/zyn">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_two} alt="Electric Tobacconist logo" />
+						</div>Electric Tobacconist
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.vapesuperstore.co.uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_three} alt="Vape Superstore logo" />
-					</div>Vape Superstore</div>
+				<Link className={styles.itemLink} to="https://www.vapesuperstore.co.uk/collections/zyn">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_three} alt="Vape Superstore logo" />
+						</div>Vape Superstore
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://vapeuk.co.uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_four} alt="Vape UK logo" />
-					</div>Vape UK</div>
+				<Link className={styles.itemLink} to="https://vapeuk.co.uk/zyn-nicotine-pouches">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_four} alt="Vape UK logo" />
+						</div>Vape UK
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.vapeclub.co.uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_five} alt="Vape Club logo" />
-					</div>Vape Club</div>
+				<Link className={styles.itemLink} to="https://www.vapeclub.co.uk/nicotine-pouches/zyn/">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_five} alt="Vape Club logo" />
+						</div>Vape Club
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.ukecigstore.com/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_six} alt="UKECIG Store logo" />
-					</div>UKECIG Store</div>
+				<Link className={styles.itemLink} to="https://www.ukecigstore.com/collections/zyn">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_six} alt="UKECIG Store logo" />
+						</div>UKECIG Store
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.vapourcore.com/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_seven} alt="Vapourcore logo" />
-					</div>Vapourcore</div>
+				<Link className={styles.itemLink} to="https://www.vapourcore.com/collections/zyn">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_seven} alt="Vapourcore logo" />
+						</div>Vapourcore
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.northerner.com/uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_eight} alt="Northerner logo" />
-					</div>Northerner</div>
+				<Link className={styles.itemLink} to="https://www.northerner.com/uk/zyn/">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_eight} alt="Northerner logo" />
+						</div>Northerner
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.bullbrand.co.uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_nine} alt="Bull Brand logo" />
-					</div>Bull Brand</div>
+				<Link className={styles.itemLink} to="https://www.bullbrand.co.uk/collections/zyn-nicotine-pouches">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_nine} alt="Bull Brand logo" />
+						</div>Bull Brand
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.alternix.com/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_ten} alt="Alternix logo" />
-					</div>Alternix</div>
+				<Link className={styles.itemLink} to="https://www.alternix.com/en-gb/collections/zyn">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_ten} alt="Alternix logo" />
+						</div>Alternix
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.buynicotinepouches.co.uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_eleven} alt="BuyNicotinePouches logo" />
-					</div>BuyNicotinePouches</div>
+				<Link className={styles.itemLink} to="https://www.buynicotinepouches.co.uk/collections/zyn-nicotine-pouches">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_eleven} alt="BuyNicotinePouches logo" />
+						</div>BuyNicotinePouches
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://www.gopuff.com/gb/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_twelve} alt="GoPuff logo" />
-					</div>GoPuff</div>
+				<Link className={styles.itemLink} to="https://www.gopuff.com/c/zyn/br6YTJZ6">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_twelve} alt="GoPuff logo" />
+						</div>GoPuff
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://justzapp.com/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_thirteen} alt="Zapp logo" />
-					</div>Zapp</div>
+				<Link className={styles.itemLink} to="https://justzapp.com/">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_thirteen} alt="Zapp logo" />
+						</div>Zapp
+					</div>
 				</Link>
-			<Link className={styles.itemLink} to="https://deliveroo.co.uk/">
-				<div className={styles.item}>
-					<div className={styles.imgContainer}>
-						<img className={styles.img} src={image_fourteen} alt="Deliveroo logo" />
-					</div>Deliveroo</div>
+				<Link className={styles.itemLink} to="https://deliveroo.co.uk/">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_fourteen} alt="Deliveroo logo" />
+						</div>Deliveroo
+					</div>
 				</Link>
-
             </div>
         </div>
     );
