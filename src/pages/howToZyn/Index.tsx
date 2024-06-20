@@ -2,7 +2,7 @@ import HeroSection from "./HeroSection";
 import Image from "./Image";
 import Title from "./Title";
 import Questions from "./Questions";
-import Blog from "./Blog";
+import BlogSection from "../blogSection/Index";
 
 function HowToZyn() {
     return (
@@ -11,7 +11,7 @@ function HowToZyn() {
             <Title/>
             <Image/>
 			<Questions/>
-			<Blog/>
+			<BlogSection/>
         </div>
     );
 }

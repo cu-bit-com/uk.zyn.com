@@ -6,7 +6,6 @@ import AgeGateModal from './components/ageGate/AgeGateModal'; // Import the AgeG
 import DiscoverZyn from './pages/discoverZyn/Index';
 import WhereToBuy from './pages/whereToBuy/Index';
 import HowToZyn from './pages/howToZyn/Index';
-import Blog from './pages/home/Blog';
 import Faq from './pages/faq/Index';
 import Offers from './pages/offers/Index';
 import WhatIsZyn from './pages/discoverZyn/Index';
@@ -16,6 +15,7 @@ import TermsOfUse from './pages/termsOfUse/Index';
 import ImportantInformation from './pages/importantInformation/Index';
 import BPost1 from './pages/blogPosts/howNicotinePouchesWork/Index';
 import BPost2 from './pages/blogPosts/whatIsNicotine/Index';
+import BlogSection from './pages/blogSection/Index';
 
 function App() {
   const [showAgeGate, setShowAgeGate] = useState(false);
@@ -50,7 +50,7 @@ function App() {
             <Route path="discover-zyn" element={<DiscoverZyn />} />
             <Route path="where-to-buy" element={<WhereToBuy />} />
             <Route path="how-to-zyn" element={<HowToZyn />} />
-            <Route path="blog" element={<Blog />} />
+            <Route path="blog" element={<BlogSection />} />
             <Route path="faq" element={<Faq />} />
             <Route path="offers" element={<Offers />} />
             <Route path="what-is-zyn" element={<WhatIsZyn />} />

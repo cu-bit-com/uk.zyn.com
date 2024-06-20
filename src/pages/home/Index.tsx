@@ -1,7 +1,7 @@
 import HeroSection from "./HeroSection";
 import Images from "./Images";
 import DiscoverZyn from "./DiscoverZyn";
-import Blog from "./Blog";
+import Blog from "../blogSection/Index";
 
 function Home() {
 
