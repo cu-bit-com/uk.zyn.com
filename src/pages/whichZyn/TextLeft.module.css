@@ -13,7 +13,7 @@
 	justify-content: center;
   }
   
-  @media (max-width: 959px) {
+  @media (max-width: 960px) {
 	.desktopBanner {
 	  display: none;
 	}

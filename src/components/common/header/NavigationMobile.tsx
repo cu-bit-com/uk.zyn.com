@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import styles from './NavigationMobile.module.css';
 import { useEffect, useRef } from 'react';
+import logo from "../../../images/ZYN logo_RGB.jpg";
 
 function NavigationMobile() {
     const menuToggleRef = useRef<HTMLInputElement>(null);
@@ -35,11 +36,12 @@ function NavigationMobile() {
     };
 
     const handleLinkClick = () => {
-        window.scrollTo(0, 0); // Scrolls to the top of the page
-        closeMenu(); // Closes the menu after clicking a link
+        window.scrollTo(0, 0);
+        closeMenu();
     };
 
     return (
+		<div className={styles.navWrapper}>
         <div className={styles.hamburgerMenu}>
             <input id={styles.menuToggle} type="checkbox" ref={menuToggleRef}/>
             <label className={styles.menuBtn} htmlFor={styles.menuToggle} ref={menuBtnRef}>
@@ -54,8 +56,11 @@ function NavigationMobile() {
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/which-zyn-to-choose'>Which ZYN to choose</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/blog'>Blog</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/faq'>FAQ</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/important-information'>Important Information</Link></li>
             </ul>
         </div>
+			<img src={logo} width="150px" alt="" />
+		</div>
     );
 }
 

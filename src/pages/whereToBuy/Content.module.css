@@ -9,6 +9,7 @@
 .wrapper {
 	background-color: #dde6eb;
 	padding: 20px;
+	box-sizing: border-box;
 }
 
 .title {

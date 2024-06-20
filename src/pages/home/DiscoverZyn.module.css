@@ -21,3 +21,11 @@
 .discoverImg {
 	width: 100%;
 }
+
+@media (max-width: 960px) {
+	.discoverWrapper {
+		flex-direction: column;
+		gap: 0;
+		background: #00a9e0;
+	}
+}
