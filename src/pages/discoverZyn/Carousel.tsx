@@ -63,7 +63,7 @@ function Carousel() {
             <br />
             <h3 className={styles.cardTitle}>Trustworthy</h3>
             <p className={styles.cardParagraph}>
-              ZYN is world’s No.1 nicotine pouch brand.
+              ZYN is world’s No.1 nicotine pouch brand. *
             </p>
           </div>
         </div>
