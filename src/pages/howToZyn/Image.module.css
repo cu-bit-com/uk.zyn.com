@@ -73,5 +73,10 @@
 	.card {
 		gap: 30px;
 		width: 100%;
+		justify-content: center;
+	}
+
+	.cardInfo {
+		min-width: 60%;
 	}
 }

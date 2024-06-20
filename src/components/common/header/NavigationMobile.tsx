@@ -59,7 +59,7 @@ function NavigationMobile() {
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/important-information'>Important Information</Link></li>
             </ul>
         </div>
-			<img src={logo} width="150px" alt="" />
+			<Link to="/"><img src={logo} width="150px" alt="" /></Link>
 		</div>
     );
 }
