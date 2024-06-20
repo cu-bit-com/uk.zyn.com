@@ -8,7 +8,7 @@ function Footer() {
 		<hr className={styles.hr}/>
 		<div className={`${styles.text} ${global.wrapper}`}>
 			<p className={styles.warningText}>This product is not risk-free and contains nicotine, which is addictive.<br/> Only for use by adults.</p>
-			<p>* PMI reported global shipment volumes and in-market sales estimates of nicotine pouch units, from January to June 2023.</p>
+			<p className={styles.smaller}>* PMI reported global shipment volumes and in-market sales estimates of nicotine pouch units, from January to June 2023.</p>
 		</div>
 		<div className={styles.background}>
                 <footer id={styles.footer}>
