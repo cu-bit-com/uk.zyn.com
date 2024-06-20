@@ -54,6 +54,18 @@
 	min-width: 250px;
 }
 
+@media (max-width: 1300px) {
+	.link {
+		font-size: 14px;
+	}
+
+	.middle {
+		img {
+			width: 100px;
+		}
+	}
+}
+
 @media (max-width: 960px) {
     .desktop {
         display: none;
