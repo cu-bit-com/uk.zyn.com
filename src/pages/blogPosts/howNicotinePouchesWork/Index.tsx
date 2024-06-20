@@ -4,8 +4,12 @@ import banner from "./bpost1.png";
 function BPost1() {
 	return (
 		<>
-		<img className={styles.banner} src={banner} width="100%" alt="" />
+		<div className={styles.bannerWrapper}>
+			<img className={styles.banner} src={banner} width="100%" alt="" />
+		</div>
+		
 		<div className={styles.wrapper}>
+			
 			<h1 className={styles.mainTitle}>How Do Nicotine Pouches Work?</h1>
 
 			<p className={styles.paragraph}>Nicotine pouches don’t require any device and are simple to use – you just place the small, white pouches between your upper lip and gum and experience the flavour and nicotine as they are released.   However, exactly how to use nicotine pouches will depend on the product in question.</p>

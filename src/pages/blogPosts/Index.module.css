@@ -1,6 +1,6 @@
 .wrapper {
 	padding: 0 50px;
-	max-width: 1200px;
+	max-width: 1000px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -8,9 +8,14 @@
 	margin-bottom: 100px;
 }
 
+.bannerWrapper {
+	display: flex;
+	justify-content: center;
+}
+
 .banner {
-	max-height: 600px;
-	object-fit: cover;
+	max-width: 1200px;
+	
 }
 
 .mainTitle {

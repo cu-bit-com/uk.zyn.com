@@ -1,8 +1,15 @@
 import styles from "../Index.module.css";
+import banner from "./bpost2.png";
 
 function BPost2() {
 	return (
+		<>
+		<div className={styles.bannerWrapper}>
+			<img className={styles.banner} src={banner} width="100%" alt="" />
+		</div>
+		
 		<div className={styles.wrapper}>
+			
 			<h1 className={styles.mainTitle}>What Is Nicotine?</h1>
 
 			<p className={styles.paragraph}>Nicotine is an addictive substance that’s derived from certain types of plants  . It’s also typically found in cigarettes, as well as smoke-free alternatives like nicotine pouches and consumables for tobacco heating devices.</p>
@@ -30,6 +37,7 @@ function BPost2() {
 			
 			<p className={styles.paragraph}>This article is for general information and educational purposes. Some of the information in this article is based on external, third-party sources and we make no representations or warranties of any kind regarding the accuracy, validity or completeness of such information.</p>
 		</div>
+		</>
 	)
 }
 
