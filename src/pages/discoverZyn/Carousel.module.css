@@ -1,9 +1,11 @@
 .cardWrapper {
 	max-width: 800px;
+	margin-bottom: 50px;
 }
 
 .cardTitle {
 	font-size: 32px;
+	margin: 5px 0;
 }
 
 .cardParagraph {
@@ -20,9 +22,20 @@
 	text-align: center;
 }
 
+@media (max-width: 1600px) {
+	.cardWrapper {
+		max-width: 500px;
+	}
+
+	.cardParagraph {
+		font-size: 18px;
+	}
+}
+
 @media (max-width: 960px) {
 	.cardWrapper {
 		padding: 15px 0;
+		margin-bottom: 0;
 	}
 
 	.cardTitle {

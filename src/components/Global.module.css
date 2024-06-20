@@ -21,6 +21,12 @@ h2 {
 	color: #003b5e;
 }
 
+@media (max-width: 1300px) {
+	.wrapper {
+		padding: 0 25px;
+	}
+}
+
 @media (max-width: 960px) {
   .wrapper {
     width: 100%;

@@ -6,7 +6,7 @@
 }
 
 .titleContainer {
-	min-width: 30%;
+	min-width: 20%;
 	color: #003b5e;
 	margin: 0 50px;
 	
@@ -53,15 +53,36 @@
 	text-decoration: none;
 }
 
+.largerFont {
+	font-size: 42px;
+}
+
 @media (max-width: 1900px) {
 	.blog_item {
 		width: 100%;
 	}
 }
 
-@media (max-width: 1200px) {
-	.blog_wrapper {
-		flex-direction: column;
+@media (max-width: 1600px) {
+	
+	.largerFont {
+		font-size: 32px;
+	}
+
+	.blogTitle {
+		font-size: 24px;
+	}
+
+	.blogDescription {
+		font-size: 18px;
+	}
+
+	.titleContainer {
+		min-width: 150px;
+	}
+
+	.blog_item {
+		min-height: 200px;
 	}
 
 }

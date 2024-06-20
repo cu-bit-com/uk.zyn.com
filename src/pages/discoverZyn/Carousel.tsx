@@ -63,9 +63,7 @@ function Carousel() {
             <br />
             <h3 className={styles.cardTitle}>Trustworthy</h3>
             <p className={styles.cardParagraph}>
-              ZYN is world’s No.1 nicotine pouch brand.*“ “* PMI reported global
-              shipment volumes and in market sales estimates of nicotine pouch
-              units, from January to June 2023.
+              ZYN is world’s No.1 nicotine pouch brand.
             </p>
           </div>
         </div>

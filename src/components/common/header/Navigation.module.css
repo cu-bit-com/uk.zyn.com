@@ -35,7 +35,7 @@
 
 .left {
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
 	align-items: center;
 	gap: 30px;
 }
