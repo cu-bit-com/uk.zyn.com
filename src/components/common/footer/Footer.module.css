@@ -132,10 +132,14 @@
 
   .legalList {
     flex-direction: column;
+	padding: 0;
   }
 
   .legal {
     display: flex;
+	flex-direction: column;
+	text-align: center;
+
   }
 
   h4 {
