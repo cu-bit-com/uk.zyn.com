@@ -8,25 +8,30 @@
 	margin-bottom: 100px;
 }
 
+.banner {
+	max-height: 600px;
+	object-fit: cover;
+}
+
 .mainTitle {
 	text-align: center;
-	font-size: 64px;
+	font-size: 48px;
 	color: #003b5e;
 }
 
 .subTitle {
-	font-size: 32px;
+	font-size: 28px;
 }
 
 .list {
 	list-style: decimal;
-	font-size: 18px;
+	font-size: 14px;
 	color: #003b5e;
 	padding-left: 10%;
 }
 
 .paragraph {
-	font-size: 18px;
+	font-size: 14px;
 	text-align: left;
 }
 
@@ -37,9 +42,5 @@
 
 	.mainTitle {
 		font-size: 32px;
-	}
-
-	.paragraph, .list {
-		font-size: 16px;
 	}
 }

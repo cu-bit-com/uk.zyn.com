@@ -1,7 +1,10 @@
-import styles from "./Index.module.css";
+import styles from "../Index.module.css";
+import banner from "./bpost1.png";
 
 function BPost1() {
 	return (
+		<>
+		<img className={styles.banner} src={banner} width="100%" alt="" />
 		<div className={styles.wrapper}>
 			<h1 className={styles.mainTitle}>How Do Nicotine Pouches Work?</h1>
 
@@ -60,9 +63,8 @@ function BPost1() {
 			<p className={styles.paragraph}>Smoke-free products are not risk-free and provide nicotine, which is addictive. The best decision any adult smoker can make is to quit tobacco and nicotine use altogether. Smoke-free products are not alternatives to quitting and are not designed as cessation aids.</p>
  
 			<p className={styles.paragraph}>This article is for general information and educational purposes. Some of the information in this article is based on external, third-party sources and we make no representations or warranties of any kind regarding the accuracy, validity or completeness of such information.</p>
-
-
 		</div>
+		</>
 	)
 }
 
