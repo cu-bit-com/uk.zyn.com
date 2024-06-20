@@ -1,5 +1,11 @@
 .wrapper {
-	margin-top: 30px;
+	margin: 50px 0;
+	background-color: #00a9e0;
+	padding-top: 30px;
+}
+
+.colorWhite {
+	color: #fff;
 }
 
 .whyZyn {
@@ -7,8 +13,62 @@
 	justify-content: center;
 }
 
+.infoWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 10px;
+	gap: 50px;
+}
+
+.snowflake {
+	width: 150px;
+}
+
+.img {
+	max-width: 100%;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+.card {
+	max-width: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 20px;
+}
+
+.cardParagraph {
+	color: #fff;
+	font-size: 16px;
+	height: 50px;
+	transition: font-size 0.3s ease;
+}
+
+.card:hover {
+	.cardParagraph {
+		font-size: 1.2em;
+	}
+}
+
 @media (max-width: 960px) {
 	.image {
 		width: 100%;
+	}
+
+	.infoWrapper {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.cardParagraph {
+		font-size: 20px;
+		height: fit-content;
+	}
+	
+	.card {
+		gap: 15px;
 	}
 }

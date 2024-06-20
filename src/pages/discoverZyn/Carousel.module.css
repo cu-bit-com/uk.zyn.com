@@ -16,6 +16,10 @@
 	justify-content: space-around;
 }
 
+.sectionTitle {
+	text-align: center;
+}
+
 @media (max-width: 960px) {
 	.cardWrapper {
 		padding: 15px;

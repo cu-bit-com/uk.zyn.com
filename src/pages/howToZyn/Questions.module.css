@@ -12,6 +12,11 @@
   text-align: left;
 }
 
+.listTitle {
+	color: #003b5e;
+	font-size: 28px;
+}
+
 .title {
   display: flex;
   justify-content: space-between;
@@ -21,7 +26,7 @@
 }
 
 .p {
-  font-size: 16px;
+  font-size: 18px;
   padding: 10px 20px;
 }
 

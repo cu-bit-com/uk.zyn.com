@@ -4,7 +4,7 @@ import one from "../../images/howToZyn/1.png";
 import two from "../../images/howToZyn/2.png";
 import three from "../../images/howToZyn/3.png";
 import four from "../../images/howToZyn/4.png";
-import item from "../../images/products/4294.png";
+import item from "../../images/howToZyn/product.png";
 
 function Image() {
     return (

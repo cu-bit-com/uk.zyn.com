@@ -1,7 +1,7 @@
 import global from "../../components/Global.module.css";
 import styles from "./TextLeft.module.css";
 import desktop from "../../images/whichZyn/desktop_banner.png";
-import mobile from "../../images/whichZyn/mobile_banner.png";
+import mobile from "../../images/whichZyn/mobile_banner.jpg";
 
 function TextLeft() {
   return (

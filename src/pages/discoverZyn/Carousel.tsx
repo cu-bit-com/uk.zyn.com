@@ -1,14 +1,16 @@
 import React from "react";
 import office from "../../images/discover/Office.png";
-import bag_zyn from "../../images/discover/bag_zyn.jpg";
+import bag_zyn from "../../images/discover/bag_zyn.png";
 import commute from "../../images/discover/Commute.png";
-import zyn_cleaner from "../../images/discover/zyn_cleaner.jpg";
+import zyn_cleaner from "../../images/discover/zyn_cleaner.png";
 import global from "../../components/Global.module.css";
 import styles from "./Carousel.module.css";
 
 function Carousel() {
 
 	return (
+		<>
+		<h3 className={styles.sectionTitle}>ZYN is...</h3>
 		<div className={`${global.wrapper} ${styles.wrapper}`}>
         <div className={styles.cardWrapper}>
           <div className={styles.inside}>
@@ -68,6 +70,7 @@ function Carousel() {
           </div>
         </div>
     </div>
+		</>
   );
 };
 
