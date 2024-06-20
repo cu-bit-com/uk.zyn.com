@@ -39,6 +39,10 @@
 	font-size: 14px;
 }
 
+.biggerP {
+	font-size: 20px;
+}
+
 @media (max-width: 960px) {
 	.container {
 		flex-direction: column;
@@ -54,11 +58,20 @@
 		align-items: center;
 	}
 
+	.smallerP {
+		font-size: 14px;
+	}
+	
 	.biggerP {
-		font-size: 18px;
+		font-size: 16px;
 	}
 
 	.imageRight {
 		max-width: 100%;
+	}
+
+	.card {
+		gap: 30px;
+		width: 100%;
 	}
 }

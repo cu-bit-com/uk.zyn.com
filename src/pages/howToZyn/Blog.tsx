@@ -17,7 +17,7 @@ function BlogSection() {
         <div className={styles.blog_container}>
           <div className={styles.blog_item}>
             <div className={styles.blog_info}>
-              <span><strong>Blog</strong></span>
+              <span className={styles.blogTag}><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
 			  <p className={styles.blogDescription}>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.
@@ -26,7 +26,7 @@ function BlogSection() {
           </div>
           <div className={styles.blog_item}>
             <div className={styles.blog_info}>
-              <span><strong>Blog</strong></span>
+              <span className={styles.blogTag}><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
 			  <p className={styles.blogDescription}>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.
@@ -35,7 +35,7 @@ function BlogSection() {
           </div>
           <div className={styles.blog_item}>
             <div className={styles.blog_info}>
-              <span><strong>Blog</strong></span>
+              <span className={styles.blogTag}><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
 			  <p className={styles.blogDescription}>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.
@@ -44,7 +44,7 @@ function BlogSection() {
           </div>
 		  <div className={styles.blog_item}>
             <div className={styles.blog_info}>
-              <span><strong>Blog</strong></span>
+              <span className={styles.blogTag}><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>Lorem, ipsum.</h3>
 			  <p className={styles.blogDescription}>
 				Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi perspiciatis dolorum nam, est laboriosam in mollitia quam ex recusandae explicabo.

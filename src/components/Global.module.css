@@ -1,11 +1,11 @@
 p {
   line-height: 1.5;
-  font-size: 24px;
+  font-size: 40px;
   color: #003b5e;
 }
 
 h3 {
-  font-size: 2rem;
+  font-size: 64px;
   color: #003b5e;
 }
 
@@ -17,7 +17,7 @@ h3 {
 }
 
 h2 {
-	font-size: 48px;
+	font-size: 64px;
 	color: #003b5e;
 }
 

@@ -15,7 +15,46 @@
 .hidden {
 	margin: 20px 0;
 	font-size: 24px;
+	color: #003b5e;
 }
+
+.list {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	max-width: 1200px;
+	margin: 0 auto;
+  }
+  
+  .listItem {
+	cursor: pointer;
+	text-align: left;
+  }
+  
+  .title {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+	align-items: center;
+	padding: 20px 20px;
+	font-size: 32px;
+	color: #003b5e;
+	width: 100%;
+	box-sizing: border-box;
+  }
+  
+  .p {
+	padding: 10px 20px;
+	font-size: 24px;
+  }
+  
+  .link {
+	color: #00b6ed;
+	text-decoration: none;
+  }
+  
+ 
 
 @media (max-width: 960px) {
 	.hidden {
@@ -25,5 +64,13 @@
 
 	.btn {
 		margin-left: 15px;
+	}
+
+	.list {
+		padding: 0 10px;
+	}
+
+	.title {
+		font-size: 24px;
 	}
 }

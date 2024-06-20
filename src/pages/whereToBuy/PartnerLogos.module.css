@@ -5,6 +5,12 @@
     flex-wrap: wrap;
     align-items: center;
 	gap: 20px;
+	max-width: 1000px;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: center;
 }
 
 .item {
@@ -31,7 +37,20 @@
 
 .itemLink {
 	color: #009DD1;
+	text-decoration: none;
+}
+
+.title {
+	font-size: 32px;
+}
+
+.buyBtn {
+	padding: 10px 15px;
 	font-weight: bold;
+	border: none;
+	background-color: #003b5e;
+	color: #fff;
+	cursor: pointer;
 }
 
 @media (max-width: 960px) {
