@@ -14,6 +14,7 @@ import Post from './pages/post/Index';
 import WhichZyn from './pages/whichZyn/Index';
 import TermsOfUse from './pages/termsOfUse/Index';
 import ImportantInformation from './pages/importantInformation/Index';
+import BPost1 from './pages/blogPosts/howNicotinePouchesWork/Index';
 
 function App() {
   const [showAgeGate, setShowAgeGate] = useState(false);
@@ -56,6 +57,7 @@ function App() {
             <Route path="which-zyn-to-choose" element={<WhichZyn />} />
             <Route path="terms-of-use" element={<TermsOfUse />} />
             <Route path="important-information" element={<ImportantInformation />} />
+			<Route path="how-do-nicotine-pouches-work" element={<BPost1/>}/>
           </Route>
         </Routes>
       </div>
