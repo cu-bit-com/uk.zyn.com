@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import styles from "./Images.module.css";
 import global from "../../components/Global.module.css";
@@ -62,6 +62,19 @@ const images = [
 
 function Images() {
   const [currentIndex, setCurrentIndex] = useState(4);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setScreenWidth(window.innerWidth);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const prevSlide = () => {
     const newIndex = (currentIndex - 1 + images.length) % images.length;
@@ -78,9 +91,16 @@ function Images() {
   };
 
   const getTransformValue = (index: number) => {
-    const offset = (window.innerWidth)/2 - 320/2; 
-    const translateX = -currentIndex * 320 + offset;
-    return `translateX(${translateX}px)`;
+
+	if (screenWidth > 960) {
+		const offset = (window.innerWidth)/2 - 320/2; 
+		const translateX = -currentIndex * 320 + offset;
+		return `translateX(${translateX}px)`;
+	} else {
+		const offset = (window.innerWidth)/2 - 180/2; 
+		const translateX = -currentIndex * 180 + offset;
+		return `translateX(${translateX}px)`;
+	}
   };
 
   return (

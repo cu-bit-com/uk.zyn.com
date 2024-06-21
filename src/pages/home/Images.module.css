@@ -71,3 +71,13 @@
 	cursor: pointer;
   }
   
+  @media (max-width: 960px) {
+	.carousel {
+		gap: 10px;
+	}
+
+	.imgContainer {
+		width: 150px;
+		height: 150px;
+	}
+  }
