@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
 import desktopBanner from "../../images/banners/desktop/Homepage.png";
-import mobileBanner from "../../images/banners/mobile/Homepage.png";
+import mobileBanner from "../../images/banners/mobile/Homepage.jpg";
 import global from "../../components/Global.module.css";
 
 function HeroSection() {
