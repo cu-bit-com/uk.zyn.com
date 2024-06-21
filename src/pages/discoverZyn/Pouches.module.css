@@ -1,5 +1,5 @@
 .title {
-	margin: 20px 0;
+	margin-bottom: 20px;
 }
 
 .btn {
@@ -25,11 +25,16 @@
 	gap: 20px;
 	max-width: 1200px;
 	margin: 0 auto;
+	margin-bottom: 100px;
   }
   
   .listItem {
 	cursor: pointer;
 	text-align: left;
+  }
+
+  .listItem:nth-child(1) {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
   }
   
   .title {

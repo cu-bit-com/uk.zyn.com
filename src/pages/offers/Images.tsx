@@ -1,6 +1,6 @@
 import styles from './Images.module.css';
 import global from '../../components/Global.module.css';
-import image from '../../images/zyn-item.jpeg';
+import image from '../../images/products/4294.png';
 
 function Images() {
     return (
