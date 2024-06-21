@@ -61,27 +61,37 @@ const images = [
 ];
 
 function Images() {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(4);
 
   const prevSlide = () => {
-    const newIndex = currentIndex === 0 ? images.length - 1 : currentIndex - 1;
+    const newIndex = (currentIndex - 1 + images.length) % images.length;
     setCurrentIndex(newIndex);
   };
 
   const nextSlide = () => {
-    const newIndex = currentIndex === images.length - 1 ? 0 : currentIndex + 1;
+    const newIndex = (currentIndex + 1) % images.length;
     setCurrentIndex(newIndex);
   };
 
+  const handleImageClick = (index: number) => {
+    setCurrentIndex(index);
+  };
+
+  const getTransformValue = (index: number) => {
+    const offset = (window.innerWidth)/2 - 320/2; 
+    const translateX = -currentIndex * 320 + offset;
+    return `translateX(${translateX}px)`;
+  };
+
   return (
-    <div className={global.wrapper}>
       <div className={styles.container}>
         <div className={styles.carousel}>
           {images.map((image, index) => (
             <div
               key={index}
               className={`${styles.item} ${index === currentIndex ? styles.itemSelected : ""}`}
-              style={{ transform: `translateX(-${currentIndex * 120}px)` }}
+              style={{ transform: getTransformValue(index) }}
+              onClick={() => handleImageClick(index)}
             >
               <div className={styles.imgContainer}>
                 <img src={image.src} alt={image.title} />
@@ -93,16 +103,7 @@ function Images() {
           <h3 className={styles.itemTitle}>{images[currentIndex].title}</h3>
           <p className={styles.itemP}>{images[currentIndex].description}</p>
         </div>
-        <div className={styles.carouselButtons}>
-          <button className={styles.carouselButton} onClick={prevSlide}>
-            {"<"}
-          </button>
-          <button className={styles.carouselButton} onClick={nextSlide}>
-            {">"}
-          </button>
-        </div>
       </div>
-    </div>
   );
 }
 

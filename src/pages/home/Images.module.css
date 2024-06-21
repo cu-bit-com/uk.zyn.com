@@ -1,85 +1,73 @@
 .container {
 	position: relative;
-	width: 100%;
-	overflow: hidden;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	width: 100%;
+	overflow: hidden;
   }
   
   .carousel {
 	display: flex;
-	transition: transform 0.5s ease-in-out;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
+	position: relative;
 	width: 100%;
 	overflow: hidden;
+	gap: 50px;
   }
   
   .item {
 	flex: 0 0 auto;
-	margin: 0 10px;
-	opacity: 0.5;
-	transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-	transform: scale(0.8);
+	transition: transform 0.3s ease;
+	cursor: pointer;
   }
   
   .itemSelected {
-	opacity: 1;
-	transform: scale(1);
+	transform: scale(1.1);
+	z-index: 1;
   }
   
   .imgContainer {
-	width: 200px; /* Adjust size as needed */
-	height: 200px; /* Adjust size as needed */
-	text-align: center;
+	width: 250px;
+	height: 250px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	border-radius: 10px;
+	margin: 0 10px;
   }
   
   .imgContainer img {
 	max-width: 100%;
-	height: auto;
-	border-radius: 50%;
+	max-height: 100%;
   }
   
   .itemInfo {
 	text-align: center;
 	margin-top: 20px;
-  }
-  
-  .linkSpan {
-	color: blue;
-	text-decoration: underline;
-	cursor: pointer;
-  }
-  
-  .discoverZyn {
-	text-align: center;
-	margin-top: 20px;
-  }
-  
-  .learnMore {
-	background-color: #007bff;
-	color: white;
-	padding: 10px 20px;
-	border: none;
-	cursor: pointer;
-	font-size: 16px;
+
+	h3 {
+		font-size: 24px;
+	}
+
+	p {
+		font-size: 18px;
+	}
   }
   
   .carouselButtons {
-	position: absolute;
-	top: 50%;
-	width: 100%;
 	display: flex;
 	justify-content: space-between;
-	transform: translateY(-50%);
+	width: 100px;
+	margin-top: 10px;
   }
   
   .carouselButton {
 	background: none;
 	border: none;
-	font-size: 2rem;
+	font-size: 24px;
 	cursor: pointer;
-	color: #007bff;
   }
   
