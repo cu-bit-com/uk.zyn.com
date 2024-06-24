@@ -32,7 +32,7 @@ function BPost2() {
 
 			<h2 className={styles.subTitle}>Explore Smoke-Free Nicotine Products</h2>
 
-			<p className={styles.paragraph}>ZYN offers a range of different nicotine pouch products, including Mini and Classic    - all of which come in a variety of flavours. If you’re interested in learning more, explore the full list of ZYN products.  You can also find more information on nicotine pouches via our blog, which explores topics like the cost of smoking cigarettes vs using ZYN.</p>
+			<p className={styles.paragraph}>ZYN offers a range of different nicotine pouch products, including Mini and Slim - all of which come in a variety of flavours. If you’re interested in learning more, explore the full list of ZYN products.</p>
 			Smoke-free products are not risk-free and provide nicotine, which is addictive. The best decision any adult smoker can make is to quit tobacco and nicotine use altogether. Smoke-free products are not alternatives to quitting and are not designed as cessation aids.  
 			
 			<p className={styles.paragraph}>This article is for general information and educational purposes. Some of the information in this article is based on external, third-party sources and we make no representations or warranties of any kind regarding the accuracy, validity or completeness of such information.</p>

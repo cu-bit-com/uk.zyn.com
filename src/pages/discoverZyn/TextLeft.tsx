@@ -16,6 +16,7 @@ function TextLeft() {
           the day, we’ve crafted a range of products with varying nicotine
           levels to satisfy your different nicotine moments and preferences
         </p>
+		<button className={styles.buyBtn}>Find your ZYN</button>
       </div>
       <div className={styles.right}>
         <img src={placeholder} className={styles.image} alt="" />

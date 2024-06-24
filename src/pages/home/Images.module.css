@@ -56,6 +56,10 @@
 		font-size: 18px;
 	}
   }
+
+  .sectionTitle {
+	margin-bottom: 150px!important;
+  }
   
   .carouselButtons {
 	display: flex;

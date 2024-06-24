@@ -8,7 +8,7 @@ function DiscoverZyn() {
 	return (
 	  <div className={global.wrapper}>
 		<h2 className={styles.title}>Discover ZYN</h2>
-		<p>A tobacco-free alternative to smoking filled with flavours and nicotine strengths designed to satisfy your taste.</p>
+		<p>ZYN is an innovative alternative to smoking that provides a smoke and vapour free nicotine experience - wherever, whenever.</p>
 
 		<div>
 			<div className={styles.discoverWrapper}>

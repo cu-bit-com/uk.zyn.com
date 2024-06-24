@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "../Index.module.css";
 import banner from "./bpost1.png";
 
@@ -18,7 +19,7 @@ function BPost1() {
 
 			<ul className={styles.list}>
 				<li className={styles.listItem}>Break the seal to open the can.</li>
-				<li className={styles.listItem}>Pop a ZYN® pouch under your lip.</li>
+				<li className={styles.listItem}>Pop a ZYN pouch under your lip.</li>
 				<li className={styles.listItem}>You may experience a tingling sensation that we at ZYN call ZYNGLE.</li>
 			</ul>
 
@@ -32,7 +33,7 @@ function BPost1() {
 
 			<p className={styles.paragraph}>Nicotine pouches are typically found as small, pillow-shaped pouches that contain nicotine, cellulose and flavourings. Being tobacco-free and combustion-free, nicotine pouches can be an alternative to smoking. However, exactly what a nicotine pouch contains, and whether it is a viable smoke-free alternative to cigarettes, will depend on the specific product.</p>
 
-			<p className={styles.paragraph}>Take our range of ZYN nicotine pouches as an example. ZYN is the innovative, high-quality alternative to smoking that delivers unique flavours and a smoke-free nicotine experience wherever, whenever.  The ZYN portfolio consists of three products – Mini, Mini+ and Classic – each designed to deliver a different experience.  Explore ZYN Mini, Mini+ and Classic.</p>
+			<p className={styles.paragraph}>Take our range of ZYN nicotine pouches as an example. ZYN is the innovative, high-quality alternative to smoking that delivers unique flavours and a smoke-free nicotine experience wherever, whenever.</p>
 
 			<h2 className={styles.subTitle}>When and Where Can I Use Nicotine Pouches?</h2>
 
@@ -46,9 +47,9 @@ function BPost1() {
 
 			<p className={styles.paragraph}>How often you use nicotine pouches will depend on a couple of factors, such as your own personal preferences and the product you’re using. Nicotine pouches can come in a range of different sizes, flavours and strengths, which may offer varying experiences.</p>
 
-			<p className={styles.paragraph}>How many ZYNs a day do people have? Some adult users may only have a couple of ZYN pouches a day, others may have more. How many ZYNs a day you have may be influenced by the type of experience you prefer as well as which ZYN product you’re opting for - as ZYN’s products come in different sizes and nicotine strengths. ZYN can be kept in your mouth for up to 30 minutes, but at least 5-10 minutes.</p>
+			<p className={styles.paragraph}>How many ZYNs a day do people have? Some adult users may only have a couple of ZYN pouches a day, others may have more. How many ZYNs a day you have may be influenced by the type of experience you prefer as well as which ZYN product you’re opting for - as ZYN’s products come in different sizes and nicotine strengths.</p>
 
-			<p className={styles.paragraph}>If you’re a smoker looking for a tobacco-free alternative we’d propose to start with the lower nicotine strengths (3mg, 6mg) and Mini pouches from the ZYN range.   Looking for a fuller nicotine experience? Choose ZYN’s range of medium to strong nicotine pouches. </p>
+			<p className={styles.paragraph}>If you’re a smoker or vaper looking for a tobacco-free alternative we’d propose to start with the lower nicotine strengths (6mg) and Mini pouches from the ZYN range.   Looking for a fuller nicotine experience? Choose ZYN’s range of Strong to XX-Strong nicotine pouches. </p>
 
  			<p className={styles.paragraph}>You can find out more on which nicotine strength of ZYN may suit you via our article on ‘What Strength of ZYN is Right for You?’</p>
 
@@ -62,7 +63,7 @@ function BPost1() {
 
 			<h2 className={styles.subTitle}>Where to Buy ZYN Nicotine Pouches</h2>
 			
-			<p className={styles.paragraph}>You can shop the full range of ZYN nicotine pouches here on our website.</p>
+			<p className={styles.paragraph}>You can purchase ZYN nicotine pouches online (check out the page <Link to="/where-to-buy">Where to Buy</Link>), but they are also widely available in several stores and local retailers.</p>
 			
 			<p className={styles.paragraph}>Smoke-free products are not risk-free and provide nicotine, which is addictive. The best decision any adult smoker can make is to quit tobacco and nicotine use altogether. Smoke-free products are not alternatives to quitting and are not designed as cessation aids.</p>
  

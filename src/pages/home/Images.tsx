@@ -30,32 +30,32 @@ const images = [
   },
   {
     src: imageFour,
-    title: "ZYN Cool Mint 9.5mg - Slim",
+    title: "ZYN Cool Mint (Slim) - 9.5mg",
     description: "An intense cooling taste of fresh peppermint",
   },
   {
     src: imageFive,
-    title: "ZYN Icy Mint 9.5mg - Slim",
+    title: "ZYN Icy Mint (Slim) - 9.5mg",
     description: "A cooling taste of eucalyptus and menthol",
   },
   {
     src: imageSix,
-    title: "ZYN Cool Mint 11mg - Slim",
+    title: "ZYN Cool Mint (Slim) - 11mg",
     description: "An intense cooling taste of fresh peppermint",
   },
   {
     src: imageSeven,
-    title: "ZYN Chili Guava 11mg - Slim",
+    title: "ZYN Chili Guava (Slim) - 11mg",
     description: "A fruity taste of guava and chili",
   },
   {
     src: imageEight,
-    title: "ZYN Icy Mint 12.5mg - Slim",
+    title: "ZYN Icy Mint (Slim) - 12.5mg",
     description: "A cooling taste of eucalyptus and menthol",
   },
   {
     src: imageNine,
-    title: "ZYN Icy Blackcurrant 12.5mg - Slim",
+    title: "ZYN Icy Blackcurrant (Slim) - 12.5mg",
     description: "A cooling taste of menthol topped with the flavour of dark berries",
   },
 ];
@@ -105,6 +105,7 @@ function Images() {
 
   return (
       <div className={styles.container}>
+		<h3 className={styles.sectionTitle}>ZYN is...<br/> Flavour you feel</h3>
         <div className={styles.carousel}>
           {images.map((image, index) => (
             <div

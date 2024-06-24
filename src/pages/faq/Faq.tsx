@@ -162,7 +162,7 @@ function FAQ() {
                 <div className={styles.title} onClick={() => toggleCollapse(17)}><div className={styles.listTitle}>Can I recycle the nicotine pouches? Are they degradable?</div><div className={styles.listTitle}>{signs[17]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[17] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-					The pouch, and its contents, is not currently recyclable. Please dispose of your used Zyn pouches in general waste.
+					The pouch, and its contents, is not currently recyclable. Please dispose of your used ZYN pouches in general waste.
                     </p>
                 </div>
                </li>

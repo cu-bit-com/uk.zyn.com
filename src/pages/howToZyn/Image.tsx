@@ -24,8 +24,8 @@ function Image() {
 						<img src={two} alt="" />
 					</div>
 					<div className={styles.cardInfo}>
-						<p className={styles.biggerP}><strong>Place a Zyn pouch under your lip.</strong></p>
-						<p className={styles.smallerP}>You may experience a tingiling sensation.</p>
+						<p className={styles.biggerP}><strong>Place a ZYN pouch under your lip.</strong></p>
+						<p className={styles.smallerP}>You may experience a tingling sensation.</p>
 					</div>
 				</div>
 				<div className={styles.card}>
@@ -41,7 +41,7 @@ function Image() {
 						<img src={four} alt="" />
 					</div>
 					<div className={styles.cardInfo}>
-						<p className={styles.biggerP}><strong>You can keep the used puches</strong></p>
+						<p className={styles.biggerP}><strong>You can keep the used pouches</strong></p>
 						<p className={styles.smallerP}>in the compartment on the lid.</p>
 					</div>
 				</div>

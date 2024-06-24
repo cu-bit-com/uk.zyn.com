@@ -21,7 +21,7 @@ function Strength() {
         <div className={global.wrapper}>
             <br />
             <br />
-            <h2>Which Nicotine strength is right for me?</h2>
+            <h2>Which nicotine strength is right for me?</h2>
             <br />
             <br />
             

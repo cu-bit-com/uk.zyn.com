@@ -21,9 +21,9 @@ function Carousel() {
             <h3 className={styles.cardTitle}>Discreet & Considerate</h3>
             <p className={styles.cardParagraph}>
               With no ash, no smoke & no smoke smell, nicotine pouches are a
-              cleaner way to enjoy nicotine. They also don’t require any device
+              cleaner way to experience nicotine. They also don’t require any device
               & are simple to use – you just place the small, white pouches
-              between your upper lip and gum & enjoy the flavour & nicotine as
+              between your upper lip and gum & experience the flavour & nicotine as
               they are released.
             </p>
           </div>
@@ -48,7 +48,7 @@ function Carousel() {
             <br />
             <h3 className={styles.cardTitle}>High Quality</h3>
             <p className={styles.cardParagraph}>
-              ZYN® is made up of high quality nicotine and food-grade
+              ZYN is made up of high quality nicotine and food-grade
               ingredients. The pouch itself is made from plant fibers, specially
               designed to release nicotine while feeling comfortable under your
               lip.

@@ -43,12 +43,12 @@ function Questions() {
                 <div className={styles.title} onClick={() => toggleCollapse(1)}><div className={styles.listTitle}>Which ZYN nicotine pouch is right for me?</div><div className={styles.listTitle}>{signs[1]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[1] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-                    ZYN nicotine pouches are available in a variety of nicotine strengths and pouch sizes so you can choose the intensity of your nicotine experience.<br/><br/><strong>If you are a nicotine user looking for a new alternative:</strong> We suggest starting with a lower nicotine strength: try Mini (6mg) pouches from the ZYN range.<br/><br/><strong>If you are a nicotine pouch user:</strong> Discover our Slim range: 9.5mg, 11mg and 12.5mg.<br/><Link className={styles.link} to="/which-zyn-to-choose" onClick={scrollToTop}>Read more here.</Link>
+                    ZYN nicotine pouches are available in a variety of nicotine strengths and pouch sizes so you can choose the intensity of your nicotine experience.<br/><br/><strong>If you are a nicotine user looking for a new alternative:</strong> We suggest starting with a lower nicotine strength: try Mini (6mg) pouches from the ZYN range.<br/><br/><strong>If you are a nicotine pouch user:</strong> Discover our Slim pouches: Strong (9.5mg), X-Strong (11mg), and XX-Strong (12.5mg)<br/><Link className={styles.link} to="/which-zyn-to-choose" onClick={scrollToTop}>Read more here.</Link>
                     </p>
                 </div>
                </li>
                <li className={styles.listItem}>
-                <div className={styles.title} onClick={() => toggleCollapse(2)}><div className={styles.listTitle}>Can I try/use different ZYN Nicotine pouch strengths/flavours at the same time/same day?</div><div className={styles.listTitle}>{signs[2]}</div></div>
+                <div className={styles.title} onClick={() => toggleCollapse(2)}><div className={styles.listTitle}>Can I use different ZYN nicotine pouches at the same time? And can I try different flavours or strengths in the same day?</div><div className={styles.listTitle}>{signs[2]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[2] ? 'none' : 'block'}}>
                     <p className={styles.p}>
                     Do not use more than one ZYN nicotine pouch at the same time. ZYN nicotine pouches in different strengths and flavours can be used in the same day depending on legal age user’s nicotine preferences.
