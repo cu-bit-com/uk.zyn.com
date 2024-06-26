@@ -5,6 +5,13 @@ import two from "../../images/howToZyn/2.png";
 import three from "../../images/howToZyn/3.png";
 import four from "../../images/howToZyn/4.png";
 import item from "../../images/howToZyn/product.png";
+import { Link } from 'react-router-dom';
+
+function scrollToTop() {
+	window.scrollTo({
+	  top: 0,
+	});
+  }
 
 function Image() {
     return (
@@ -45,6 +52,7 @@ function Image() {
 						<p className={styles.smallerP}>in the compartment on the lid.</p>
 					</div>
 				</div>
+				<Link to="/where-to-buy"><button onClick={scrollToTop} className={global.ctaSecondary}>Buy ZYN</button></Link>
 			</div>
 			<div className={styles.right}>
 				<img className={styles.imageRight} src={item} alt="" />

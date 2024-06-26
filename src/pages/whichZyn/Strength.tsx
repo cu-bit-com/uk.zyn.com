@@ -3,6 +3,7 @@ import global from "../../components/Global.module.css";
 import styles from "./Strength.module.css";
 import desktop_img from "../../images/whichZyn/infogr_desktop.png";
 import mobile_img from "../../images/whichZyn/infogr_mobile.png";
+import { Link } from 'react-router-dom';
 
 function Strength() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);

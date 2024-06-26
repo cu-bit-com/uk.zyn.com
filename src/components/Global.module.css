@@ -21,6 +21,24 @@ h2 {
 	color: #003b5e;
 }
 
+.ctaPrimary {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: #003b5e;
+    font-weight: bold;
+	background-color: #fff;
+}
+
+.ctaSecondary {
+	padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+	background-color: #003b5e;
+}
+
 @media (max-width: 1300px) {
 	.wrapper {
 		padding: 0 25px;

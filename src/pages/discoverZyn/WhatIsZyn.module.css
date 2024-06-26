@@ -51,6 +51,10 @@
 	white-space: nowrap;
 }
 
+.btnContainer {
+	padding-top: 50px;
+}
+
 @media (min-width: 961px) {
 	.card:hover .cardParagraph {
 		transform: scale(1.8);

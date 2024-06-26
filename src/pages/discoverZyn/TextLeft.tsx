@@ -17,7 +17,7 @@ function TextLeft() {
             levels to satisfy your different nicotine moments and preferences
           </p>
           <Link to="/where-to-buy" onClick={() => window.scrollTo({ top: 0 })}>
-            <button className={styles.buyBtn}>Find your ZYN</button>
+            <button className={global.ctaPrimary}>Find your ZYN</button>
           </Link>
         </div>
         <div className={styles.right}>

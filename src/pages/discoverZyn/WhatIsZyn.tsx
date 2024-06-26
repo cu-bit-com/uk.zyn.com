@@ -1,10 +1,17 @@
-import global from "../../components/Global.module.css"
-import styles from "./WhatIsZyn.module.css"
-import one from "../../images/discover/1.png"
-import two from "../../images/discover/2.png"
-import three from "../../images/discover/3.png"
-import four from "../../images/discover/4.png"
-import five from "../../images/discover/5.png"
+import global from "../../components/Global.module.css";
+import styles from "./WhatIsZyn.module.css";
+import one from "../../images/discover/1.png";
+import two from "../../images/discover/2.png";
+import three from "../../images/discover/3.png";
+import four from "../../images/discover/4.png";
+import five from "../../images/discover/5.png";
+import { Link } from "react-router-dom";
+
+function scrollToTop() {
+	window.scrollTo({
+	  top: 0,
+	});
+  }
 
 function WhatIsZyn() {
 	return (
@@ -41,6 +48,9 @@ function WhatIsZyn() {
 						Trusted & quality brand
 					</p>
 				</div>
+			</div>
+			<div className={styles.btnContainer}>
+				<Link to="/where-to-buy"><button onClick={scrollToTop} className={global.ctaPrimary}>Buy ZYN</button></Link>
 			</div>
 		</div>
 	)

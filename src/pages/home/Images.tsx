@@ -103,6 +103,12 @@ function Images() {
 	}
   };
 
+  function scrollToTop() {
+	window.scrollTo({
+	  top: 0,
+	});
+  }
+
   return (
       <div className={styles.container}>
 		<h3 className={styles.sectionTitle}>ZYN is...<br/> Flavour you feel</h3>
@@ -124,6 +130,7 @@ function Images() {
           <h3 className={styles.itemTitle}>{images[currentIndex].title}</h3>
           <p className={styles.itemP}>{images[currentIndex].description}</p>
         </div>
+		<Link to="/where-to-buy"><button onClick={scrollToTop} className={global.ctaSecondary}>Buy ZYN</button></Link>
       </div>
   );
 }
