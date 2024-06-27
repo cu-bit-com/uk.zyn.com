@@ -1,17 +1,18 @@
 .imageSection {
 	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 }
 
-
+.img {
+	width: 100%;
+}
 
 .imageWrapper {
-	width: fit-content;
-	height: fit-content;
 	display: flex;
 	flex-direction: column;
 	padding-bottom: 30px;
+	width: 100%;
 }
 
 .left {
