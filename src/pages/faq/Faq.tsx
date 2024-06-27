@@ -55,7 +55,7 @@ function FAQ() {
                 <div className={styles.title} onClick={() => toggleCollapse(3)}><div className={styles.listTitle}>What is the difference between ZYN nicotine pouches and snus tobacco products?</div><div className={styles.listTitle}>{signs[3]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[3] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-                    The major difference is that ZYN nicotine pouches are tobacco-free whereas snus contains tobacco. In the UK it is illegal to sell snus.
+                    Snus is not legally available in the UK. Snus contains tobacco. ZYN nicotine pouches are tobacco-free.
                     </p>
                 </div>
                </li>
@@ -95,7 +95,7 @@ function FAQ() {
                 <div className={styles.title} onClick={() => toggleCollapse(8)}><div className={styles.listTitle}>When does ZYN expire?</div><div className={styles.listTitle}>{signs[8]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[8] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-                    ZYN Slim nicotine pouches have a shelf-life up to 12 months from a production date provided on a can, while ZYN Mini nicotine pouches have a shelf-life of up to 18 months from a production date provided on a can.
+                    ZYN nicotine pouches have a shelf-life up to 12 months from production date provided on a can.
                     </p>
                 </div>
                </li>

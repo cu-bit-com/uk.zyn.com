@@ -55,7 +55,7 @@ function Navigation() {
                 className={styles.link}
                 to="/where-to-buy"
               >
-                Where to Buy
+                Where to buy
               </Link>
             </li>
             <li className={styles.listItem}>

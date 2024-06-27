@@ -51,7 +51,7 @@ function NavigationMobile() {
             <ul className={styles.menuBox} ref={menuBoxRef}>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/'>Home</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/discover-zyn'>Discover ZYN</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/where-to-buy'>Where to Buy</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/where-to-buy'>Where to buy</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/how-to-zyn'>How to ZYN</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/which-zyn-to-choose'>Which ZYN to choose</Link></li>
                 <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/blog'>Blog</Link></li>

@@ -9,9 +9,8 @@ function ImportantInformation() {
 		<div className={`${styles.wrapper} ${global.wrapper}`}>
 			<h4 className={styles.listTitle}>Intended Users</h4>
 			<ul className={styles.list}>
-				<li className={styles.listItem}>Nicotine pouches are for adult use only.</li>
-				<li className={styles.listItem}>Nicotine pouches are for adults who would otherwise continue to use tobacco or nicotine-containing products.</li>
-				<li className={styles.listItem}>Children and adolescents should never use nicotine pouches under any circumstances.</li>
+				<li className={styles.listItem}>Nicotine pouches are for adult (18+) use only.</li>
+				<li className={styles.listItem}>Nicotine pouches are for adults (18+) who would otherwise continue to use tobacco or nicotine-containing products.</li>
 			</ul>
 			<h4 className={styles.listTitle}>ZYN contains nicotine</h4>
 			<ul className={styles.list}>

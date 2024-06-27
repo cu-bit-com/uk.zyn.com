@@ -8,7 +8,7 @@ function TextLeft() {
     <div className={`${global.wrapper}`}>
       <br />
       <br />
-      <h3>ZYN enhances every moment</h3>
+      <h3>ZYN an option for every moment</h3>
       <div className={styles.wrapper}>
         <div className={styles.left}>
           <p className={styles.colorWhite}>

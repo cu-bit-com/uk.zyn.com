@@ -125,6 +125,7 @@ const AgeGateModal = ({ isOpen, onClose, onConfirm }) => {
               <button className={styles.btn} onClick={handleConfirm}>Confirm</button>
             </div>
           )}
+			<p className={styles.smallerFont}>This website is restricted to adults in the United Kingdom who would otherwise continue to smoke or use nicotine products. Our nicotine products are not an alternative to quitting and are not designed as cessation aids. They are not risk-free. They contain nicotine, which is addictive. Only for use by adults. Please visit Important Information page for further risk information.</p>
         </div>
       </div>
     )

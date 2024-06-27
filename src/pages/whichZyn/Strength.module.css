@@ -4,12 +4,35 @@
 	justify-content: center;
 }
 
-.img {
-	max-width: 100%;
+
+
+.imageWrapper {
+	width: fit-content;
+	height: fit-content;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 30px;
+}
+
+.left {
+	background-color: #d1dfe5;
+}
+
+.right {
+	background-color: #00a9e0;
 }
 
 @media (max-width: 960px) {
 	.img {
+		max-width: 100%;
+	}
+
+	.imageSection {
+		flex-direction: column;
+		max-width: 100%;
+	}
+	
+	.imageWrapper {
 		max-width: 100%;
 	}
 }

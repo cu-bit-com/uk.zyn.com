@@ -61,7 +61,7 @@ function Carousel() {
               <img className={styles.image} width="100%" src={zyn_cleaner} alt="" />
             </div>
             <br />
-            <h3 className={styles.cardTitle}>Trustworthy</h3>
+            <h3 className={styles.cardTitle}>Leading</h3>
             <p className={styles.cardParagraph}>
               ZYN is world’s No.1 nicotine pouch brand. *
             </p>
