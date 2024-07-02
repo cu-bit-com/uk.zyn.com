@@ -19,3 +19,9 @@
 .p {
 	text-align: center;
 }
+
+@media (max-width: 960px) {
+	.wrapper {
+		padding: 0 20px 0 20px;
+	}
+}
