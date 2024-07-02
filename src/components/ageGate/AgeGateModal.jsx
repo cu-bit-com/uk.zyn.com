@@ -44,6 +44,7 @@ const AgeGateModal = ({ isOpen, onClose, onConfirm }) => {
         onConfirm();
       } else {
         setShowUnder18Message(true);
+        localStorage.setItem('failedAgeGateTime', Date.now());
       }
     } else {
       setShowError(true);
@@ -58,7 +59,6 @@ const AgeGateModal = ({ isOpen, onClose, onConfirm }) => {
       document.body.style.overflow = 'auto';
     }
 
-    // Check if the user is under 18 when component mounts
     const birthDate = localStorage.getItem('userBirthDate');
     if (birthDate) {
       const currentDate = new Date();
@@ -68,6 +68,15 @@ const AgeGateModal = ({ isOpen, onClose, onConfirm }) => {
       const userBirthMonth = parseInt(birthDate.split('-')[1]);
 
       if (currentYear - userBirthYear < 18 || (currentYear - userBirthYear === 18 && currentMonth < userBirthMonth)) {
+        setShowUnder18Message(true);
+      }
+    }
+
+    const failedAgeGateTime = localStorage.getItem('failedAgeGateTime');
+    if (failedAgeGateTime) {
+      const lockoutDuration = 30 * 60 * 1000;
+      const currentTime = Date.now();
+      if (currentTime - failedAgeGateTime < lockoutDuration) {
         setShowUnder18Message(true);
       }
     }
@@ -125,7 +134,7 @@ const AgeGateModal = ({ isOpen, onClose, onConfirm }) => {
               <button className={styles.btn} onClick={handleConfirm}>Confirm</button>
             </div>
           )}
-			<p className={styles.smallerFont}>This website is restricted to adults in the United Kingdom who would otherwise continue to smoke or use nicotine products. Our nicotine products are not an alternative to quitting and are not designed as cessation aids. They are not risk-free. They contain nicotine, which is addictive. Only for use by adults. Please visit Important Information page for further risk information.</p>
+          <p className={styles.smallerFont}>This website is restricted to adults in the United Kingdom who would otherwise continue to smoke or use nicotine products. Our nicotine products are not an alternative to quitting and are not designed as cessation aids. They are not risk-free. They contain nicotine, which is addictive. Only for use by adults. Please visit Important Information page for further risk information.</p>
         </div>
       </div>
     )
