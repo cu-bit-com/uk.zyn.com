@@ -15,6 +15,7 @@ import ImportantInformation from './pages/importantInformation/Index';
 import BPost1 from './pages/blogPosts/howNicotinePouchesWork/Index';
 import BPost2 from './pages/blogPosts/whatIsNicotine/Index';
 import BlogSection from './pages/blogSection/Index';
+import AccessDenied from './pages/accessDenied/Index';
 
 function App() {
   const [showAgeGate, setShowAgeGate] = useState(false);
@@ -38,6 +39,7 @@ function App() {
         {showAgeGate && <AgeGateModal isOpen={true} onConfirm={handleAgeConfirmation} onClose={undefined} />}
         
         <Routes>
+			<Route path="access-denied" element={<AccessDenied />} />
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="discover-zyn" element={<DiscoverZyn />} />
@@ -50,8 +52,11 @@ function App() {
             <Route path="which-zyn-to-choose" element={<WhichZyn />} />
             <Route path="terms-of-use" element={<TermsOfUse />} />
             <Route path="important-information" element={<ImportantInformation />} />
+			
+			
 			<Route path="how-do-nicotine-pouches-work" element={<BPost1/>}/>
 			<Route path="what-is-nicotine" element={<BPost2/>}/>
+
           </Route>
         </Routes>
       </div>
