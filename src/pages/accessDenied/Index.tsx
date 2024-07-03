@@ -8,8 +8,7 @@ function AccessDenied() {
 		<div className={styles.wrapper}>
 			<div className={styles.card}>
 				<img src={logo} width="100px" alt="" />
-				<p className={styles.p}>Please note that this website is intended from the United Kingdom. To ensure compliance with local legal requirements, we need to redirect you to the country you are in.</p>
-				<Link to=""><button className={global.ctaSecondary}>CONTINUE</button></Link>
+				<p className={styles.p}>Please note that this website is intended for the United Kingdom. To ensure compliance with local legal requirements, we need to redirect you to the country you are in.</p>
 			</div>
 		</div>
 	);
