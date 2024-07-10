@@ -40,7 +40,7 @@ function App() {
         
         <Routes>
 			<Route path="access-denied" element={<AccessDenied />} />
-          <Route path="/" element={<Layout />}>
+          <Route path="/gb" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="discover-zyn" element={<DiscoverZyn />} />
             <Route path="where-to-buy" element={<WhereToBuy />} />
