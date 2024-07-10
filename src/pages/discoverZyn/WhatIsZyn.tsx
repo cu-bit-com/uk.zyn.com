@@ -50,7 +50,7 @@ function WhatIsZyn() {
 				</div>
 			</div>
 			<div className={styles.btnContainer}>
-				<Link to="/where-to-buy"><button onClick={scrollToTop} className={global.ctaPrimary}>Buy ZYN</button></Link>
+				<Link to="where-to-buy"><button onClick={scrollToTop} className={global.ctaPrimary}>Buy ZYN</button></Link>
 			</div>
 		</div>
 	)

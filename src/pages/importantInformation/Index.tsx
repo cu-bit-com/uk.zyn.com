@@ -83,12 +83,12 @@ function ImportantInformation() {
 				<ul>
 					<li className={styles.listItem}>If you experience any unwanted health effect when using a nicotine pouch, consult a health care professional. </li>
 					<li className={styles.listItem}>You can report any adverse event or incident directly by contacting your local Call Center at 0800 432 0000. By reporting side effects, you can help provide more information on the safety of this product. </li>
-					<li className={styles.listItem}>For more information, please go to <Link to="/">www.zyn.com/gb</Link></li>
+					<li className={styles.listItem}>For more information, please go to <Link to="/gb">www.zyn.com/gb</Link></li>
 				</ul>
 
 				<p>© 2023 Copyright Philip Morris Products S.A.</p>
 
-			<h3>Please read more on important information in FAQ <Link className={styles.faqLink} to="/faq">here</Link></h3>
+			<h3>Please read more on important information in FAQ <Link className={styles.faqLink} to="faq">here</Link></h3>
 
 			<h4 className={styles.bigger_left}>Is using ZYN safe or risk-free?</h4>
 			<p className={styles.smallerP}>No. There is no risk-free product when it comes to smoke-free products. ZYN is not risk-free and contains nicotine, which is addictive. The best option is to quit tobacco and nicotine use altogether. However, switching completely to ZYN is a better choice than continuing to smoke.</p>

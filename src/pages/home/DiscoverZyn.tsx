@@ -20,7 +20,7 @@ function DiscoverZyn() {
         <div className={styles.discoverWrapper}>
           <div className={styles.left}>
             <img className={styles.discoverImg} src={image_three} alt="" />
-            <Link to="/discover-zyn">
+            <Link to="discover-zyn">
               <button className={global.ctaPrimary} onClick={scrollToTop}>Discover ZYN</button>
             </Link>
           </div>

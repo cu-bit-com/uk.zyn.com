@@ -52,7 +52,7 @@ function Image() {
 						<p className={styles.smallerP}>in the compartment on the lid.</p>
 					</div>
 				</div>
-				<Link to="/where-to-buy"><button onClick={scrollToTop} className={global.ctaSecondary}>Buy ZYN</button></Link>
+				<Link to="where-to-buy"><button onClick={scrollToTop} className={global.ctaSecondary}>Buy ZYN</button></Link>
 			</div>
 			<div className={styles.right}>
 				<img className={styles.imageRight} src={item} alt="" />
