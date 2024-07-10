@@ -39,7 +39,7 @@ function App() {
         {showAgeGate && <AgeGateModal isOpen={true} onConfirm={handleAgeConfirmation} onClose={undefined} />}
         
         <Routes>
-			<Route path="access-denied" element={<AccessDenied />} />
+			<Route path="/gb/access-denied" element={<AccessDenied />} />
           <Route path="/gb" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="discover-zyn" element={<DiscoverZyn />} />

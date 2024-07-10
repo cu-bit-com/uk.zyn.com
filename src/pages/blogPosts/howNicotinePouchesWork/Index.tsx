@@ -63,7 +63,7 @@ function BPost1() {
 
 			<h2 className={styles.subTitle}>Where to Buy ZYN Nicotine Pouches</h2>
 			
-			<p className={styles.paragraph}>You can purchase ZYN nicotine pouches online (check out the page <Link to="/where-to-buy">Where to Buy</Link>), but they are also widely available in several stores and local retailers.</p>
+			<p className={styles.paragraph}>You can purchase ZYN nicotine pouches online (check out the page <Link to="where-to-buy">Where to Buy</Link>), but they are also widely available in several stores and local retailers.</p>
 			
 			<p className={styles.paragraph}>Smoke-free products are not risk-free and provide nicotine, which is addictive. The best decision any adult smoker can make is to quit tobacco and nicotine use altogether. Smoke-free products are not alternatives to quitting and are not designed as cessation aids.</p>
  
