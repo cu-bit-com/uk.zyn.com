@@ -31,11 +31,11 @@ function Strength() {
             <div className={styles.imageSection}>
 				<div className={`${styles.left} ${styles.imageWrapper}`}>
                 	<img src={windowWidth < 960 ? desktop_mini : desktop_mini} className={styles.img} alt="" />
-					<Link to="where-to-buy"><button className={`${styles.imageBtn} ${global.ctaSecondary}`}>Buy ZYN</button></Link>
+					<Link to="../where-to-buy"><button className={`${styles.imageBtn} ${global.ctaSecondary}`}>Buy ZYN</button></Link>
 				</div>
 				<div className={`${styles.right} ${styles.imageWrapper}`}>
 	                <img src={windowWidth < 960 ? desktop_slim : desktop_slim} className={styles.img} alt="" />
-					<Link to="where-to-buy"><button className={`${styles.imageBtn} ${global.ctaPrimary}`}>Buy ZYN</button></Link>
+					<Link to="../where-to-buy"><button className={`${styles.imageBtn} ${global.ctaPrimary}`}>Buy ZYN</button></Link>
 				</div>
             </div>
         </div>

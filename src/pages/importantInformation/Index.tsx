@@ -88,7 +88,7 @@ function ImportantInformation() {
 
 				<p>© 2023 Copyright Philip Morris Products S.A.</p>
 
-			<h3>Please read more on important information in FAQ <Link className={styles.faqLink} to="faq">here</Link></h3>
+			<h3>Please read more on important information in FAQ <Link className={styles.faqLink} to="../faq">here</Link></h3>
 
 			<h4 className={styles.bigger_left}>Is using ZYN safe or risk-free?</h4>
 			<p className={styles.smallerP}>No. There is no risk-free product when it comes to smoke-free products. ZYN is not risk-free and contains nicotine, which is addictive. The best option is to quit tobacco and nicotine use altogether. However, switching completely to ZYN is a better choice than continuing to smoke.</p>

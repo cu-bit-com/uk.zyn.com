@@ -16,7 +16,7 @@ function TextLeft() {
             the day, we’ve crafted a range of products with varying nicotine
             levels to satisfy your different nicotine moments and preferences
           </p>
-          <Link to="where-to-buy" onClick={() => window.scrollTo({ top: 0 })}>
+          <Link to="../where-to-buy" onClick={() => window.scrollTo({ top: 0 })}>
             <button className={global.ctaPrimary}>Find your ZYN</button>
           </Link>
         </div>

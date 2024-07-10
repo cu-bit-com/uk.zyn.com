@@ -54,8 +54,8 @@ function App() {
             <Route path="important-information" element={<ImportantInformation />} />
 			
 			
-			<Route path="how-do-nicotine-pouches-work" element={<BPost1/>}/>
-			<Route path="what-is-nicotine" element={<BPost2/>}/>
+			<Route path="blog/how-do-nicotine-pouches-work" element={<BPost1/>}/>
+			<Route path="blog/what-is-nicotine" element={<BPost2/>}/>
 
           </Route>
         </Routes>

@@ -87,7 +87,7 @@ function FAQ() {
                 <div className={styles.title} onClick={() => toggleCollapse(7)}><div className={styles.listTitle}>Where can I buy ZYN?</div><div className={styles.listTitle}>{signs[7]}</div></div>
                 <div className={styles.content} style={{ display: collapsedStates[7] ? 'none' : 'block'}}>
                     <p className={styles.p}>
-                    Find more information <Link className={styles.whereToBuyLink} to="where-to-buy">here</Link> 
+                    Find more information <Link className={styles.whereToBuyLink} to="../where-to-buy">here</Link> 
                     </p>
                 </div>
                </li>
