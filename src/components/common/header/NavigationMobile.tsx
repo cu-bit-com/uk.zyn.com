@@ -49,17 +49,17 @@ function NavigationMobile() {
             </label>
 
             <ul className={styles.menuBox} ref={menuBoxRef}>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/'>Home</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/discover-zyn'>Discover ZYN</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/where-to-buy'>Where to buy</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/how-to-zyn'>How to ZYN</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/which-zyn-to-choose'>Which ZYN to choose</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/blog'>Blog</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/faq'>FAQ</Link></li>
-                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/important-information'>Important Information</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='/gb'>Home</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='discover-zyn'>Discover ZYN</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='where-to-buy'>Where to buy</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='how-to-zyn'>How to ZYN</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='which-zyn-to-choose'>Which ZYN to choose</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='blog'>Blog</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='faq'>FAQ</Link></li>
+                <li><Link className={`${styles.menuItem} ${styles.link}`} onClick={handleLinkClick} to='important-information'>Important Information</Link></li>
             </ul>
         </div>
-			<Link to="/"><img src={logo} width="80px" alt="" /></Link>
+			<Link to="/gb"><img src={logo} width="80px" alt="" /></Link>
 		</div>
     );
 }
