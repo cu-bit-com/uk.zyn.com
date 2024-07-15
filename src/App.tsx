@@ -39,7 +39,6 @@ function App() {
         {showAgeGate && <AgeGateModal isOpen={true} onConfirm={handleAgeConfirmation} onClose={undefined} />}
         
         <Routes>
-			<Route path="access-denied" element={<AccessDenied />} />
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="discover-zyn" element={<DiscoverZyn />} />
@@ -58,6 +57,7 @@ function App() {
 			<Route path="what-is-nicotine" element={<BPost2/>}/>
 
           </Route>
+			<Route path="access-denied" element={<AccessDenied />} />
         </Routes>
       </div>
     </BrowserRouter>
