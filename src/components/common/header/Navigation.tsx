@@ -14,7 +14,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/discover-zyn"
+                to="discover-zyn"
               >
                 Discover ZYN
               </Link>
@@ -23,7 +23,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/how-to-zyn"
+                to="how-to-zyn"
               >
                 How to ZYN
               </Link>
@@ -32,7 +32,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/which-zyn-to-choose"
+                to="which-zyn-to-choose"
               >
                 Which ZYN to choose
               </Link>
@@ -41,7 +41,7 @@ function Navigation() {
             
 			<div className={`${styles.middle}`}>
 			<Link
-				to="/"
+				to="/gb"
 				onClick={() => window.scrollTo({ top: 0 })}
 				>
 					<img src={logo} alt="zyn logo" width="200px" />
@@ -53,7 +53,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/where-to-buy"
+                to="where-to-buy"
               >
                 Where to buy
               </Link>
@@ -62,7 +62,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/blog"
+                to="blog"
               >
                 Blog
               </Link>
@@ -71,7 +71,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/faq"
+                to="faq"
               >
                 FAQ
               </Link>
@@ -80,7 +80,7 @@ function Navigation() {
               <Link
                 onClick={() => window.scrollTo({ top: 0 })}
                 className={styles.link}
-                to="/important-information"
+                to="important-information"
               >
                 Important information
               </Link>

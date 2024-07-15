@@ -1,7 +1,6 @@
 import { useState } from 'react';
 import styles from './Pouches.module.css';
 import global from '../../components/Global.module.css';
-import { Link } from 'react-router-dom';
 
 function Pouches() {
 

@@ -1,7 +1,5 @@
 import styles from './Content.module.css';
 import global from '../../components/Global.module.css';
-import image_one from '../../images/whereToBuy/15.png'
-import { Link } from 'react-router-dom';
 
 function Content() {
     return (

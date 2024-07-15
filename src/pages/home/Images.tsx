@@ -130,7 +130,7 @@ function Images() {
           <h3 className={styles.itemTitle}>{images[currentIndex].title}</h3>
           <p className={styles.itemP}>{images[currentIndex].description}</p>
         </div>
-		<Link to="/where-to-buy"><button onClick={scrollToTop} className={global.ctaSecondary}>Buy ZYN</button></Link>
+		<Link to="where-to-buy"><button onClick={scrollToTop} className={global.ctaSecondary}>Buy ZYN</button></Link>
       </div>
   );
 }

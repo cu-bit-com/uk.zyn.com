@@ -39,7 +39,8 @@ function App() {
         {showAgeGate && <AgeGateModal isOpen={true} onConfirm={handleAgeConfirmation} onClose={undefined} />}
         
         <Routes>
-          <Route path="/" element={<Layout />}>
+			<Route path="/gb/access-denied" element={<AccessDenied />} />
+          <Route path="/gb" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="discover-zyn" element={<DiscoverZyn />} />
             <Route path="where-to-buy" element={<WhereToBuy />} />
@@ -53,8 +54,8 @@ function App() {
             <Route path="important-information" element={<ImportantInformation />} />
 			
 			
-			<Route path="how-do-nicotine-pouches-work" element={<BPost1/>}/>
-			<Route path="what-is-nicotine" element={<BPost2/>}/>
+			<Route path="blog/how-do-nicotine-pouches-work" element={<BPost1/>}/>
+			<Route path="blog/what-is-nicotine" element={<BPost2/>}/>
 
           </Route>
 			<Route path="access-denied" element={<AccessDenied />} />

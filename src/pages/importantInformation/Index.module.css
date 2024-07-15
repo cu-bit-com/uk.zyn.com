@@ -32,17 +32,56 @@
 	color: #003b5e;
 }
 
+.border {
+	border: 1px solid #003b5e;
+	width: fit-content;
+	margin: 0 auto;
+	padding: 10px 20px;
+}
+
+.smaller_left {
+	font-size: 28px;
+	color: #003b5e;
+	text-align: left;
+}
+
+.bigger_left {
+	color: #003b5e;
+	text-align: left;
+	font-size: 32px;
+}
+
+.smallerP {
+	text-align: left;
+	font-size: 24px;
+}
+
 @media (max-width: 960px) {
+	.smaller_left {
+		font-size: 20px;
+	}
+	
+	.bigger_left {
+		font-size: 24px;
+	}
+	
+	.smallerP {
+		font-size: 18px;
+	}
+
 	.title {
 		font-size: 38px;
 		padding: 50px 15px;
 	}
 
 	.list {
-		font-size: 1.4rem;
 		padding: 40px;
 		box-sizing: border-box;
 		margin-top: 0;
+	}
+
+	.listItem {
+		font-size: 18px;
 	}
 
 	.listTitle {
