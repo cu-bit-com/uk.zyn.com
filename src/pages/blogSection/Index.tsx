@@ -8,6 +8,10 @@ import { Link } from "react-router-dom";
 
 function BlogSection() {
   return (
+	<>
+	<link rel="canonical" href="https://www.zyn.com/gb/blog" />
+	<meta title="ZYN Blog – News and Updates on Nicotine Pouches | ZYN UK"/>
+	<meta name="description" content="Stay informed with the latest news, tips, and updates about ZYN nicotine pouches from our blog."/>
     <div className={global.wrapper}>
       <div className={styles.blog_wrapper}>
 		<div className={styles.titleContainer}>
@@ -15,7 +19,7 @@ function BlogSection() {
 		</div>
 
 		<div className={styles.blog_container}>
-        <Link className={`${styles.link} ${styles.blog_item}`} to="how-do-nicotine-pouches-work">
+        <Link className={`${styles.link} ${styles.blog_item}`} to="../blog/how-do-nicotine-pouches-work">
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>How do nicotine pouches work?</h3>
@@ -25,7 +29,7 @@ function BlogSection() {
             </div>
 		  </Link>
 
-		<Link className={`${styles.link} ${styles.blog_item}`} to="what-is-nicotine">
+		<Link className={`${styles.link} ${styles.blog_item}`} to="../blog/what-is-nicotine">
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>What is nicotine?</h3>
@@ -37,6 +41,7 @@ function BlogSection() {
         </div>
       </div>
     </div>
+	</>
   );
 }
 

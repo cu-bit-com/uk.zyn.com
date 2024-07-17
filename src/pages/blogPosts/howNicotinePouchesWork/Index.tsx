@@ -5,6 +5,9 @@ import banner from "./bpost1.png";
 function BPost1() {
 	return (
 		<>
+		<link rel="canonical" href="https://www.zyn.com/gb/blog/how-do-nicotine-pouches-work" />
+		<meta title="How Do Nicotine Pouches Work? | ZYN UK"/>
+		<meta name="description" content="Is nicotine itself harmful? Is nicotine a stimulant? And why do adult users use it? Find answers to these questions and more on what nicotine is here."/>
 		<div className={styles.bannerWrapper}>
 			<img className={styles.banner} src={banner} width="100%" alt="" />
 		</div>

@@ -3,6 +3,10 @@ import styles from "./Index.module.css"
 
 function TermsOfUse() {
 	return (
+		<>
+		<link rel="canonical" href="https://www.zyn.com/gb/terms-of-use" />
+		<meta title="Terms of Use for ZYN Nicotine Pouches Website | ZYN UK"/>
+		<meta name="Read the terms of use for ZYN UK's website to understand your rights and responsibilities when using our services."/>
 		<div className={styles.termsPage}>
 		<h1 className={styles.h1}>Terms of Use</h1>
 		<p className={styles.p}>Welcome to the www.uk.zyn.com ("Website"), a web site owned and operated by or on behalf of Philip Morris Ltd (referred to as "we" or "us" in these Terms of Use).</p>
@@ -52,6 +56,7 @@ function TermsOfUse() {
 		<h2 className={styles.h2}>Changes to these terms</h2>
 		<p className={styles.p}>We reserve the right, at our complete discretion, to change these terms and conditions at any time by posting revised terms on the site. It is your responsibility to check periodically for any changes we may make to these terms and conditions. Your continued use of this site following the posting of changes to these terms or other policies means you accept the changes.</p>
 	</div>
+	</>
 	)
 }
 

@@ -4,6 +4,9 @@ import banner from "./bpost2.png";
 function BPost2() {
 	return (
 		<>
+		<link rel="canonical" href="https://www.zyn.com/gb/blog/what-is-nicotine" />
+		<meta title="What Is Nicotine? | ZYN UK"/>
+		<meta name="description" content="Discover the facts about nicotine, its effects, and how ZYN nicotine pouches offer a tobacco-free alternative."/>
 		<div className={styles.bannerWrapper}>
 			<img className={styles.banner} src={banner} width="100%" alt="" />
 		</div>

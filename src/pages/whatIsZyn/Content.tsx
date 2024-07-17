@@ -9,7 +9,7 @@ function Content() {
                 <div className={styles.item}>
                     <img src={image} className={styles.image} alt="" />
                     <div className={styles.content}>
-                        <h2>WHAT ARE NICOTINE POUCES?</h2>
+                        <h2>WHAT ARE NICOTINE POUCHES?</h2>
                         <p className={styles.p}>ZYN® nicotine pouches are small white pouches you pop under your top lip for up to 30 minutes of nicotine. ZYN® is tobacco-free and smoke-free – so you can enjoy nicotine whenever and wherever you want. No limits. Completely discreet.</p>
                     </div>
                 </div>

@@ -4,6 +4,8 @@ import image_two from "../../images/home/2.png";
 import image_three from "../../images/home/3.png";
 import { Link } from "react-router-dom";
 
+
+
 function scrollToTop() {
   window.scrollTo({
     top: 0,
