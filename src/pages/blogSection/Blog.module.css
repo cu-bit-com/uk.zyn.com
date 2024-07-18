@@ -26,6 +26,7 @@
 }
 
 .blog_item {
+	cursor: pointer;
 	color: #003b5e;
 	width: 40%;
 	padding: 20px 35px;
