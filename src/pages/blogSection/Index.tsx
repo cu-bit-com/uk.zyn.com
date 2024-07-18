@@ -1,13 +1,30 @@
 import React from "react";
 import styles from "./Blog.module.css";
 import global from "../../components/Global.module.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 
 
 
 function BlogSection() {
-  return (
+	const location = useLocation();
+	const navigate = useNavigate();
+
+	const getCurrentLocationPath = () => {
+		
+		const countryCode = location.pathname.split('/')[1]; 
+		return countryCode.length === 2 ? countryCode : ''; 
+	  };
+
+	const handleBlogClick = (path: string) => {    const basePath = getCurrentLocationPath(); 
+		  if (location.pathname === '/') { 
+			     navigate(`/blog/${path}`);
+			    } 
+			else {  
+				    navigate(`/${basePath}/blog/${path}`); 
+			   }  
+			};
+	return (
 	<>
 	<link rel="canonical" href="https://www.zyn.com/gb/blog" />
 	<meta title="ZYN Blog – News and Updates on Nicotine Pouches | ZYN UK"/>
@@ -18,8 +35,9 @@ function BlogSection() {
         	<h3 className={styles.largerFont}>News and blog.</h3>
 		</div>
 
+
 		<div className={styles.blog_container}>
-        <Link className={`${styles.link} ${styles.blog_item}`} to="../blog/how-do-nicotine-pouches-work">
+        <div onClick={() => handleBlogClick('how-do-nicotine-pouches-work')} className={`${styles.link} ${styles.blog_item}`}>
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>How do nicotine pouches work?</h3>
@@ -27,9 +45,9 @@ function BlogSection() {
 			  	How do nicotine pouches work? And are they better than other smoke-free nicotine products? Learn how to use nicotine pouches properly here.
 			  </p>
             </div>
-		  </Link>
+		  </div>
 
-		<Link className={`${styles.link} ${styles.blog_item}`} to="../blog/what-is-nicotine">
+		  <div onClick={() => handleBlogClick('what-is-nicotine')} className={`${styles.link} ${styles.blog_item}`}>
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>What is nicotine?</h3>
@@ -37,7 +55,7 @@ function BlogSection() {
 			  	Is nicotine itself harmful? Is nicotine a stimulant? And why do adult users use it? Find answers to these questions and more on what nicotine is here.
 			  </p>
             </div>
-		  </Link>
+		  </div>
         </div>
       </div>
     </div>
@@ -46,3 +64,5 @@ function BlogSection() {
 }
 
 export default BlogSection;
+
+
