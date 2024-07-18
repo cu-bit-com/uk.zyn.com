@@ -10,20 +10,11 @@ function BlogSection() {
 	const location = useLocation();
 	const navigate = useNavigate();
 
-	const getCurrentLocationPath = () => {
-		
-		const countryCode = location.pathname.split('/')[1]; 
-		return countryCode.length === 2 ? countryCode : ''; 
-	  };
-
-	const handleBlogClick = (path: string) => {    const basePath = getCurrentLocationPath(); 
-		  if (location.pathname === '/') { 
-			     navigate(`/blog/${path}`);
-			    } 
-			else {  
-				    navigate(`/${basePath}/blog/${path}`); 
-			   }  
-			};
+	const handleBlogClick = (path: string) => {
+		const isHomePage = location.pathname === '/gb';
+		const url = isHomePage ? `/gb/blog/${path}` : `/blog/${path}`;
+		navigate(url);
+	};
 	return (
 	<>
 	<link rel="canonical" href="https://www.zyn.com/gb/blog" />
@@ -64,5 +55,3 @@ function BlogSection() {
 }
 
 export default BlogSection;
-
-
