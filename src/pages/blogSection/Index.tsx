@@ -11,9 +11,11 @@ function BlogSection() {
 	const navigate = useNavigate();
 
 	const handleBlogClick = (path: string) => {
-		const isHomePage = location.pathname === '/gb';
-		const url = isHomePage ? `/gb/blog/${path}` : `/blog/${path}`;
-		navigate(url);
+		if(location.pathname ==="/gb"){
+			navigate(`../gb/blog/${path}`);
+		}
+		else
+		navigate(`../blog/${path}`);
 	};
 	return (
 	<>
@@ -28,7 +30,7 @@ function BlogSection() {
 
 
 		<div className={styles.blog_container}>
-        <div onClick={() => handleBlogClick('how-do-nicotine-pouches-work')} className={`${styles.link} ${styles.blog_item}`}>
+        <div onClick={() => handleBlogClick("how-do-nicotine-pouches-work")} className={`${styles.link} ${styles.blog_item}`}>
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>How do nicotine pouches work?</h3>
@@ -38,7 +40,7 @@ function BlogSection() {
             </div>
 		  </div>
 
-		  <div onClick={() => handleBlogClick('what-is-nicotine')} className={`${styles.link} ${styles.blog_item}`}>
+		  <div onClick={() => handleBlogClick("what-is-nicotine")} className={`${styles.link} ${styles.blog_item}`}>
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
 			  <h3 className={styles.blogTitle}>What is nicotine?</h3>
