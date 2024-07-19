@@ -19,7 +19,7 @@ function Footer() {
                     <div className={`${styles.links} ${styles.item}`}>
                         <h2 className={styles.footerTitle}>Helpful Links</h2>
                         <ul className={styles.list}>
-                            <li className={styles.listItem}><Link className={styles.link} to='what-is-zyn' onClick={() => window.scrollTo({top: 0})}>What is ZYN?</Link></li>
+                            <li className={styles.listItem}><Link className={styles.link} to='discover-zyn' onClick={() => window.scrollTo({top: 0})}>What is ZYN?</Link></li>
                             <li className={styles.listItem}><Link className={styles.link} to='where-to-buy' onClick={() => window.scrollTo({top: 0})}>Find ZYN</Link></li>
                         </ul>
                     </div>
