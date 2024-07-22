@@ -9,7 +9,8 @@ function HowToZyn() {
     return (
 		<>
 		<link rel="canonical" href="https://www.zyn.com/gb/how-to-zyn" />
-		<meta title="How To Zyn"/>
+		<meta title="How To Use ZYN Nicotine Pouches | ZYN UK"/>
+		<meta name="description" content="Learn the best practices for using ZYN, including how to use ZYN and how to dispose of ZYN nicotine pouches"/>
 		
         <div className="homeWrapper">
             <HeroSection/>
