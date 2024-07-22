@@ -111,7 +111,7 @@ function Images() {
 
   return (
       <div className={styles.container}>
-		<h3 className={styles.sectionTitle}>Explore ZYN</h3>
+		<h1 className={styles.sectionTitle}>Explore ZYN</h1>
         <div className={styles.carousel}>
           {images.map((image, index) => (
             <div

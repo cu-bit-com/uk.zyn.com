@@ -8,7 +8,7 @@ function ImportantInformation() {
 		<link rel="canonical" href="https://www.zyn.com/gb/important-information" />
 		<meta title="Important Information | ZYN UK"/>
 		<meta name="description" content="Important information about ZYN nicotine pouches, including safety guidelines, usage instructions, and product details for a safer nicotine experience."/>
-		<h2 className={styles.title}>Important information</h2>
+		<h1 className={styles.title}>Important information</h1>
 		<div className={`${styles.wrapper} ${global.wrapper}`}>
 
 			<h3>Good Conversion Practices for PMI’s Smoke-free Products</h3>

@@ -25,7 +25,7 @@ function BlogSection() {
     <div className={global.wrapper}>
       <div className={styles.blog_wrapper}>
 		<div className={styles.titleContainer}>
-        	<h3 className={styles.largerFont}>News and blog.</h3>
+        	<h1 className={styles.largerFont}>News and blog.</h1>
 		</div>
 
 

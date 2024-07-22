@@ -7,8 +7,8 @@ function Home() {
 	return (
 	<>
 	<link rel="canonical" href="https://www.zyn.com/gb/" />
-	<meta title="Discover ZYN Nicotine Pouches | ZYN UK"/>
-	<meta name="description" content="Explore the benefits of ZYN nicotine pouches and how they can offer a smoke-free and tobacco-free experience."/>
+	<meta title="ZYN Tobacco-Free Nicotine Pouches | ZYN UK"/>
+	<meta name="description" content="Discover ZYN's tobacco-free nicotine pouches for a cleaner, smoke-free alternative. Learn more and buy online today."/>
   
     <div className="homeWrapper">
       <HeroSection />
