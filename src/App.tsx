@@ -14,6 +14,8 @@ import TermsOfUse from './pages/termsOfUse/Index';
 import ImportantInformation from './pages/importantInformation/Index';
 import BPost1 from './pages/blogPosts/howNicotinePouchesWork/Index';
 import BPost2 from './pages/blogPosts/whatIsNicotine/Index';
+import BPost3 from './pages/blogPosts/vapinVsZyn/Index';
+import BPost4 from './pages/blogPosts/whyChooseNicotinePouches/Index';
 import BlogSection from './pages/blogSection/Index';
 import AccessDenied from './pages/accessDenied/Index';
 
@@ -55,6 +57,8 @@ function App() {
 			
 			<Route path="blog/how-do-nicotine-pouches-work" element={<BPost1/>}/>
 			<Route path="blog/what-is-nicotine" element={<BPost2/>}/>
+			<Route path="blog/vaping-vs-zyn" element={<BPost3/>}/>
+			<Route path="blog/why-choose-nicotine-pouches" element={<BPost4/>}/>
 
           </Route>
 			<Route path="/gb/access-denied" element={<AccessDenied />} />
