@@ -29,6 +29,26 @@ function BlogSection() {
 		</div>
 
 		<div className={styles.blog_container}>
+
+		<div onClick={() => handleBlogClick("vaping-vs-zyn")} className={`${styles.link} ${styles.blog_item}`}>
+            <div className={styles.blog_info}>
+              <span><strong>Blog</strong></span>
+			  <h3 className={styles.blogTitle}>Vaping and Zyn: Assessing Tobacco Free Options</h3>
+			  <p className={styles.blogDescription}>
+			  Is ZYN better than vaping? Discover how ZYN, and nicotine pouches more widely, 
+			  compare to other tobacco-free products like vapes. </p>
+        	</div>
+		</div>
+
+		<div onClick={() => handleBlogClick("why-choose-nicotine-pouches")} className={`${styles.link} ${styles.blog_item}`}>
+    	    <div className={styles.blog_info}>
+    	      <span><strong>Blog</strong></span>
+			  <h3 className={styles.blogTitle}>Why Choose Nicotine Pouches as a Smoke-Free Alternative?</h3>
+			  <p className={styles.blogDescription}>
+			  Learn more about nicotine pouches and why people use them. Here, you’ll find answers to common questions including ‘how long do nicotine pouches last’ and more.</p>
+            </div>
+		</div>
+		
         <div onClick={() => handleBlogClick("how-do-nicotine-pouches-work")} className={`${styles.link} ${styles.blog_item}`}>
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
@@ -50,25 +70,6 @@ function BlogSection() {
             </div>
 		  </div>
 		
-
-		  <div onClick={() => handleBlogClick("vaping-vs-zyn")} className={`${styles.link} ${styles.blog_item}`}>
-            <div className={styles.blog_info}>
-              <span><strong>Blog</strong></span>
-			  <h3 className={styles.blogTitle}>Vaping and Zyn: Assessing Tobacco Free Options</h3>
-			  <p className={styles.blogDescription}>
-			  Is ZYN better than vaping? Discover how ZYN, and nicotine pouches more widely, 
-			  compare to other tobacco-free products like vapes. </p>
-            </div>
-		  </div>
-
-		  <div onClick={() => handleBlogClick("why-choose-nicotine-pouches")} className={`${styles.link} ${styles.blog_item}`}>
-            <div className={styles.blog_info}>
-              <span><strong>Blog</strong></span>
-			  <h3 className={styles.blogTitle}>Why Choose Nicotine Pouches as a Smoke-Free Alternative?</h3>
-			  <p className={styles.blogDescription}>
-			  Learn more about nicotine pouches and why people use them. Here, you’ll find answers to common questions including ‘how long do nicotine pouches last’ and more.</p>
-            </div>
-		  </div>
         </div>
       </div>
     </div>

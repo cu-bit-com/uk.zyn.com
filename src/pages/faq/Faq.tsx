@@ -16,27 +16,27 @@ function FAQ() {
             const index = parseInt(hash.split('-')[1], 10) - 1;
 
             if (index >= 0 && index < collapsedStates.length) {
-                // First scroll to the element
+                
                 setTimeout(() => {
                     const element = document.getElementById(hash);
                     if (element) {
                         element.scrollIntoView({ behavior: 'smooth' });
 
-                        // Then expand the FAQ item after a short delay
+                        
                         setTimeout(() => {
 							
                             setCollapsedStates(prevStates => {
                                 const newStates = [...prevStates];
-                                newStates[index + 1] = false; // Expand the FAQ item
+                                newStates[index + 1] = false;
                                 return newStates;
                             });
 
                             setSigns(prevSigns => {
                                 const newSigns = [...prevSigns];
-                                newSigns[index] = '-'; // Change sign to minus
+                                newSigns[index] = '-'; 
                                 return newSigns;
                             });
-                        }, 500); // Adjust this delay if needed
+                        }, 500);
                     } else {
                         console.error(`Element with ID ${hash} not found.`);
                     }
@@ -48,12 +48,12 @@ function FAQ() {
     const toggleCollapse = (index: number) => {
         setCollapsedStates(prevStates => {
             const newStates = [...prevStates];
-            newStates[index] = !newStates[index]; // Toggle collapse state
+            newStates[index] = !newStates[index]; 
             return newStates;
         });
         setSigns(prevSigns => {
             const newSigns = [...prevSigns];
-            newSigns[index] = collapsedStates[index] ? '-' : '+'; // Toggle sign
+            newSigns[index] = collapsedStates[index] ? '-' : '+'; 
             return newSigns;
         });
     };
