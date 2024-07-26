@@ -100,7 +100,7 @@ function BPost4() {
 			your mouth. This could also help to minimise the risk of swallowing these products. </p>
 
 			<p className={styles.paragraph}>Our article on 
-				<Link to="../faq"> what happens if you swallow a nicotine pouch</Link> offers further insights on 
+				<Link to="../faq#whatHappensIfIngestZyn-14"> what happens if you swallow a nicotine pouch</Link> offers further insights on 
 			this topic. </p>
 
 			<h2 className={styles.paragraph}>You Could Bring Them on 
