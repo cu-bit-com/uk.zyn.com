@@ -4,7 +4,7 @@ import styles from "../Index.module.css";
 import banner from "./bpost3.png";
 
 function BPost3() {
-		
+
 	return (
 		<>
 		<link rel="canonical" href="" />
@@ -33,14 +33,15 @@ function BPost3() {
 			<p className={styles.paragraph}>Important information: this does not necessarily equal a 99% reduction in risk. VEEV ONE is not risk-free.</p>
 
 			<p className={styles.paragraph}>* 99% less” represents the average reductions in levels of a range of harmful chemicals (excluding nicotine) compared to the smoke of a reference cigarette. See Important Information on 
-				<Link to="https://www.iqos.com/gb/en/discover-heated-tobacco/duty-to-inform.html">IQOS.com.</Link>
+				<Link to="https://www.iqos.com/gb/en/discover-heated-tobacco/duty-to-inform.html"> IQOS.com.</Link>
 			</p>
 
 			<p className={styles.paragraph}>What’s more, nicotine pouches do not produce ash, smoke, or a smoke smell. </p>
 
 			<h2 className={styles.subTitle}>Nicotine Pouches as a Tobacco-Free Alternative</h2>
 
-			<p className={styles.paragraph}>Nicotine pouches are a modern, tobacco-free and smoke-free alternative for nicotine users. Although they haven’t been around long in the UK, nicotine pouches are a popular smoke-free alternative in Scandinavia and elsewhere, because they are a simple and convenient smoke-free and tobacco-free way to experience nicotine. There are a number of different nicotine pouch products currently on the market, including ZYN.  </p>
+			<p className={styles.paragraph}>Nicotine pouches are a modern, tobacco-free and smoke-free alternative for nicotine users. Although they haven’t been around long in the UK, nicotine pouches are a popular smoke-free alternative in Scandinavia and elsewhere, because they are a simple and convenient smoke-free and tobacco-free way to experience nicotine. There are a number of different nicotine pouch products currently on the market, 
+				including <Link to="../discover-zyn">ZYN.</Link>  </p>
 
 			<p className={styles.paragraph}>Is ZYN tobacco-free? Yes, nicotine pouches do not contain tobacco, and this includes ZYN’s nicotine pouch range. ZYN tobacco-free pouches do, however, contain nicotine, and there’s no such thing as a ZYN nicotine-free pouch.  </p>
 
@@ -138,8 +139,6 @@ function BPost3() {
 
 
 		</div>
-
-
 		
 		</>
 	)

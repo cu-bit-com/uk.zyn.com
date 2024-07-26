@@ -2,6 +2,7 @@ import { useState } from 'react';
 import global from '../../components/Global.module.css';
 import styles from './Faq.module.css';
 import { Link } from 'react-router-dom';
+import React, {useEffect} from 'react';
 
 function FAQ() {
     
@@ -20,6 +21,17 @@ function FAQ() {
             return newSigns;
         });
     };
+
+	useEffect(() => {
+		window.scrollTo(0, 0); 
+		const hash = window.location.hash.substring(1);
+		if (hash) {
+		  const element = document.getElementById(hash);
+		  if (element) {
+			element.scrollIntoView({ behavior: 'smooth' });
+		  }
+		}
+	  }, []);
     
 
     return (

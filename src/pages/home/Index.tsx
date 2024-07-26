@@ -3,11 +3,21 @@ import Images from "./Images";
 import DiscoverZyn from "./DiscoverZyn";
 import Blog from "../blogSection/Index";
 
-import React from 'react';
+import React,  { useEffect } from 'react';
 import { Helmet } from 'react-helmet';
 
 
 function Home() {
+	useEffect(() => {
+		window.scrollTo(0, 0); // Scroll to top when the component mounts
+		const hash = window.location.hash.substring(1);
+		if (hash) {
+		  const element = document.getElementById(hash);
+		  if (element) {
+			element.scrollIntoView({ behavior: 'smooth' });
+		  }
+		}
+	  }, []);
 	return (
 	<>
 	<Helmet>

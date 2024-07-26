@@ -69,9 +69,9 @@ function BPost4() {
 			had enough of the experience. When you start using a pouch, you might experience a 
 			tingling sensation - which is connected to the pouch’s release of nicotine and flavours.</p>
 
-			<p>How long do nicotine pouches take to work? Nicotine pouches may start working 
-			within five minutes of using them, although this could vary. Find out more on the timeline 
-			of using a nicotine pouch and how they work.</p>
+			<p className={styles.paragraph}>How long do nicotine pouches take to work? Nicotine pouches may start working 
+			within five minutes of using them, although this could vary. <Link to="../blog/how-do-nicotine-pouches-work"> Find out more on the timeline 
+			of using a nicotine pouch and how they work. </Link></p>
 
 			<h2 className={styles.subTitle}>No More Smoking Areas</h2>
 
@@ -100,7 +100,7 @@ function BPost4() {
 			your mouth. This could also help to minimise the risk of swallowing these products. </p>
 
 			<p className={styles.paragraph}>Our article on 
-				<a href="">what happens if you swallow a nicotine pouch </a> offers further insights on 
+				<Link to="../faq"> what happens if you swallow a nicotine pouch</Link> offers further insights on 
 			this topic. </p>
 
 			<h2 className={styles.paragraph}>You Could Bring Them on 
@@ -130,7 +130,7 @@ function BPost4() {
 			simple and convenient smoke-free and tobacco-free way to experience nicotine. </p>
 
 			<p className={styles.paragraph}>Nicotine pouches could make nicotine better fit around you and your lifestyle. At ZYN, 
-			our nicotine pouches come in a variety of different flavours and sizes. <Link to="">Browse the full 
+			our nicotine pouches come in a variety of different flavours and sizes. <Link to=".."> Browse the full 
 			range </Link> to discover which ones best suit you.</p>
 
 			<p className={styles.paragraph}>Smoke-free products are not risk-free and provide nicotine, which is addictive. The best 
