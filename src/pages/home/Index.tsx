@@ -26,13 +26,10 @@ function Home() {
 	<meta name="description" content="Discover ZYN's tobacco-free nicotine pouches for a cleaner, smoke-free alternative. Learn more and buy online today."/>
 	</Helmet>
 	
-  
-    <div className="homeWrapper">
-      <HeroSection />
-	  <DiscoverZyn/>
-      <Images />
-      <Blog />
-    </div>
+    <HeroSection />
+	<DiscoverZyn/>
+    <Images />
+    <Blog />
 	</>
   );
 }
