@@ -4,8 +4,6 @@ import global from "../../components/Global.module.css";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 
 
-
-
 function BlogSection() {
 	const location = useLocation();
 	const navigate = useNavigate();
@@ -48,7 +46,7 @@ function BlogSection() {
 			  Learn more about nicotine pouches and why people use them. Here, you’ll find answers to common questions including ‘how long do nicotine pouches last’ and more.</p>
             </div>
 		</div>
-		
+
         <div onClick={() => handleBlogClick("how-do-nicotine-pouches-work")} className={`${styles.link} ${styles.blog_item}`}>
             <div className={styles.blog_info}>
               <span><strong>Blog</strong></span>
