@@ -5,7 +5,6 @@ import image_three from "../../images/home/3.png";
 import { Link } from "react-router-dom";
 
 
-
 function scrollToTop() {
   window.scrollTo({
     top: 0,
@@ -14,6 +13,7 @@ function scrollToTop() {
 
 function DiscoverZyn() {
   return (
+	<>
     <div className={global.wrapper}>
       <h2 className={styles.title}>Discover ZYN</h2>
       <p>ZYN is an innovative alternative to smoking that provides a smoke and vapour free nicotine experience - wherever, whenever.</p>
@@ -35,6 +35,7 @@ function DiscoverZyn() {
         </div>
       </div>
     </div>
+	</>
   );
 }
 
