@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./HeroSection.module.css";
-import desktopBanner from '../../images/banners/desktop/WhichZyn.png';
-import mobileBanner from '../../images/banners/mobile/WhichZyn.png';
+import desktopBanner from '../../images/banners/desktop/desktopZyn.jpg';
+import mobileBanner from '../../images/banners/mobile/mobileZyn.jpg';
 import global from '../../components/Global.module.css';
 
 function HeroSection() {
