@@ -6,54 +6,61 @@ import React, { useEffect, useState } from 'react';
 function FAQ() {
     const [collapsedStates, setCollapsedStates] = useState<boolean[]>(Array(18).fill(true));
     const [signs, setSigns] = useState<string[]>(Array(18).fill('+'));
+	const [hasScrolled, setHasScrolled] = useState(false);
 
-	useEffect(() => {
-        window.scrollTo(0, 0); 
-
+	
+    useEffect(() => {
         const hash = window.location.hash.substring(1);
 
-        if (hash) {
-            const index = parseInt(hash.split('-')[1], 10) - 1;
+        if (hash && !hasScrolled) {
+            // Extract index from the hash (format: whatHappensIfIngestZyn-14)
+            const indexMatch = hash.match(/-(\d+)$/);
 
-            if (index >= 0 && index < collapsedStates.length) {
-                
-                setTimeout(() => {
-                    const element = document.getElementById(hash);
-                    if (element) {
-                        element.scrollIntoView({ behavior: 'smooth' });
+            if (indexMatch) {
+                const index = parseInt(indexMatch[1], 10); // Convert to zero-based index
 
-                        
-                        setTimeout(() => {
-							
-                            setCollapsedStates(prevStates => {
-                                const newStates = [...prevStates];
-                                newStates[index + 1] = false;
-                                return newStates;
-                            });
+                if (index >= 0 && index < collapsedStates.length) {
+                    setTimeout(() => {
+                        const element = document.getElementById(hash);
+                        if (element) {
+                            element.scrollIntoView({ behavior: 'smooth' });
 
-                            setSigns(prevSigns => {
-                                const newSigns = [...prevSigns];
-                                newSigns[index] = '-'; 
-                                return newSigns;
-                            });
-                        }, 500);
-                    } else {
-                        console.error(`Element with ID ${hash} not found.`);
-                    }
-                }, 100);
+                            setTimeout(() => {
+                                // Open the item
+                                setCollapsedStates(prevStates => {
+                                    const newStates = [...prevStates];
+                                    newStates[index] = false; // Open the item
+                                    return newStates;
+                                });
+
+                                // Set the sign to '-'
+                                setSigns(prevSigns => {
+                                    const newSigns = [...prevSigns];
+                                    newSigns[index] = '-';
+                                    return newSigns;
+                                });
+
+                                setHasScrolled(true); // Prevent re-scrolling
+                            }, 500);
+                        } else {
+                            console.error(`Element with ID ${hash} not found.`);
+                        }
+                    }, 100);
+                }
             }
         }
-    }, [collapsedStates]);
+    }, [hasScrolled, collapsedStates]);
 
     const toggleCollapse = (index: number) => {
         setCollapsedStates(prevStates => {
             const newStates = [...prevStates];
-            newStates[index] = !newStates[index]; 
+            newStates[index] = !newStates[index]; // Toggle the state
             return newStates;
         });
+
         setSigns(prevSigns => {
             const newSigns = [...prevSigns];
-            newSigns[index] = collapsedStates[index] ? '-' : '+'; 
+            newSigns[index] = !collapsedStates[index] ? '+' : '-'; // Update sign based on new state
             return newSigns;
         });
     };

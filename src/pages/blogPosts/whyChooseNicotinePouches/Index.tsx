@@ -3,6 +3,11 @@ import banner from "./bpost4.jpg";
 import { Link } from 'react-router-dom';
 
 function BPost4() {
+	
+	const scrollToTop = () => {
+        window.scrollTo(0, 0);
+    };
+
 	return (
 		<>
 		<link rel="canonical" href="" />
@@ -70,8 +75,10 @@ function BPost4() {
 			tingling sensation - which is connected to the pouch’s release of nicotine and flavours.</p>
 
 			<p className={styles.paragraph}>How long do nicotine pouches take to work? Nicotine pouches may start working 
-			within five minutes of using them, although this could vary. <Link to="../blog/how-do-nicotine-pouches-work"> Find out more on the timeline 
-			of using a nicotine pouch and how they work. </Link></p>
+			within five minutes of using them, although this could vary. 
+			<Link to="../blog/how-do-nicotine-pouches-work" onClick={scrollToTop}> Find out more on the timeline 
+			of using a nicotine pouch and how they work. 
+			</Link></p>
 
 			<h2 className={styles.subTitle}>No More Smoking Areas</h2>
 

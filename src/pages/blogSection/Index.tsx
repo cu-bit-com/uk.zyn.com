@@ -14,6 +14,8 @@ function BlogSection() {
 		}
 		else
 		navigate(`../blog/${path}`);
+	
+		window.scrollTo(0,0);
 	};
 	return (
 	<>
