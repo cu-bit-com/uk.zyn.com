@@ -15,9 +15,10 @@ function FAQ() {
         if (hash && !hasScrolled) {
             // Extract index from the hash (format: whatHappensIfIngestZyn-14)
             const indexMatch = hash.match(/-(\d+)$/);
+			
 
             if (indexMatch) {
-                const index = parseInt(indexMatch[1], 10); // Convert to zero-based index
+                const index = parseInt(indexMatch[1], 10); 
 
                 if (index >= 0 && index < collapsedStates.length) {
                     setTimeout(() => {
