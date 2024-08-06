@@ -5,9 +5,9 @@ import image from '../../images/products/4294.png';
 function Images() {
     return (
         <div className={`${global.wrapper} ${styles.container}`}>
-                <img src={image} className={styles.item}></img>
-                <img src={image} className={styles.item}></img>
-                <img src={image} className={styles.item}></img>
+                <img src={image} alt = "" className={styles.item}></img>
+                <img src={image} alt = "" className={styles.item}></img>
+                <img src={image} alt = "" className={styles.item}></img>
         </div>
     );
 }
