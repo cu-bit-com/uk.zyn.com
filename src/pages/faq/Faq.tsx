@@ -43,7 +43,7 @@ function FAQ() {
                 }, 100);
             }
         }
-    }, []);
+    }, [collapsedStates]);
 
     const toggleCollapse = (index: number) => {
         setCollapsedStates(prevStates => {
