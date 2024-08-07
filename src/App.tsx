@@ -54,11 +54,11 @@ function App() {
             <Route path="terms-of-use" element={<TermsOfUse />} />
             <Route path="important-information" element={<ImportantInformation />} />
 			
-			
 			<Route path="blog/how-do-nicotine-pouches-work" element={<BPost1/>}/>
 			<Route path="blog/what-is-nicotine" element={<BPost2/>}/>
 			<Route path="blog/vaping-vs-zyn" element={<BPost3/>}/>
 			<Route path="blog/why-choose-nicotine-pouches" element={<BPost4/>}/>
+			
 
           </Route>
 			<Route path="/gb/access-denied" element={<AccessDenied />} />
