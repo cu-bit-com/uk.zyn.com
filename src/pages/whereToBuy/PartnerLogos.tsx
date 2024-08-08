@@ -24,6 +24,13 @@ function PartnerLogos() {
         <div className={global.wrapper}>
 			<br />
 			<br />
+			<Link className={styles.itemLink} to="https://www.iqos.com/gb/en/discover-zyn/buy-zyn.html">
+				<div >
+					<div>
+						<img className={styles.img} src={image_sixteen} alt="Iqos logo" />
+					</div>
+				</div>
+			</Link>
 			<h3 className={styles.title}>Partner Stores Selling ZYN online</h3>
 			<div className={styles.wrapper}>
             <div className={`${styles.container}`}>
@@ -122,13 +129,6 @@ function PartnerLogos() {
 					<div className={styles.item}>
 						<div className={styles.imgContainer}>
 							<img className={styles.img} src={image_fourteen} alt="Deliveroo logo" />
-						</div><button className={styles.buyBtn}>Buy ZYN</button>
-					</div>
-				</Link>
-				<Link className={styles.itemLink} to="https://www.iqos.com/gb/en/discover-zyn/buy-zyn.html">
-					<div className={styles.item}>
-						<div className={styles.imgContainer}>
-							<img className={styles.img} src={image_sixteen} alt="Iqos logo" />
 						</div><button className={styles.buyBtn}>Buy ZYN</button>
 					</div>
 				</Link>
