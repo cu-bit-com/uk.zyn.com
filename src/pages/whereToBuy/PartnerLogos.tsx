@@ -28,7 +28,7 @@ function PartnerLogos() {
 				<div >
 					<div>
 						<img className={styles.img} src={image_sixteen} alt="Iqos logo" />
-					</div>
+					</div><button className={styles.buyBtn}>Buy ZYN</button>
 				</div>
 			</a>
 			<h3 className={styles.title}>Partner Stores Selling ZYN online</h3>
