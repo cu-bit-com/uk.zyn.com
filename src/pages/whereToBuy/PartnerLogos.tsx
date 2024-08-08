@@ -24,13 +24,13 @@ function PartnerLogos() {
         <div className={global.wrapper}>
 			<br />
 			<br />
-			<Link className={styles.itemLink} to="https://www.iqos.com/gb/en/discover-zyn/buy-zyn.html">
+			<a href='https://www.iqos.com/gb/en/discover-zyn/buy-zyn.html'>
 				<div >
 					<div>
 						<img className={styles.img} src={image_sixteen} alt="Iqos logo" />
 					</div>
 				</div>
-			</Link>
+			</a>
 			<h3 className={styles.title}>Partner Stores Selling ZYN online</h3>
 			<div className={styles.wrapper}>
             <div className={`${styles.container}`}>
