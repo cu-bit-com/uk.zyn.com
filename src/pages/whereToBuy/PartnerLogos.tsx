@@ -16,7 +16,8 @@ import image_twelve from '../../images/whereToBuy/12.png';
 import image_thirteen from '../../images/whereToBuy/13.png';
 import image_fourteen from '../../images/whereToBuy/14.png';
 import image_fifteen from '../../images/whereToBuy/15.png';
-import image_sixteen from '../../images/whereToBuy/16.png'
+import image_sixteen from '../../images/whereToBuy/16.png';
+import image_seventeen from '../../images/whereToBuy/17.png'
 
 
 function PartnerLogos() {
@@ -108,6 +109,13 @@ function PartnerLogos() {
 					<div className={styles.item}>
 						<div className={styles.imgContainer}>
 							<img className={styles.img} src={image_eleven} alt="BuyNicotinePouches logo" />
+						</div><button className={styles.buyBtn}>Buy ZYN</button>
+					</div>
+				</Link>
+				<Link className={styles.itemLink} to="https://evapo.co.uk/zyn">
+					<div className={styles.item}>
+						<div className={styles.imgContainer}>
+							<img className={styles.img} src={image_seventeen} alt="Evapo logo" />
 						</div><button className={styles.buyBtn}>Buy ZYN</button>
 					</div>
 				</Link>
